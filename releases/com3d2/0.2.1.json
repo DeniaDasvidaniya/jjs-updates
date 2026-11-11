@@ -1,0 +1,2978 @@
+{
+ "schema": 1,
+ "edition": "com3d2",
+ "version": "0.2.1",
+ "build": "20261111_132438_modifier_stable",
+ "files": [
+  {
+   "path": "BepInEx/plugins/JJSAtelier.dll",
+   "size": 3923968,
+   "sha256": "00968b2cdc3c6e575960518a9655945b40e789b4edeb869209ce954972d09ca8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier.exe",
+   "size": 219136,
+   "sha256": "8f10c99b69b3b500a988e79e8636a7acfbdd2c8cd970acd6752687256e033fd2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Accessibility.dll",
+   "size": 21256,
+   "sha256": "94d6dc96386ad1dbafa2b846cb977f28f9a5a4706656fca2560d5ac4eaf9d7e0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/JJSAtelier.UI.deps.json",
+   "size": 39274,
+   "sha256": "90bdcf61d27cea95d261d224f5df42564a854498d5592e36b55438c33d73181b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/JJSAtelier.UI.dll",
+   "size": 2762752,
+   "sha256": "f4b644ae167b9554b6c045f77ff3e50f726f2a81da5dab134013b7994d705f00",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/JJSAtelier.UI.exe",
+   "size": 368128,
+   "sha256": "1bba2ec18d0c759220626bc0709cd61d617c9eb72f23963095a6d5d3a5b94fd5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/JJSAtelier.UI.pdb",
+   "size": 643784,
+   "sha256": "55a1cfc38015654bc4f27e032d00f6cd658ad9bec51ce3276d30dbe5648cbcbe",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/JJSAtelier.UI.runtimeconfig.json",
+   "size": 527,
+   "sha256": "c0ecf8b9d1a52c17060bad8fade57c750c33949712ad2c9b45ea2ad8f8c8f910",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.CSharp.dll",
+   "size": 981256,
+   "sha256": "1216294a655485de747c175e9bc1891aa693581a75f041a4ee8a4469cc6621da",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Data.Sqlite.dll",
+   "size": 177464,
+   "sha256": "1078d41c6c0f2cee48a8b706e3a54ce145705993f19f703d2b3bdf2abcc59088",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.DiaSymReader.Native.amd64.dll",
+   "size": 2195504,
+   "sha256": "315a61c47c41b8d4c815f4274bb6584c1d24b4640c7eedc354ed5b03a9a1361e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.VisualBasic.Core.dll",
+   "size": 1194248,
+   "sha256": "1737670fcff0099a1c1671fa311d15f6607cfe61b16fae6bf3c5e944949c3995",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.VisualBasic.Forms.dll",
+   "size": 248072,
+   "sha256": "e8caa9c5d18e95652492187e6540540aa52865327b5e6c5ca9d8e63277d1183f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.VisualBasic.dll",
+   "size": 19256,
+   "sha256": "aaa8e587da2680eef010a4442248baa5863a69f4b62f75eeab8d43666a200e21",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Web.WebView2.Core.dll",
+   "size": 649832,
+   "sha256": "e6c517412c245c0f0d65fc494d4f7bf883eba3cfd7023c3f66cc1fe774ec0a22",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Web.WebView2.WinForms.dll",
+   "size": 39528,
+   "sha256": "d7f597db7b483f412df4319e626971454bd784d59c5f700d23cb01f5f3539074",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Win32.Primitives.dll",
+   "size": 16136,
+   "sha256": "11de423338b231e3deef5c305ec503c21b80125e9abea7f447ef24019d14cfae",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Win32.Registry.AccessControl.dll",
+   "size": 35080,
+   "sha256": "e48f00f647f6b03c5a3d0ddcf5d550913381e14213cfe1242829852cbb3d1574",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Win32.Registry.dll",
+   "size": 117048,
+   "sha256": "31f5a1cb2046a26c7be2e3a0a18770d8445f0c9d7213ed7365a8403fcca77ab5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Win32.SystemEvents.dll",
+   "size": 117000,
+   "sha256": "a766b8de9eba2da537ee3d596d367efb92b3fdd848c33564001b4d00ba89f7d1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Windows.SDK.NET.dll",
+   "size": 26086944,
+   "sha256": "2891aee0893bc66ca2d9d781f1ea84017bbb7d80700e31fb6e8c0bc48490fa09",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/SQLitePCLRaw.batteries_v2.dll",
+   "size": 5632,
+   "sha256": "1ee3c6ff4d39171690d6ff6f84b4d876ed038ca28e39bb6e74995f52d2aacf8b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/SQLitePCLRaw.core.dll",
+   "size": 51712,
+   "sha256": "b72c9dfe1479a568d6b84e249eaf949e76c757888f8056fb6ddb9c0480e0dd25",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/SQLitePCLRaw.provider.e_sqlite3.dll",
+   "size": 37376,
+   "sha256": "6d6cb90de643c6b4b15f973d1e304f7dd91e8bf053c35013e4ea095d85b53655",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/SharpCompress.dll",
+   "size": 2461696,
+   "sha256": "f59f7159bc053f656f59ee15144f123de5d4b798c337083f3bfc6b0d30e846fd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.AppContext.dll",
+   "size": 15632,
+   "sha256": "ce6680f8c426d4faf30d2dcd56e0303803519bdfb7b853c854ea035fde8a0e76",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Buffers.dll",
+   "size": 15624,
+   "sha256": "c5fd49c6c5b30b07f8a8c2d4b7de36974f5da3554edd07eba56e90d7a7b971d8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.CodeDom.dll",
+   "size": 477496,
+   "sha256": "4b14091b990cc7cdd263e89c3e9c4c45cb043ca2a11e3980ae9b38d4cbc4401a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Collections.Concurrent.dll",
+   "size": 203016,
+   "sha256": "2c2ebaea56462b348a598056f158627c14e5ee581062d780ab9ccdf2b6c695c9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Collections.Immutable.dll",
+   "size": 948488,
+   "sha256": "157b8930e8ca0cc931d42e79f96d2f22516e03c7e6f44967565c251bd19d83c4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Collections.NonGeneric.dll",
+   "size": 104712,
+   "sha256": "f86617cb33a02d52fb7b7102062b1f692d98067172c8e012cdfd5486b50e9496",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Collections.Specialized.dll",
+   "size": 104712,
+   "sha256": "8ab70b670a55bde26b549aeb95c767c14b79dcfaf6f075096d9c0e84a5eae904",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Collections.dll",
+   "size": 297224,
+   "sha256": "11de530ddce2c99a0be5fcefa0e040062860cd41824834f42e06761a949af957",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ComponentModel.Annotations.dll",
+   "size": 198960,
+   "sha256": "6e78fc4a37107158e768e4e5017972ac7600097572707e243e0a64db68baf162",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ComponentModel.DataAnnotations.dll",
+   "size": 17200,
+   "sha256": "cbe648bc8e2fc7deeb0b71d1bf30cd17fa36bc6fca88e8cd73d456a31fc1f91f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ComponentModel.EventBasedAsync.dll",
+   "size": 47368,
+   "sha256": "e35fd260fd7e549a5eff3060285ed4edfa4bb0b486722bc104a88fdc3a57a77f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ComponentModel.Primitives.dll",
+   "size": 80144,
+   "sha256": "85485dd7639c9449b7d90e305e66612bcd46d14bfb2c216eb6b5c1572ddec1c4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ComponentModel.TypeConverter.dll",
+   "size": 768304,
+   "sha256": "ad1c1c041a1ea4b59e7f5168d9061bcb67217c4d6d7f6389418cdbaaf7bd3dba",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ComponentModel.dll",
+   "size": 31024,
+   "sha256": "e2bcbd02fdebb1d53b473d9b820b4849a6cafb7052f7bbdd4cc705cac7904bef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Configuration.ConfigurationManager.dll",
+   "size": 1046792,
+   "sha256": "8fd8551e2c9be185cc6ff88081cda4adeeddf10059701b198c996bf0a9e26310",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Configuration.dll",
+   "size": 19720,
+   "sha256": "633cf7e263cae05eaf52c9c10cf7b3e7b35b643781f81b0b2ab1ac75ca5caf53",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Console.dll",
+   "size": 170248,
+   "sha256": "3e43370848acffb6fd9589139348505d7a205fa46fbed9c86a54110e0a285243",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Core.dll",
+   "size": 23864,
+   "sha256": "1492e32a17b2596098eb824ecf35b4a8c3beee104309ec376b44f64fac26bc8c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Data.Common.dll",
+   "size": 2771208,
+   "sha256": "27afad1abcfd8ebcfa70bcf5e8442d407d1cbfcaac8fe37f7e54f8ac387778bc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Data.DataSetExtensions.dll",
+   "size": 16136,
+   "sha256": "78c2cb1d66ea4dafa74199c0ba8429877a6689abf0bcc8a94feb36c578008c4d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Data.dll",
+   "size": 25904,
+   "sha256": "f64d310f25e68254dd6d1a91f80feeac78d967857712a9a536146bf2a3fa6179",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Design.dll",
+   "size": 23864,
+   "sha256": "d427b80aba298a7e2026438267394dc70f70f5134c46b77d96b7d940ab7f0172",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.Contracts.dll",
+   "size": 16648,
+   "sha256": "a21a82f1af74383b7bf72facbfac474625bdef3da58c02cff531299b5aae6650",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.Debug.dll",
+   "size": 16136,
+   "sha256": "67c47156faaf5c3d05cc58dc0746c7ce6d752acd4e984d18d95f4d17a8413142",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.DiagnosticSource.dll",
+   "size": 502024,
+   "sha256": "44d30feb5d82c38553d63ce8b7890f0433483d17017f311de04131d68d4ff8d6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.EventLog.Messages.dll",
+   "size": 801032,
+   "sha256": "e0acaa275f33f652057c418f3f434f24b65321ecadcc220ffce58f65e2bf47f8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.EventLog.dll",
+   "size": 366856,
+   "sha256": "30c6365a74ba0d4007dfe6f97e0556e03b99e709ec051679fb6689ff85e09e87",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.FileVersionInfo.dll",
+   "size": 47376,
+   "sha256": "a9c6f786d783a0a8ddd8ba95a35afd88b2d4daf8867f32805e348549575c8574",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.PerformanceCounter.dll",
+   "size": 301328,
+   "sha256": "789a4fcc2b45beeb929bcc95b7e08fceb2f9da2fecad8ca2a12c4dcc9bb9c15e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.Process.dll",
+   "size": 329992,
+   "sha256": "786e7825067b48fd2cb9e10b1c971f547a0e83814a1a9b7951b8b64ca1e0b808",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.StackTrace.dll",
+   "size": 43312,
+   "sha256": "17fa4be3871f8ed533547e735941195ec7a5511e7ffee946a1d221bc08055dae",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.TextWriterTraceListener.dll",
+   "size": 67848,
+   "sha256": "eac81982e43947419ed7547eb86c27020c1faab60904c7dcdd15b5caecf2e4cc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.Tools.dll",
+   "size": 15664,
+   "sha256": "f662787dfd4770572b07b47456861f2bbe11389fd23f57d2c60c6e82c513c8ef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.TraceSource.dll",
+   "size": 141576,
+   "sha256": "afa1a327cdac6fe57f80e9a4fd3639c2a02713f252a8bf74f2001da5ccbf6c94",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.Tracing.dll",
+   "size": 16648,
+   "sha256": "cefaec1cb1859c56a9283e22131125f8f80419847e3d44d81c12ebdc29e1ab4e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.DirectoryServices.dll",
+   "size": 1022224,
+   "sha256": "b10c12e963c2b7a467531098a16dd7c6259305285dacb86c48363155e547b6fd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Drawing.Common.dll",
+   "size": 923920,
+   "sha256": "affb145b0c5fd85890437e9ee6bedd59c4cf43ba94939a6cee9466099ef71bcc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Drawing.Design.dll",
+   "size": 16176,
+   "sha256": "7a72e762130658109366c81c81beaf585b975ce90615e6cc98caf7109aa596c4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Drawing.Primitives.dll",
+   "size": 133432,
+   "sha256": "901590c8843e3f1687484064856069da2b817644b59d49071207479cac31d008",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Drawing.dll",
+   "size": 21264,
+   "sha256": "9e0f28238766c43f129104d6fbb8633b4e333f9b6b4d8acd8227164a0614c81c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Dynamic.Runtime.dll",
+   "size": 16648,
+   "sha256": "67c7a1f6874a948aee4f6879793e5f134309f268a99c8e58819b715e5f574b89",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Formats.Asn1.dll",
+   "size": 239880,
+   "sha256": "0187cc0406f9dd21cc2c65266f7d997b077015b0460419dd098b87aca12919f6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Formats.Nrbf.dll",
+   "size": 137520,
+   "sha256": "5b206a26d22aed5b8719fdbd0246a6dddaac245ad3b1af5a1af15fd47c58e323",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Formats.Tar.dll",
+   "size": 268592,
+   "sha256": "03ea8e585a168c7c72d173c2d3a516264783c966e5994b5cb4f5976b45878c4b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Globalization.Calendars.dll",
+   "size": 16176,
+   "sha256": "127810ad24d10baa543903cabda821b7f934b6dda4bbb2dc46cb948e00130b84",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Globalization.Extensions.dll",
+   "size": 15624,
+   "sha256": "9ca281dcf2234807fc0302429ff19ad30fe94dce5a4d589effa093e01173cf56",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Globalization.dll",
+   "size": 16136,
+   "sha256": "8d8b45c7e12310ffdd4e5c9159051721e1814b3dc88e3841a6c31c181b4458b5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Compression.Brotli.dll",
+   "size": 84232,
+   "sha256": "1f49fe49559809ab37eddfe64ffe3deb13e85a7bd42a849f963758b5047bd9d8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Compression.FileSystem.dll",
+   "size": 15624,
+   "sha256": "64f6f7335253cc9ab6c5a961575ec988bd4b54b9235acda97cb4853076a53be6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Compression.Native.dll",
+   "size": 938248,
+   "sha256": "0875eac9ca794560deed6c3fa93aeba8f4db1c40800cc17efbad830a2ce63b8b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Compression.ZipFile.dll",
+   "size": 100616,
+   "sha256": "75fbd96b17692d790f7dde3af1c2992f6e00830505b467de2698c808f3358f50",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Compression.dll",
+   "size": 420104,
+   "sha256": "f2c3e5790d0757f4a6b53fa3ea800093cc9672088e9ee63cf4a340b05f6d3029",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.FileSystem.AccessControl.dll",
+   "size": 104712,
+   "sha256": "b4d72ace86788e28d08f72fdd4fcf442f320906a1801177f3528b2eff93813ae",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.FileSystem.DriveInfo.dll",
+   "size": 55568,
+   "sha256": "d65cc64e18463cc2c76f3b1255eab2f04a1251b4d530f6f3d62aa0b4cca57602",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.FileSystem.Primitives.dll",
+   "size": 15632,
+   "sha256": "2428d1c27f8b5513ef51a318f312a35880fb1c8c765e811dce0316bdda32a355",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.FileSystem.Watcher.dll",
+   "size": 88328,
+   "sha256": "305adf0bdfd8599ef6448ce8fe3ec5da39edd7f3f41c266f5834487ad955d9e2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.FileSystem.dll",
+   "size": 16136,
+   "sha256": "a469caa71ceab26dabc7beafb86badf0780c84927f0880516323435dff357998",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.IsolatedStorage.dll",
+   "size": 88376,
+   "sha256": "1ab92ac777fa9cb4d73117822ef0c8c743354d7594762998120f97fc91138129",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.MemoryMappedFiles.dll",
+   "size": 84232,
+   "sha256": "d4bfcdb355a1d3912d1cf1520f2271bba39b92062d8cd30916ad6ec74308e030",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Packaging.dll",
+   "size": 321840,
+   "sha256": "745f0524409c555325738b6fffcbe8edf862dc13fadddc65b12d101b73514b96",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Pipelines.dll",
+   "size": 190728,
+   "sha256": "d01350d579b2b4bcbde583d80849f98e0bd73bb68108121fa00c18b117181106",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Pipes.AccessControl.dll",
+   "size": 16176,
+   "sha256": "b885108e3f4b229860ce87e87add32418b6df08808e7a51cdb03f68e468ead00",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Pipes.dll",
+   "size": 166160,
+   "sha256": "436729bb97e389f9ed1371a3b085cb3362b557c0e625f79fe7f13fc86333904c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.UnmanagedMemoryStream.dll",
+   "size": 16136,
+   "sha256": "c1e8ee1588f0f9011c0bb3fc6c8b781457f20d82da1060c70c9886c995bdc50e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.dll",
+   "size": 16136,
+   "sha256": "86c8f28afd8f46e401c329f10d534245ae318fd529fc35b074e925ad60ed4f70",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Linq.AsyncEnumerable.dll",
+   "size": 1292560,
+   "sha256": "e654250c4ca49ce0c86f2e8d9d94c642fb099a5d1e4d303fd38537a36428367f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Linq.Expressions.dll",
+   "size": 3639560,
+   "sha256": "9eac5e99d19e6ce344e1885150e743afb2a734947d2a17333b2552a3bf9137ab",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Linq.Parallel.dll",
+   "size": 776464,
+   "sha256": "afbe319e7be32f5e8993e8b59239ea27f070ecc34c12e4a721f9b25ccdc61226",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Linq.Queryable.dll",
+   "size": 182584,
+   "sha256": "e8ec42391d457691787d0785a6251812c0cba2c4491f0fff23eddcaaace1ec57",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Linq.dll",
+   "size": 698640,
+   "sha256": "5e36874e08bb3579aba965097ac9d3b2462ac5d631e8b095ead53289b10074e8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Memory.dll",
+   "size": 162096,
+   "sha256": "a8e1263bfb450d029562302f3784fd91106d8c67f28008a5104faf91503bba3e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Http.Json.dll",
+   "size": 129288,
+   "sha256": "b87e300bcb363c6f1055cea3c076d9e9a71d067a05f4e9b6bf183574f042f962",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Http.dll",
+   "size": 1747208,
+   "sha256": "d19df85033d5a0d390432f0a7c9158bec97a5b7ce1cdc62b4f42dea81eab9911",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.HttpListener.dll",
+   "size": 534792,
+   "sha256": "6bb2f3d2165b166a859992e3d400053982e006894440de6634519efc147acbe2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Mail.dll",
+   "size": 481592,
+   "sha256": "0c38342886a74655182b83a11a7414d5581405697fdb61794de58c5a719a6fa6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.NameResolution.dll",
+   "size": 125200,
+   "sha256": "1195e6cb29f96ca9d6bfcaad1c8f5c5943c7431caa0e19152931a49255a313a5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.NetworkInformation.dll",
+   "size": 157960,
+   "sha256": "8a0e7156004e255b7f94d397bfb3f646c3fd0f8c3a286d3f7005ef49da453750",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Ping.dll",
+   "size": 92424,
+   "sha256": "e1ec6e414c454a537f5d38a630dd7b1880a9e2f6430bba3ef8153b54c0c30f1b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Primitives.dll",
+   "size": 211248,
+   "sha256": "92639fa57d6ea7bbcbd47f5d108a615cafc75929f5dddda25ceae33db60e959c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Quic.dll",
+   "size": 358664,
+   "sha256": "5cc5c44c0d158575bae152e84be12c7c234baeae8165d96a50aa1c0c40a8c999",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Requests.dll",
+   "size": 375048,
+   "sha256": "7277099c9780debcd6c64e227db064245768833918ecbc5b9a816e1b78ac2b17",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Security.dll",
+   "size": 665872,
+   "sha256": "0550c9d893ce86033569514d04f54eb6cb17974a2e201d091208158f57c0dc73",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.ServerSentEvents.dll",
+   "size": 84240,
+   "sha256": "a1d739af64446b38426c9fbcf906f322806ba00daf9e2202ae6f5d49e8250b5d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.ServicePoint.dll",
+   "size": 15624,
+   "sha256": "0ee26316320eb7e653519ed8ab9ed3130943de238ea64a4c54ae97c7bddf06dd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Sockets.dll",
+   "size": 530696,
+   "sha256": "e819f4accc4db69beea71884e843149b6d2a27b6404a45523ba71183e259c719",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.WebClient.dll",
+   "size": 166152,
+   "sha256": "2345c292d96ae776812dc8865148efcf57b45d280097767417fa39695fc11a4b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.WebHeaderCollection.dll",
+   "size": 63792,
+   "sha256": "c58d991a3b583a446ba25ab8d4d4c6995ac304b36719fb09e9c4d3cf9f9595eb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.WebProxy.dll",
+   "size": 43320,
+   "sha256": "a9e363980946bd7e7cc4e9fa482f51ad2c1551a3247e7ab20a40a98dcd7b9bb3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.WebSockets.Client.dll",
+   "size": 104712,
+   "sha256": "d76b4a799fddf2a1928adadef630941fb3ea8ccc1a24fbd3587e420aeeef8504",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.WebSockets.dll",
+   "size": 243976,
+   "sha256": "49fd3979a27fb9b2d1775b7d3c64ebeaf11c23fa42fd0bfd3c48d8f5e1f753e8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.dll",
+   "size": 17712,
+   "sha256": "0bcc1a6b5b6ef78fc077f9c9cba323e3918655c1c5611b9329dade6d58749700",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Numerics.Vectors.dll",
+   "size": 16136,
+   "sha256": "6e1d77ccc29569523b7d89a32b8f8a077fec1a253b5eb11d8704c77e40b3bf6b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Numerics.dll",
+   "size": 15624,
+   "sha256": "e0b64fad960ef94c2b0e1e3cd7cb349337d5f338cdcdf84528af53dd74f2bef9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ObjectModel.dll",
+   "size": 80184,
+   "sha256": "a1249f4f3e07833ae08ee9094b0870d17f3506836fbebc5ff72c730ba963a19b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.CoreLib.dll",
+   "size": 16013576,
+   "sha256": "bb9a91b896447b666487d7c6538d0e1a79dbed3604ed913315a59a7c0ec6e7c6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.DataContractSerialization.dll",
+   "size": 2062648,
+   "sha256": "273582508431f527eaecd7c15dd47d6656c27998bb0e2207678d3031ac161fa9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.Uri.dll",
+   "size": 256264,
+   "sha256": "d6ebdbc74e8f4df527fec1ce188822adba990a7c2e11020c89c415c80b61a34a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.Windows.Core.dll",
+   "size": 1906952,
+   "sha256": "ee1e19fbf385fbe71bb1775bde38f263f57505b6c21011be8a30c0371b8d07e3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.Windows.GdiPlus.dll",
+   "size": 428296,
+   "sha256": "d2decdace719c3125fdfe9bb30ab17ba64cf3e56de9ded2a60900dc28bf7a544",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.Xml.Linq.dll",
+   "size": 391432,
+   "sha256": "c028f975e4c4487a6266efe93106b17ed0e1020a1ef802efb2c971a7cabb2ad1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.Xml.dll",
+   "size": 7788808,
+   "sha256": "9380bd61bfb15a0066cbf5c10f9a50729c8020d72c84a8eb37fb0074c582b392",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.DispatchProxy.dll",
+   "size": 76040,
+   "sha256": "be4f2ccc9618986ab93e3d36bdfeaef97f5680532b21530706740ed3316d2745",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.Emit.ILGeneration.dll",
+   "size": 16136,
+   "sha256": "350ee31f24138ccc8d4d9c0a81657737094e7809fb14ba84e3beec453590ee3f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.Emit.Lightweight.dll",
+   "size": 16136,
+   "sha256": "4660887f7581d2b6086c5de1957d935100f3e5c43ff9bae4cc0a2ad1fc810af0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.Emit.dll",
+   "size": 309560,
+   "sha256": "919f6d308b547e49733c97f58920bd8a2424900ffd4407ea65220236084b5433",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.Extensions.dll",
+   "size": 15672,
+   "sha256": "c2fa29380bfd9f79f1448a098e11061951bd20fb71e2d2acfa8c9abef6c07e94",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.Metadata.dll",
+   "size": 1145144,
+   "sha256": "a54aee93d721406412b227bc9c99d3537b1a7e26f87b40a5b5324ccd6723eca0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.Primitives.dll",
+   "size": 16176,
+   "sha256": "ed0fffe7dfe849150866dbe84f0750ef7607e771accecdd11e1f603dda0ce2e3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.TypeExtensions.dll",
+   "size": 43312,
+   "sha256": "51980a05d0d08516b409b937e09c4c35ee81f0b2c2e2e58fed8cf21f32874650",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.dll",
+   "size": 16648,
+   "sha256": "7200a865a15397c510d0befbc56a8cb1470a4909d8b6ff3fe5369b0f15455094",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Resources.Extensions.dll",
+   "size": 194832,
+   "sha256": "6a077f6eaf7a8ffe8b51af6dec42fdbb0f6606d3ca95a7c26f704454965ee0bf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Resources.Reader.dll",
+   "size": 15624,
+   "sha256": "a2d4266f4c92d14ab3108e75acbe174fdf14a92157ffaf4b8bedd66ce257cfc9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Resources.ResourceManager.dll",
+   "size": 16184,
+   "sha256": "fe3395fc58df26ba95e63ae751e973efc6e1b45016107fb4e43b9039e5f6e2d3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Resources.Writer.dll",
+   "size": 51464,
+   "sha256": "9968cdf16886bbb245ac91e9e9f62780dad7cc4a94278c9c4a97bc617b5a2e46",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.CompilerServices.Unsafe.dll",
+   "size": 15624,
+   "sha256": "01e005456e184302e2abed7a82ad438804e9fd66230cf8d558dac28d6963ca2b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.CompilerServices.VisualC.dll",
+   "size": 30984,
+   "sha256": "ac84d83968ad7bfa8dd01fbbcb084239a2f7011cd8f355aa64f2819ed4f35473",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Extensions.dll",
+   "size": 18184,
+   "sha256": "90cb058739ffe22ab509f4a6fcd1ac9a2a8482d95b664274387e4a5fda129025",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Handles.dll",
+   "size": 16136,
+   "sha256": "f2c39a6c50b0e7164a908e581f014eef12adc666de4b6dbd825305d236d978f9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.InteropServices.JavaScript.dll",
+   "size": 51472,
+   "sha256": "4c27a35139c5551dd832be8cf7f7a491e99507a7dc7ccc374d2d84b4de0c8226",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.InteropServices.RuntimeInformation.dll",
+   "size": 15624,
+   "sha256": "5e5cd672d7fccebc611f667255f41a9dc96072ecd7e15a7e75d8c73d03b89bed",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.InteropServices.dll",
+   "size": 112952,
+   "sha256": "500ba5ed075420e8d6857bf38c79708a062f855d1ce87d505b3f1df9357806c6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Intrinsics.dll",
+   "size": 17672,
+   "sha256": "4dfe18fc8e27047c217af162637e2d838940372e77ea41fbf96e190fbf5c8c49",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Loader.dll",
+   "size": 16136,
+   "sha256": "ce55718ba48bb4e795eba89d421942b3ed79728ab0e23643305063cebc1f997c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Numerics.dll",
+   "size": 354568,
+   "sha256": "774062c99509e4f9e19f66ae52bb4108167fdde62e8e429ebb154ec20490e91c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Serialization.Formatters.dll",
+   "size": 125192,
+   "sha256": "fa9db442ecc83348b7b4e2d0fcf38e5ebb563fbff3cb3722474b2842dcd8f24b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Serialization.Json.dll",
+   "size": 16136,
+   "sha256": "4fb5a8e35deb731f8084d6af5d740fbdd09934ea6277bb68137be845b17eb05b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Serialization.Primitives.dll",
+   "size": 39224,
+   "sha256": "b074fc4c44b9b28cabdbbc048bb916d57c13bee2300a148e54bc209ab1dbddfb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Serialization.Xml.dll",
+   "size": 17160,
+   "sha256": "fac309e540fad67c93dfbe0a8cd7a60179118712e338aef8a4b93ded7594633c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Serialization.dll",
+   "size": 17672,
+   "sha256": "69a3b1ca73e92eb7667e37caf7308f4ec7e058a9cf1734ed59d2d12cbafdd127",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.dll",
+   "size": 45368,
+   "sha256": "cc186c0b3b8f9ac63d80070584e01035c787833993b0c0bb4eb0be94cd871725",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.AccessControl.dll",
+   "size": 227592,
+   "sha256": "00935fdcfe40bd40cc3b87e78f1b73a841aee85d94e5a9e76bfe842481d3d030",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Claims.dll",
+   "size": 100664,
+   "sha256": "a57dc1dfd3d2cb774e517e826c05d3e81098d09cee868de4104cf6f1a8a7c4c5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Algorithms.dll",
+   "size": 17680,
+   "sha256": "5e6f143876c7caf8fe3763301c9f3ce97a2bdc00f10bb713b26a21704da146e2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Cng.dll",
+   "size": 16648,
+   "sha256": "9b495de22e989e1b62a909b30a065d6ad45c96e6bb13d2f92be4e435d4262b76",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Csp.dll",
+   "size": 16696,
+   "sha256": "7572cf5ea1bd7b1052deda0ff8688b5603aeaed011f561a2d4b55a145e1301bf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Encoding.dll",
+   "size": 16136,
+   "sha256": "905ec1b237ebeb3d2d55a38c8161a0648a169873f218f1e90093ae553aa6b476",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.OpenSsl.dll",
+   "size": 16144,
+   "sha256": "642c46b067e36a52ce3a940fae00b7be00742348828463b35cb2b059381ecd17",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Pkcs.dll",
+   "size": 768272,
+   "sha256": "9ebfdb63f2f1c8fcb3a3b3c7b25589da8fc0d5535b6a7c0540309c9c855aae9c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Primitives.dll",
+   "size": 16176,
+   "sha256": "950225eceb44c3eacb83eb127966e9db89dd449c8e2617024a8a0e52567e50c3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.ProtectedData.dll",
+   "size": 59656,
+   "sha256": "fd1188040f04a670df1f7bfbd904c13e83ead53c46d3c83d17d215ecadaeac56",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.X509Certificates.dll",
+   "size": 17160,
+   "sha256": "78176db6faa6daed742ad64e7d23f01b4704b34669167f3f4dff672a77543c33",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Xml.dll",
+   "size": 448776,
+   "sha256": "1952e574c2dfbbf3f1af4c039436cc30412e6a5cb90c8b241a7ea9308e22b122",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.dll",
+   "size": 2550032,
+   "sha256": "b11f291573c6dbd6b3d1cadcd0e7a4f7eced94ff009e4061981d91f1315f721a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Permissions.dll",
+   "size": 190736,
+   "sha256": "2d268e0d1bfcdd671006681e79494abcf10c9282e646917f4bf7cfba45d7ce66",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Principal.Windows.dll",
+   "size": 178480,
+   "sha256": "972a50bb0fb2569e1b77c20465ce8783fc53dba9c2132a33a749ef72977a4c23",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Principal.dll",
+   "size": 15664,
+   "sha256": "2062cb052e3b129de61269679b3f6009067d6bd2ba36abfa112d11871f68d0ed",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.SecureString.dll",
+   "size": 16184,
+   "sha256": "8592f385033e5957f5557cff208cb012746f98f81b7b618cc73f2707ccc1fc0f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.dll",
+   "size": 18744,
+   "sha256": "e4b159f946cd8a24f150e644b4a252d2283854e6803fbdf792deef1eedf43869",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ServiceModel.Web.dll",
+   "size": 17160,
+   "sha256": "d981d76cfc8be110b817c65f5eaf3d1ae7bbcb991f22a8a4908ef3729cfe6569",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ServiceProcess.dll",
+   "size": 16184,
+   "sha256": "b1f211075bd6f647a933e93767ccac1dd983f84cd7bb783863818b62dada7ecb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Text.Encoding.CodePages.dll",
+   "size": 862520,
+   "sha256": "57dcae9c3eb520a76d7e776fdca8485e0c3a0d5c694cfc9deebeccda271c26be",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Text.Encoding.Extensions.dll",
+   "size": 16136,
+   "sha256": "e3f16402a12ace1a58fdb8ff2a622312d181c0e9ceb947c13079072641544324",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Text.Encoding.dll",
+   "size": 16136,
+   "sha256": "e61784fabfefaefbe965eef809ee24608c57b003af7bbd2a6a4a7b7498196acd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Text.Encodings.Web.dll",
+   "size": 125192,
+   "sha256": "7e3b262f5c49801817159d8a0d3bd1d442492638cb21e06860d70772d9ed4e44",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Text.Json.dll",
+   "size": 1890616,
+   "sha256": "03bdedbcd34f950789e5d1a45025c0a548b9c908c4dbc4b1818258583288ab07",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Text.RegularExpressions.dll",
+   "size": 1034544,
+   "sha256": "7f02ebfcea58353fc8198e556d6cd98cec4546702146aa2dd5d026eb4164604e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.AccessControl.dll",
+   "size": 76088,
+   "sha256": "97ea0375860e6cc9caeacdd529e3d57073ceb1f02480c4f300744ebe9a573ddf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Channels.dll",
+   "size": 157960,
+   "sha256": "71515172b8087382eb311e75dd6dc9c48d4f0314fa6b5c0a8a7408ddd38c8b14",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Overlapped.dll",
+   "size": 16176,
+   "sha256": "8ae5a11d7e9f817de475e7cb7395fe1c9dc54331b928ebdd54080c24416c36e2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Tasks.Dataflow.dll",
+   "size": 473360,
+   "sha256": "df40e2b453afd99421feefa494e4a31d81d5cb45597f3fbeddab699e7b149d2e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Tasks.Extensions.dll",
+   "size": 16136,
+   "sha256": "cebb24b2937ed931c9cbce38cd67967c950c2f810bc2d4be7ffcc849a4f47485",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Tasks.Parallel.dll",
+   "size": 133384,
+   "sha256": "065e456a0021f522c2e49149f5d58573bf01b6fc3f3c8bb477ebba53317128c7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Tasks.dll",
+   "size": 17168,
+   "sha256": "b327cbaa317092db3d1c0c4471a7d070bc5ff9bfad1ee23667dcd0d4a08479b6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Thread.dll",
+   "size": 16136,
+   "sha256": "d6bec5a332a2613def0b9d19ded9f6719f6626f4df9ff831283a85fc3d48aab6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.ThreadPool.dll",
+   "size": 16136,
+   "sha256": "0d648780e9e3306fe0abb498dcf6c32af97a8884ae628f1b9f4c8e8f5dda1e9a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Timer.dll",
+   "size": 15632,
+   "sha256": "03d13fb126f20a364b84297b6c73d25671cca39a761db58688a50136792b2dc0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.dll",
+   "size": 84232,
+   "sha256": "7175ac06b5908412692d2c2e124cb79f58aaee61ade19bb81118d14a92bb7694",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Transactions.Local.dll",
+   "size": 641328,
+   "sha256": "01eab2d51a9a651808d002c31d1d9564a4094bb09cbe5f58085ecb7d47232462",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Transactions.dll",
+   "size": 17160,
+   "sha256": "40b23da0a35c918c0da534452275441ab5609e826d87e669b59de7432a56214f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ValueTuple.dll",
+   "size": 16136,
+   "sha256": "da2ad4c7c25f925c574b5a22a5b563b182f2a0b4e3158880127daaf34d259391",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Web.HttpUtility.dll",
+   "size": 63752,
+   "sha256": "117dfe2a7904a19544c6c53043b6cb1aee8173eee8891819c7face7ab56b01a3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Web.dll",
+   "size": 15632,
+   "sha256": "7cc51af426e403d999bdd17d6cfe2df61077697d1ae6a2d6ede88a8c657f1cff",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Windows.Extensions.dll",
+   "size": 121144,
+   "sha256": "67a7d6dd5ebc4ee479373670b1fe95ba2a6de75b712837d24c6af47a0850f810",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Windows.Forms.Design.Editors.dll",
+   "size": 16648,
+   "sha256": "1a5b69181c46df5415da9fb4865dd3473e7ee26682710106f659bddbf8257127",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Windows.Forms.Design.dll",
+   "size": 6093064,
+   "sha256": "5d9744e08ba9b124b7de027a1e4d2c58bcf54cab29afe239e001ac92a37401e3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Windows.Forms.Primitives.dll",
+   "size": 3623216,
+   "sha256": "ec2fd9ed0f8c5126a4d7888a9e685581f8bcca3b06a1308063cb1e487b07d34c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Windows.Forms.dll",
+   "size": 13715760,
+   "sha256": "705abce3a4a367f9f394374d71d9a57dbd346963a1e01d2c2f97ac0fa77b93bc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Windows.dll",
+   "size": 16136,
+   "sha256": "6f0cf8721f31a497d14bf71cba65102ae42046ef4fad48e02bea12a1c5c11044",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.Linq.dll",
+   "size": 16136,
+   "sha256": "5047d733af46e3bb072a349a00548832b77a4377676ef83a50e2af9ecae7623b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.ReaderWriter.dll",
+   "size": 22280,
+   "sha256": "43bc374d683dee2a05d99d8d98e5b3287aec1a72e2b4a0a9a50dba3224273dd3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.Serialization.dll",
+   "size": 16648,
+   "sha256": "d42a4c387092fe2acaf9ebfd06b003b28b36f05dbdf660cf06bc75f9e0cf2c19",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.XDocument.dll",
+   "size": 16136,
+   "sha256": "412f5f408752c1933d9949df05451800b53d991f35c259bc5794f7ba1e13e472",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.XPath.XDocument.dll",
+   "size": 31032,
+   "sha256": "03b5e91ab788492bb1ecaa31fe8f0b6f80d7234008189d993cf75e64ba5c17d6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.XPath.dll",
+   "size": 16136,
+   "sha256": "c4b89cc56c191a655c3d9680c82b37a74cd0f51473fd8faeda9009b703586c05",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.XmlDocument.dll",
+   "size": 16136,
+   "sha256": "21894f464c6a4b05e92f0493da5dfbe5d16bbe6e24592e8b5c6f663b88680625",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.XmlSerializer.dll",
+   "size": 18232,
+   "sha256": "92b383612a32c7958f6f4653fcf6cf5f1a84b54aa6296feb80dc27f0b58797b2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.dll",
+   "size": 23816,
+   "sha256": "dbffe2d21148e35f9a2f588c2c35288771030148b75c83cbf1ecc2beefbec6f5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.dll",
+   "size": 50960,
+   "sha256": "39e2bbc12e0216f0974b144406ef7909e3855a725136d8929bdbc5651a724b2c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/THIRD-PARTY-NOTICES.txt",
+   "size": 233611,
+   "sha256": "463202b4f4e1b1c20dbbeb4158207ecd275de9f54f894846cecc0e6da8b32783",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/WebView2Loader.dll",
+   "size": 159848,
+   "sha256": "2f965e10aed3b356a408978a0e6d74eb86e3e722dd008fa9ad39f68884479e85",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/WinRT.Runtime.dll",
+   "size": 528944,
+   "sha256": "bcf3a14e8712a90837fc5c0d8c8a24696af2bd7f74e9767597ec81ededfb23db",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/WindowsBase.dll",
+   "size": 16648,
+   "sha256": "2d078879ef7d948d5d251a954e23a8604e943898f6502afebe0718df97d95974",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/assets/JJSAtelier_app_icon.ico",
+   "size": 204850,
+   "sha256": "20044981f5413c68872ed3c827b300be9cf9f5dce5627da6d249786b975d6611",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/assets/JJSAtelier_app_icon.png",
+   "size": 2167475,
+   "sha256": "999ce6baec5bcf6b37f6bfe93ba397363a9bf6f894a11c6dda4867f53b05f145",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/assets/JJSAtelier_game_shortcut_icon.png",
+   "size": 89614,
+   "sha256": "c91a6ef744c43d5399bc3abecd7315d4ce6b771497154fc711561a757f58e35a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/assets/character-shadow/jjs_character_shadow",
+   "size": 17686,
+   "sha256": "e26a32defb6582f6d26b500783136838c3a176b2109c2c59db617d6a741ea8b1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/assets/game-check/catalog.json",
+   "size": 213711,
+   "sha256": "e836904669d3f82baa171bb81ed0a2f7ae8a06a108ea6e8166066f2125f90727",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/assets/yotogi/hand-poses.tsv",
+   "size": 144258,
+   "sha256": "ce9086856107366c7f459d9c87e633234ae4b1293df1d3960fc3824c685c7f69",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/clretwrc.dll",
+   "size": 318216,
+   "sha256": "f78f188261eeab85c705fd4cf6bd9916b27c9efa7f48d56d04ddf44b0b882518",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/clrgc.dll",
+   "size": 673040,
+   "sha256": "57aa82c35320ce7bcebce1571df596241d36b71fd312df2b2906d34fe3df2eef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/clrgcexp.dll",
+   "size": 709432,
+   "sha256": "af49af5347b1d69248b7315afc80894dae5f0b59ce9dc2eeeeb4f5b9d94f10d7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/clrjit.dll",
+   "size": 2091272,
+   "sha256": "5b61a424e0e3aab28bedc506564ba28be05783f9921a16aaac6ce5dbb3e1b72e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/coreclr.dll",
+   "size": 4608784,
+   "sha256": "dcb8a78e286fe3796aa037d5243be63c3e9370e1a8d964d1789938a44f9fbc2e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/createdump.exe",
+   "size": 71992,
+   "sha256": "5d438d5eaccef364981fa5a633d0f4f2cc060bf3560485706740ee7295f51b60",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/e_sqlite3.dll",
+   "size": 1972224,
+   "sha256": "6ad8e149f8ce3ed3716402b4b3a2268ebbdc7b64391b5fafed747e03bb1b9418",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/hostfxr.dll",
+   "size": 380168,
+   "sha256": "8b34afc8dea90a2bb8d9668fe8800e27d1ff40029b2eeecae77d5bb19b937e40",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/hostpolicy.dll",
+   "size": 379144,
+   "sha256": "62817f2c82559f572bd5905b330431deba43169191a9ea03fb9f9d884e874655",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/mscordaccore.dll",
+   "size": 1352024,
+   "sha256": "1319ec27d52a224b1eb79746995e14467b0188380faa98e7aca75225c2554c27",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/mscordaccore_amd64_amd64_10.0.726.21808.dll",
+   "size": 1352024,
+   "sha256": "1319ec27d52a224b1eb79746995e14467b0188380faa98e7aca75225c2554c27",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/mscordbi.dll",
+   "size": 1235800,
+   "sha256": "24b15982d2f868c7964af6c9a56699644ebfaa5742d43a770716eb9224b18a85",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/mscorlib.dll",
+   "size": 60168,
+   "sha256": "0669a7898f0c4a6869a1eb44032896d8f1b0755db02581cd15d46b408f23a591",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/mscorrc.dll",
+   "size": 134456,
+   "sha256": "a208568ec94c363222e3e32cd642a0f96cfe8fcf9f75db3ecb12abec78053677",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/msquic.dll",
+   "size": 524320,
+   "sha256": "bb89d7a5dfe8f5e794929bf48bbe2e29b35ed7b7246fabb9e74f486abc1afeeb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/netstandard.dll",
+   "size": 101128,
+   "sha256": "9f64ad816fe6ba25b271d52aa2055131988dddedb8afacad0716ac01334cbcea",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/runtime/character-physics/Bullet-LICENSE.txt",
+   "size": 1037,
+   "sha256": "eeb424054ceb490a1c2dc843a0c21d0864afc5be1249eb899e08a6c73277f0ca",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/runtime/character-physics/JJSAtelier.CharacterPhysics.dll",
+   "size": 1079808,
+   "sha256": "300530e7d7a34352689afd29e8b84a5a1fa34ae38eb9fa464162339ed4da4b45",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/runtimes/win-x64/native/WebView2Loader.dll",
+   "size": 159848,
+   "sha256": "2f965e10aed3b356a408978a0e6d74eb86e3e722dd008fa9ad39f68884479e85",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/themes-default/daniya-peach.json",
+   "size": 758,
+   "sha256": "a19904677e977b2a784b325e4b4448ffae4d4d77707fa7666d89ed107704f4b9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/themes-default/dark.json",
+   "size": 745,
+   "sha256": "78ef143257b50f81883fc94cc9a28bd5918e5086fadbfb46d0bae35fe2fd1033",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/JJSAtelier_app_icon.png",
+   "size": 2167475,
+   "sha256": "999ce6baec5bcf6b37f6bfe93ba397363a9bf6f894a11c6dda4867f53b05f145",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextCharLight-B6NvgXf0.css",
+   "size": 39931,
+   "sha256": "67421c38733e5124dbde05e706f556f8de97db915e83d71199b427758888f2a2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextCharLight-CikMFycF.js",
+   "size": 108066,
+   "sha256": "64cb722d55d49d7428f09b8e16ecfd51af52149aba3a57f4564a65fd9216b3ab",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextCrc-D5c9EraD.js",
+   "size": 60525,
+   "sha256": "f0f0ef1db10133b2cccdf7757c3b7cc0a82b870451fbaf45beb3b504b839c3fe",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextCrc-gSPRaauO.css",
+   "size": 33225,
+   "sha256": "06326401ed26e7ff51de3164b399b1dde8cf0eaa734afb502a6e7c4be2f0312d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextCrcMisc-DmPDjEql.js",
+   "size": 5048,
+   "sha256": "4f875ea213f010a0ba6d817f02626b0da74f361daf7fef8d702ee43bb1f3604d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextDlss-BABsFx0H.css",
+   "size": 60432,
+   "sha256": "6efbdf1f223cebdc12def4ed74d28eaa1b34a42569d3b7940d5d965c56f7d31b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextDlss-DeQc4z9n.js",
+   "size": 65350,
+   "sha256": "1d0504272abd02ba5f5e3fafcb62395743cc6317dd2b4ae16d9ef759efcc6e46",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextInstall-B_Dh9Dsf.js",
+   "size": 137445,
+   "sha256": "e4b5605a855365175cf33d8145ea41c9e49e1af8fc04ed3e5f56e855e3896b88",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextInstall-BdZqzr-J.css",
+   "size": 109930,
+   "sha256": "9d8bdaf51b75898f012f3456e470a3d4936a923b89ba453e6ee98400aa1f58d3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextLook-C0A0D9n8.css",
+   "size": 146363,
+   "sha256": "3e2b1ea2c2ea0c13bba6eacfc8201ad63052b9924788d6d1493b665f0de01acf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextLook-DeHbxpow.js",
+   "size": 179951,
+   "sha256": "571ae1e55dfedacb9a57c57cbf45ce6c5b7156a69b9d5e990425b38fe249b607",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextMisc-B3M-w9wN.css",
+   "size": 9445,
+   "sha256": "3c042e347c36b4537143a78a040e513bae2df7b22bdd77699d2af6168419cd13",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextMisc-CBsFNpRg.js",
+   "size": 55219,
+   "sha256": "51d694dd5329ba54f832c7da97554337c7d1fb3905a23e10bd4f729cff32d748",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextModifier-BuXWpHpD.css",
+   "size": 31795,
+   "sha256": "770790d83dc3ad8ca9454cc83eb145034bb9404fc64032e6e632b0b5207d6348",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextModifier-CeYBxCuW.js",
+   "size": 25286,
+   "sha256": "53311ad62a5c69c1424a51823e3b6235d8cfe26a5df49ee82b39873e214591d7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextPerformance-CpeY07Jw.js",
+   "size": 74811,
+   "sha256": "df16047571e7025432d3278e358607f5b4fc01c179e4c56e3f8af01f072c4701",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextPerformance-DAEY1CFp.css",
+   "size": 68053,
+   "sha256": "4081f1b070fc3a0a58c79ead77036ca576239e61666662bbfb11857401a890a5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextSettings-Afaq5U20.js",
+   "size": 32104,
+   "sha256": "42fa6611dc7305c6fcb7e7492f912e91ac1aebe2dc332220d89cf175a0e79ddd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextSettings-BK8-G5Hq.css",
+   "size": 18835,
+   "sha256": "9afed397df730d7e07108d50d88ebbfd5ea7a307f0558760f77618880446f418",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextSpec-CpAcogVk.js",
+   "size": 20414,
+   "sha256": "2b794ae18cff90494e08f14127d6852547e3014052fc29ef3245f1a8b08582a0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextSpec-D2rA77m9.css",
+   "size": 22165,
+   "sha256": "3c97b6ee68b0e4937d114621ca41c44bc3ae36fc7555f88af9b4bfdf1afc48a1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextStory-CJqVLTrC.js",
+   "size": 367844,
+   "sha256": "9dd3fcdd589b76295c52d39d022e0cba2572a38ab01ddcaef0751ccfb9b63889",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextStory-llscJbVz.css",
+   "size": 132747,
+   "sha256": "9174964b14b993f935bf416c6695a47a20d5f6304a003a7880c70e03e7ff447a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextVoice-CrWrmkR7.js",
+   "size": 179734,
+   "sha256": "8a8952ed10b044bca1c113dc46eccd40e45b08c6a23a5459a6a18cadc978caa3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextVoice-xr8ixRfn.css",
+   "size": 73242,
+   "sha256": "53a32b37992dec1e6846713bf65104da0c8a1cbd3e1f852749a0c1529b6553f3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/arrow-down-yyDHbsr0.js",
+   "size": 167,
+   "sha256": "8baa9d2145d64006949ed609b73640091c61e639cf4beea09000074fae5717ea",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/arrow-up-DsRP8iWO.js",
+   "size": 164,
+   "sha256": "03dbb50fb1189826dd9e793a7876b764c0b39eb1f417a4a1e6a17d4471229f34",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/boxes-DMnMMSnE.js",
+   "size": 853,
+   "sha256": "f5ce119d430285b36aad59c718003d9df353f6c1321b4e0160af730c7855404f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/briefcase-J24Lz30_.js",
+   "size": 222,
+   "sha256": "76f87c51ba129ef20b2714c90d4f85c07a746226dd3e75c7564a0a5abcee362b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/catalogCountApi-CsOZw_fQ.js",
+   "size": 248,
+   "sha256": "0131efd486ce4d5bcdff2329c98d5431ba5d1911b8f847147959f6698230f7b6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/circle-x-DYEjgonq.js",
+   "size": 209,
+   "sha256": "65b59dadebf8f14d09298bea0c14c6546fc6e3cc401976176f76be826895dd23",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/cpu-J6sFaD40.js",
+   "size": 644,
+   "sha256": "a7e3a3a8f0ad24177d1757f999dfff5c94aaff5954bada31b8a1e28ba82ab599",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/crcDemoWorker-D7y0sr8O.js",
+   "size": 22017,
+   "sha256": "879ac6ddab73e60dfabcf06d891b411d991227a0501e4a1929bf645579e79335",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/fast-forward-CFnpLpRf.js",
+   "size": 287,
+   "sha256": "64890f096bd0fdbbefa330a6e791ab340b4c8fd531436f030ca76502d6c57210",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/file-text-BNEH1MkB.js",
+   "size": 387,
+   "sha256": "2bb4c5b134a9e0d1255302eeace8c6608506cdfaf0c2e45e377c47ab6993dd37",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/flag-BJZLnk16.js",
+   "size": 256,
+   "sha256": "43437384f743fb6ac08f2d8df565db21aa8fe2cc57c35351a6bcd056962ba3e1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/folder-CF5IfXEP.js",
+   "size": 661,
+   "sha256": "dc45e00e30dbdd0c2529d55566de996fda504671b823c1183cbca726d6f9bfee",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/gamepad-2-vzu-nqZY.js",
+   "size": 623,
+   "sha256": "275bd1b49aabe3c892c32b2c2422fa0fab1698d769bfc957090ff6b45d56cc93",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/gem-BvooF7a9.js",
+   "size": 336,
+   "sha256": "a636a1b5274048c36e9d4ba01f52956b4ce0e9cc1c6cb5d9ab19b37acbeca944",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/image-7UTvNzN8.js",
+   "size": 271,
+   "sha256": "4297093a8e41751e9231a12b0a780229351939e86e7774b88df08b2ccc1893c7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/index-CFWvBNoM.css",
+   "size": 412933,
+   "sha256": "3d1da8ef897ed27a6048c9a813c9e5fe475b111e828b40d7d0b7aab354ec5f08",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/index-DAbG0S0v.js",
+   "size": 1488147,
+   "sha256": "a7d1ab46c3dabed8cde3b01499852a1bd483ced11cfe5d147ebc7d4111476575",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/info-DULtc952.js",
+   "size": 206,
+   "sha256": "c1d4b0900ffc65970bbfb87ff9f500191ed28d703a63978212c431100a8015ee",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-cyrillic-400-normal-BEIGL1Tu.woff2",
+   "size": 5328,
+   "sha256": "522f5827308102a9c0ea7860b5a11306043610ecf03d150ba32056a06e8c56e2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-cyrillic-400-normal-ugxPyKxw.woff",
+   "size": 6976,
+   "sha256": "67c9cc7864b4940dbfb246c7b452c1de8e96f140f334d363fcdd87dbfeadab72",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-cyrillic-500-normal-DJqRU3vO.woff",
+   "size": 7024,
+   "sha256": "d408a664dc721f614e6346e09f3f32b2837005db28f5e4797ce8dd19da07e4ea",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-cyrillic-500-normal-DmUKJPL_.woff2",
+   "size": 5356,
+   "sha256": "26c9ed511def1f0fd3d1b5fe6d5c0c594d9ef8dd2435d2ff240ea265a416b6e4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-cyrillic-600-normal-8K4wrrwR.woff",
+   "size": 7020,
+   "sha256": "658b2246b9d068b64c9f2dbea7af4faa1a58c9428664ae5507a7306f3999895b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-cyrillic-600-normal-EVf6-Yzo.woff2",
+   "size": 5384,
+   "sha256": "b450f960a0d29846370fc050b6183727d2075a2bcb1c5595c99374bf083b5a83",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-greek-400-normal-B9oWc5Lo.woff",
+   "size": 5664,
+   "sha256": "09f89e8369d7745ac5fe92e62a9ea13f66f40fd95b5495fac014c54b3a1ca6cc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-greek-400-normal-C190GLew.woff2",
+   "size": 4228,
+   "sha256": "365b7a8eaff022b13ed0561fde3890a04a30507d773ecd5adb3aca8e766a285c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-greek-500-normal-D7SFKleX.woff",
+   "size": 5720,
+   "sha256": "89656e472646bf4d52c23d499fa2e467ad3ee73447fda24eefb96e176b1312d6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-greek-500-normal-JpySY46c.woff2",
+   "size": 4284,
+   "sha256": "5b6dee4610cdaab7c4218c1692aa9a536414010eef4e5b3cfb25f45007811bcc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-greek-600-normal-H7WoG9Et.woff2",
+   "size": 4308,
+   "sha256": "de02415369898d9aa2d9f30379b6c201fc1c0a7017589d973747d993a68f709b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-greek-600-normal-mc2nkWzM.woff",
+   "size": 5700,
+   "sha256": "5d78d0d7859974f41fc49b1cae442e25575016670c5946c2d1317661c4a728ad",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff",
+   "size": 27496,
+   "sha256": "658b9ee07b0249cf910a8d6f3d812d46c962bae81d7379a0355b1db35c61586f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2",
+   "size": 21168,
+   "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2",
+   "size": 21832,
+   "sha256": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-500-normal-CJOVTJB7.woff",
+   "size": 28208,
+   "sha256": "a270dd0bf13d91053b8999b7c120ffadb59680cfd63fe1a6b388a13bf2809fe1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-600-normal-BfsvjouI.woff",
+   "size": 28180,
+   "sha256": "3f4ad0687bcb0edc596c7c85138c5140ba3a9c5a3ce2ee944f27608c0f18bab9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-600-normal-C8RAYTDA.woff2",
+   "size": 21860,
+   "sha256": "400c6bfda18d5d14acad1c15d6dcb9f8e13c015e7286317e0b9a482539bef147",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-ext-400-normal-Bc8Ftmh3.woff2",
+   "size": 7336,
+   "sha256": "505dfba8ecbe77e82765f36d317ed7ef4ac42719dc5f4ae68d1c483fd22d0d14",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-ext-400-normal-fXTG6kC5.woff",
+   "size": 10128,
+   "sha256": "e7131bbf591e1ed9b74e44e162f6a39affa00ac21654cb683585d085733f6355",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-ext-500-normal-Cut-4mMH.woff2",
+   "size": 7528,
+   "sha256": "879df9319f1cbf633bee1dd489e376a9e1e8c458f4abddcfe381cb83b5e6b027",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-ext-500-normal-ckzbgY84.woff",
+   "size": 10336,
+   "sha256": "8006c29f8ec53d12d281774d669a02a70b599590d110ff1a4b4a40a6fd975676",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-ext-600-normal-BfB_LPfz.woff2",
+   "size": 7512,
+   "sha256": "90899aac1c15552c028fd205376bb537a2a5205164fe8626efabad77d7260c20",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-ext-600-normal-DObL3zCW.woff",
+   "size": 10316,
+   "sha256": "7f5fbd7caf6fefa665e65015225fea76b59d425a7bc4645dfd77e6eb7db35ea2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-vietnamese-400-normal-CqNFfHCs.woff",
+   "size": 5372,
+   "sha256": "1dfe0f740fa86409034058e49474b01126ae9ea8c1ecda905917b90d57f03b00",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-vietnamese-500-normal-DNRqzVM1.woff",
+   "size": 5476,
+   "sha256": "6b14186bc983291a126aa8d6d9c3044415c968262279eecbb9bb194f1daf7800",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-vietnamese-600-normal-OWROknRo.woff",
+   "size": 5476,
+   "sha256": "1e3421e0f17174374ea4b6103d2f0118cf914c36004ca10cd4b092b8390ee6ed",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/layers-CMjLtpZg.js",
+   "size": 423,
+   "sha256": "4b67909964c83e203f898f3d1c5b1e1c5e87db4ce7cd39b860e410b53a6fd317",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lightbulb-Bx2JQYGD.js",
+   "size": 288,
+   "sha256": "e1f3a4034e88cadd38de7e4d974cbe0a5bffe7c2251912323a2fdf860c66517f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/locate-fixed-CfBzsyL_.js",
+   "size": 405,
+   "sha256": "c216bb0899ad7936963f1d910598a92610175221c0b7feafcab07830d8d25500",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-100-DLPe7tEt.woff2",
+   "size": 67824,
+   "sha256": "8a804d2a30d6ec4a46bf49ef31fb90940127b7e08a5a27bce1fcadd8b1f77b20",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-101-d3VsZKWT.woff2",
+   "size": 61676,
+   "sha256": "f1b94ce82489e69921536589cc6e076296698952b18052e3f06239b302b62cc4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-102-ClzJuLq6.woff2",
+   "size": 64028,
+   "sha256": "57c4273e102463cb5a16e23b4c35a2d9bbebc7fdb6b01307a8ab4a8b9b4b3e24",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-103-DuDnQ6K-.woff2",
+   "size": 67936,
+   "sha256": "ee40ae51d56d94dfde5dc94c2938e75543a8b77826b3642d92be454eb0d41199",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-104-kPGW3Eem.woff2",
+   "size": 65168,
+   "sha256": "99f4d24fefee0022dc34549ca7df2b67d754d64ccd93a3c71d3ebea3e4c70aeb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-105-BzD54h-0.woff2",
+   "size": 66360,
+   "sha256": "76ae6db02dba58a22ac96d1f17e325eda80a4802e9e2244dbf58e151d1eae43e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-106-BQ7fIzlx.woff2",
+   "size": 65272,
+   "sha256": "934b1bea5b3ffcafece589bcb68759ae7072a3d53b73aec3bbce5bf8629b65bd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-107-D8tDfFHI.woff2",
+   "size": 64504,
+   "sha256": "d1e784c369f2a393f84b059dc75be54362adfffcaf48bc93487f0003b30acd97",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-108-tGhkpwep.woff2",
+   "size": 65240,
+   "sha256": "09bf5fa33a71399fa8e2cbedb0628a75d3ee8e90e3dad9f7451eff696fcffb71",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-109-7SMVSrly.woff2",
+   "size": 63712,
+   "sha256": "7c151ca31e0d3985bac61dc74845d2f481e4407ac1f84446dcb0db7967e689c3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-110-_uDKrFed.woff2",
+   "size": 62920,
+   "sha256": "596fad5f0a62b0641c0cf231142a1bddb3b0ec0a762b370550814fbb4b180ea0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-111-Bio825RE.woff2",
+   "size": 64856,
+   "sha256": "b60f4be538417232acdad206fa81813a59f83c77cb958e234e3e368b13473a8a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-112-D2ee0i-C.woff2",
+   "size": 61368,
+   "sha256": "326cf9f60a0c5aec39d4d075decd4c01f6049fab46d347a0b0cbdd52acde5a23",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-113-JPFVDrga.woff2",
+   "size": 61232,
+   "sha256": "476e7916f1cf1f67bf09f641147f42dd80eee0277d85ae603cda634158ee3114",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-114-BcfxYA4w.woff2",
+   "size": 59640,
+   "sha256": "87ba6bea1a37f3810c0f0d3302d5e611572db8baee30a2f5b62f96a37495fad6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-115-B1HeeOsd.woff2",
+   "size": 57040,
+   "sha256": "531f80be14010bb54e7e2bdb46da82a4ae646398104338fd17c610fa5cfeec73",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-116-hY12tXpq.woff2",
+   "size": 54464,
+   "sha256": "584cdbf4b40c7edb9902ec475c8aef82cd40198ffffdccf1d4c606256af8687e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-117-BvuZwmre.woff2",
+   "size": 53384,
+   "sha256": "04337d979f64e6ed6ee37eee65996c97d70b3214cec0da1f8e16c150cc7da9a8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-118-tzvs_H7j.woff2",
+   "size": 47400,
+   "sha256": "09be8478062ebc42b8d569f4a1087064eee81d372cdb6c4e642f29f29dfa6553",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-119-J2DWuYDN.woff2",
+   "size": 36592,
+   "sha256": "5c02815906e8d40d54a4085e86a8d785a4a64afb9dc7f013ef4d776d7763bd19",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-21-pDubCJV5.woff2",
+   "size": 30620,
+   "sha256": "a28e2cb2ff66daa3e85e922afef0ee548c22bf833e258d482b29e6f3c88f9e56",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-22-ChAPMpqp.woff2",
+   "size": 69140,
+   "sha256": "ebfc11dd161a09280276f0740a9775ea2e749444d28dd2364dbb416223229009",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-23-BBx3oNpT.woff2",
+   "size": 64020,
+   "sha256": "a7c89167f6e70b3a1a1637b1ff516e7e60e515c86e751e9853e756191d9ba3bf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-24-CYt-Oagk.woff2",
+   "size": 65632,
+   "sha256": "2e259c5c81f78aad31045a513267b302a058e58aea7a7aaea1da761379e36c85",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-25-Cx3j-ZUv.woff2",
+   "size": 63224,
+   "sha256": "eb32801eae6f91d196f1031d9db0c30b507599a370e9f9f92ae5ca9c9bd7b1f4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-26-B9AfZ3LL.woff2",
+   "size": 64708,
+   "sha256": "07dd9cb77921ec639ddac30f517e084c829fcd507c6c55eb8d5537b01f162000",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-27-Bh2s9MNE.woff2",
+   "size": 56100,
+   "sha256": "c49bc3fbebbb265e82cf8370c21f9a3d202c5f01e2f468a062fc8be37e8f2831",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-28-C02JPoKP.woff2",
+   "size": 53568,
+   "sha256": "61959932555aed26d63a5a28a965097c716b20a653bcaf061d92daa21f7333ef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-29-T_tbUGhk.woff2",
+   "size": 66432,
+   "sha256": "0d4722fd2121ab837a2cf0293a10e6e20e339a5f4f864b5dc8dae5a1cb783a69",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-30-DMfyNzhz.woff2",
+   "size": 70980,
+   "sha256": "2860bf9c12d68db289e20046642f70f0f3b126d8494b2c072b228c36eec612f4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-31-DFfdzbkg.woff2",
+   "size": 56564,
+   "sha256": "08f4148a74e72cbedbf7080282c2eb4c1974b75ecf0e37b29caf8060fee07805",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-32-Bs1fz2iW.woff2",
+   "size": 54208,
+   "sha256": "3885f08eeb1218fb724e29157b35cc65dfbfa26d2f6ce355d9454536b9f39620",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-33-cpB96OkZ.woff2",
+   "size": 59140,
+   "sha256": "f4461c09c6796f27149799b462bb6a070543a5df503655992ad0de5ee71104a8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-34-BhinPYWX.woff2",
+   "size": 53988,
+   "sha256": "3d9c9167667e3715bdaab7d49f594355f60fc9676bb9ac06dad7aa73e2b2536e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-35-D_njRQqA.woff2",
+   "size": 52940,
+   "sha256": "d0766b468d48edd367d71449242a621f89cbe31dc89917b1600638510d521402",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-36-DqXlLE3t.woff2",
+   "size": 57224,
+   "sha256": "f73af83014ce4e13474a1866342926489ed0b049db293fb509e2f59a0492cf9b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-37-j5LbvMph.woff2",
+   "size": 57600,
+   "sha256": "4307aaa64c8ac8751a7f5dc72c843c6a4eedf8f54fad5f729cd35c15a10878fe",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-38-oO4jWdKm.woff2",
+   "size": 64668,
+   "sha256": "5593c47191d76988bc48265e9931dd543867d50e420ecd950109d475bbdf5e02",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-39-CabsX4rw.woff2",
+   "size": 63012,
+   "sha256": "226585a1c44943013f21a85e1225e08f56a486a9a9853af626768e6f16adf570",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-4-PatS3YHh.woff2",
+   "size": 7164,
+   "sha256": "ddc08df592cac9358b399f3c722b23faa31a4c60702b7d69897df60dfb412ac5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-40-yrLg3C3e.woff2",
+   "size": 59080,
+   "sha256": "6bd02c8b9e55be20e04e51f320ab050467864051ae6b01abd2447d6ee457dd85",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-41-DBXmCQhc.woff2",
+   "size": 46152,
+   "sha256": "cd6fae6b4204e8908edb542e5140651042e589fcd16867a909e0512216d45289",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-42-Bqij_UiQ.woff2",
+   "size": 55072,
+   "sha256": "1a5f6217a249c4c0df16239779e57de359688e76cd4d16247c0aba9d7c95ac70",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-43-D3kp0Ntc.woff2",
+   "size": 53104,
+   "sha256": "2c1fb7f7e6793b4b36ac0ccae5909013ad792634d2a4fc7990f596f473b03c5e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-44-B_BNGvK4.woff2",
+   "size": 59308,
+   "sha256": "0317396309f5574533ac2be1b1db65889a6f591b1a1899f30c113d9531de0173",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-45-CZc0cQWs.woff2",
+   "size": 70952,
+   "sha256": "2629f41f5e8964c2dcbc52021f35d0c706767abf2d4e58c1940bb5502cf808d3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-46-CHQX5Kd9.woff2",
+   "size": 63380,
+   "sha256": "ac3840040c050028eb80cf9b9cbc3c7097e6aa296e73a9bd30a46ff00bc7f144",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-47-Ci8gLrHA.woff2",
+   "size": 71336,
+   "sha256": "e932da0a16ae1b3e703b09a4592103c5bb18c4ca29962bc2f1583637799abdce",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-48-run3ugD3.woff2",
+   "size": 59436,
+   "sha256": "a5a459ca12ba964f72b687b3fe6672e38dddd1d2684f087e8a0c8d3bde2e7a58",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-49-DgfiUb6u.woff2",
+   "size": 63308,
+   "sha256": "73aa5e1ec152b73c1190ce3d7b95a36fd249678c4dd70e108873a923c8a0f0a9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-5-B0CtGbX_.woff2",
+   "size": 17948,
+   "sha256": "bf0bfa459cd6518023b4474475b2391044cd6b880f7976594053c0b0cc705755",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-50-CdCG-POr.woff2",
+   "size": 59392,
+   "sha256": "f2ecf8946d44d09501a5b0e6d94f3fdec10fe10baded548798f16ed82f1c0b77",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-51-L2okeQZ2.woff2",
+   "size": 52856,
+   "sha256": "5e68f24c0b1acb90536eca132ea29f3c72c42ad1d0bb87e4cb08db0208d230ef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-52-BZAqyGJW.woff2",
+   "size": 63088,
+   "sha256": "563833cfd2b5471384579da1b71263d487def99c0e5ace163485eeae1988fa39",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-53-B0xWqLeU.woff2",
+   "size": 51864,
+   "sha256": "8ceb577045fac08f4e7a09f0e40486da956408b253e2f6c9ba34cf49dd6ab2b2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-54-BZVQX-EA.woff2",
+   "size": 62272,
+   "sha256": "fd74a69d8c02aba2c48827583f3767380631714de5039415b8d50d60ad23fa63",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-55-093mkIUJ.woff2",
+   "size": 54088,
+   "sha256": "e7d0e02d0759a4c25c4a4e9c413f6b2ab7b1ffef9d6fafbf08f5a6947878d584",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-56-CbhWG8G-.woff2",
+   "size": 61604,
+   "sha256": "446a6e43be2ab21177d5219c1a373d89c3941e7f3bf23ae1c5e9e0886a576794",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-57-pLQuvo6c.woff2",
+   "size": 60408,
+   "sha256": "8fde2dfe464e488bb2c2617622d95f79c91ce2312683d247d1e4b107e6770ba3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-58-BHhoY50x.woff2",
+   "size": 67032,
+   "sha256": "9dc42b8048be03c684f8e1e4eabb51aa34f63899748a7afba333c65a4f758719",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-59-D1_6DuIQ.woff2",
+   "size": 55748,
+   "sha256": "27589d42233f450394d45e2137ffc8fb37e8d8b78049855c17e0925ad6dbeded",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-6-BnAelmYU.woff2",
+   "size": 12004,
+   "sha256": "1e58fdc3be0dffc422ec958b02b5c7bc33a32fa2e8442a05c08efca661f60965",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-60-HDBIuLTZ.woff2",
+   "size": 47852,
+   "sha256": "3021f9f43a38ebf913e0d956c69dcff62eeff8e2c6c15f2edbedb9698747e830",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-61-C-c13SeU.woff2",
+   "size": 48476,
+   "sha256": "1769110a7734eb8d0eb1b642ed0b9eaa00f1c247e88c2280c0b1e6a1807ef940",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-62-kHRVOhZ2.woff2",
+   "size": 72924,
+   "sha256": "de72c385d287e63bb9191dcb6b987b6d8a63035171b54dc8b236f7688c72dff9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-63-C0MCsvFv.woff2",
+   "size": 60856,
+   "sha256": "ca306935afe359331f33db55586d1da1dd2a7964c475e382b5b97e28114d5494",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-64-DZekguCj.woff2",
+   "size": 49760,
+   "sha256": "db66ebea759c4074f1b75690c1205e8c8ef630ef61accbd981dde654d2acc891",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-65-CtP6c3IU.woff2",
+   "size": 53864,
+   "sha256": "6948e7df85843b14cfe04a57e7bb6678391eeddd2ba64b79c8b9498e84be05a9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-66-DLVWoMSf.woff2",
+   "size": 60204,
+   "sha256": "cd7f5190dc3f432a5082b464bad0666590e2ad1e2cc8b22dfda3878e41f8ed43",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-67-BVuOnayH.woff2",
+   "size": 66112,
+   "sha256": "621721c00fb1fedfc194bb272ddf2a5d5f32a2d62d604e243f1c31b2a20b328c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-68-DpxQ6Mnx.woff2",
+   "size": 51444,
+   "sha256": "b7dd445ebde789d0675fe39e72509716089b52a20220aee0c27585aab82b292b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-69-qesBxLmC.woff2",
+   "size": 66744,
+   "sha256": "03d70d473b899e0dfccefc7f4f22b0634381a7521d046c2d40da1b1047906c06",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-70-BBt1xN7h.woff2",
+   "size": 50056,
+   "sha256": "557b430d6f37f248cdc5089f1d5341b690788e20f4f4bae8aa93c738ba393671",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-71-BWqZacwB.woff2",
+   "size": 55448,
+   "sha256": "fce68c0590d4571c14a248be1d73a1d2ba13994f79894f28a24eb2891fc077c6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-72-B1wP_Yst.woff2",
+   "size": 59932,
+   "sha256": "093d822793929f3bbd9fa51da24fc97b38a76ac1c143f175e91c33155e4a7b8e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-73-C99T7jNZ.woff2",
+   "size": 47412,
+   "sha256": "2e3d172696a86a7a5206e170147f6c46a520bc1195def097c69d287e81f2c6d9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-74-DrUTsWBe.woff2",
+   "size": 68292,
+   "sha256": "156c9651fc3b703b1e9cdef9800703444f7148900cdde6fd1bd0017eb29d4b00",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-75-C4M5XXQe.woff2",
+   "size": 57660,
+   "sha256": "7b6ba2c8f16a75069037c10b7bf64a7ca23142c573fb8e878228b38f55fe8c48",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-76-Bq8spVWF.woff2",
+   "size": 59740,
+   "sha256": "0f69f38ee64e049a4e5e62e3607d9e2bf735b155a8148d05178f677d9f710914",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-77-D9vNupE2.woff2",
+   "size": 48064,
+   "sha256": "fabfa44383e497c5ea5e58965477eab317a8df5362084b9889cb8ebd37b716b6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-78-D6th7Gnu.woff2",
+   "size": 62192,
+   "sha256": "71e610b3267884b481f22ccc7af933c5927bef19291332d9d7a8d639c631a0c8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-79-bezM85cS.woff2",
+   "size": 52508,
+   "sha256": "650563722991c98055f3d5802ea19d0100de3df3de688e0459cb67271853c98e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-80-DD8pnhG2.woff2",
+   "size": 40064,
+   "sha256": "5f01f48ac5d9afe60c424d6c60cb46f7e607307f5ca0045b307514a8e646ae76",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-81-N6jtSyBs.woff2",
+   "size": 51816,
+   "sha256": "6b087bf2c126daf4c31d0065e7222f6d05fc25d65465cb9660bbd5dc81c908b9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-82-D6c180bZ.woff2",
+   "size": 52876,
+   "sha256": "b790dfa07c9db8df4ac12afd735f1aebdd12a0a3b6fa2c100a5c618bdb03f889",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-83-em17AadM.woff2",
+   "size": 55388,
+   "sha256": "2807734d16712e415b3169d6c1483fd7a208faa5a1289dd0b1d26176a118a907",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-84-CJ8gdrMK.woff2",
+   "size": 39280,
+   "sha256": "fe295739ff6fc12ab3c0a961ed46b282377afe1bfbfb3d069a92f5251a8da218",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-85-9PPGO1eB.woff2",
+   "size": 28228,
+   "sha256": "5d9e81438638dea672677f40bf77e12e49cb3d046a004697091b20a8a4ecd8e5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-86-CjWPf-u5.woff2",
+   "size": 22332,
+   "sha256": "987fbe45ddc06133760ab6df9b7f2e212cbc2cfd4219dd0156fefbc03a986d66",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-87-8D_X_yOC.woff2",
+   "size": 11480,
+   "sha256": "ddcb8e10c63804e3e623f0fe54164f294405bbd6e4e6a8c1aed2d87cb69dfc4c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-88-9vtKFPBx.woff2",
+   "size": 11112,
+   "sha256": "e9968bcc326844b723fc3b4679f64c7b90d92ddad6a616d697fc70bab19129cb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-89-BhE5jAKX.woff2",
+   "size": 15084,
+   "sha256": "5c07eb971b1fd560a6709ddb0301c3a3aa823acb78b0bda2a18e3b1804e44bee",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-90-D2Npfm5E.woff2",
+   "size": 15748,
+   "sha256": "5ab3067113365a4499cb3a0f1ea24737c31daef3ae3a5b394023271db147402c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-91-C6Ft1-Eu.woff2",
+   "size": 12636,
+   "sha256": "81d552290f2bfd9774c86a11fcbf94304bb62d162699aa312fc7a3cf7b6e705e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-97-CaExyQP9.woff2",
+   "size": 9768,
+   "sha256": "d80bafdfe62dc6c9dc3f16813da65a7fb97fc19412b77e447eb7a6dbf62b328a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-98-CPoVbsUd.woff2",
+   "size": 18816,
+   "sha256": "660c3d16e661127b1ec7e57ea1fe3944cf97e40410db27c61973aa10029835b7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-99-ZUQZGVgH.woff2",
+   "size": 17236,
+   "sha256": "80fd591c92b285b0fa1f431c4434483fb97b5949c816c35853bbcb684c9e3f78",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/next-misc-xOru6q7w.css",
+   "size": 18288,
+   "sha256": "b3ba459d9cf891e5e3fcf34c76ca0435ada35424293f7037a0581677c44a1c41",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/next-render-BDvBGuEd.css",
+   "size": 1999,
+   "sha256": "540e2e13b009ca350efe8ecbc57d6c3e5777454d6771e0eedf5060673b7fb709",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextCrcLive-zNO2opNc.js",
+   "size": 5656,
+   "sha256": "37a758016d12112a672a9e2645f7bc92827ed46d36a84cdd0899c135cf844918",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextDemoReview-CkcrzUmA.js",
+   "size": 1300,
+   "sha256": "2c1f09f43ea309e02c9129de1019819b2a2224b6fb85b6cbebb95a328070c102",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextInstallDemoPlugins-CiHjDsfW.js",
+   "size": 24402,
+   "sha256": "0f8c86c519f7d6a6627b0650903fa7e11256c91405d622155b3bd4dc44d7ef31",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextMiscData-Dl0fmZRm.js",
+   "size": 1870,
+   "sha256": "3bb1ee18f086deac4f34f0acb16de6874bf9855dd2273d47b505c4807b6be917",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextPerfData-BbMYeymH.js",
+   "size": 16102,
+   "sha256": "d2a724ca9858b6f0797a2f7d2a48c40865163306c1e519effb71b765bfd0095f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextRenderParts-DcALm1Ty.js",
+   "size": 460,
+   "sha256": "ff87659dd15806358aed0c2a8a0c02b1cc2917d6793b556af8f57869a1134738",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextSettingsLive-N1HFDJit.js",
+   "size": 7117,
+   "sha256": "6bf109c547180efed2a69ba9b113ef719f50efcd5e628d08d174c7a134609e1d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextSpecData-CtvSieRt.js",
+   "size": 11178,
+   "sha256": "b85d135358d2894c981ee73bd25c131195c46e56c161881e78787f934cdfbf5e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-chinese-simplified-400-normal-Ba7eOkfT.woff2",
+   "size": 1142552,
+   "sha256": "95e3633b6a98f764ba3adfb54504a0cd4799328c009adf9081d6c1850f9c4c78",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-chinese-simplified-500-normal-z_irmif2.woff2",
+   "size": 1159128,
+   "sha256": "885f52ca6a25fddde7641eaf9cf6d6fd9e8f1a454f99f77f0f1be1be0c6470a5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-chinese-simplified-600-normal-CI4uXaOp.woff2",
+   "size": 1162352,
+   "sha256": "578fb41a3dc2817b703611ad94b5c27dac96a3907c9d6b843c513217b562e1a2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-chinese-simplified-700-normal-DoUziBww.woff2",
+   "size": 1172244,
+   "sha256": "e1df51edc00bce27b58044e829fb8ec6accc8a5daece475413de90d52818845c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-chinese-simplified-900-normal-Di-dyiBb.woff2",
+   "size": 1122948,
+   "sha256": "0380a1ccb0eecd59c160306a76123f60f07c60794846db15bdd22ee96eff3a4f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-latin-400-normal-C8q2FS1w.woff2",
+   "size": 13304,
+   "sha256": "2a75408e073f2d7e03e14c24f25fb093571b73a030f2f483ae256d6975e930d0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-latin-500-normal-JVPArRf3.woff2",
+   "size": 13324,
+   "sha256": "7da09260d852c84bfe25e5be0e3a3193418d69eb55fb8763aef8553b1d9cea79",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-latin-600-normal-D5ts6k_I.woff2",
+   "size": 13272,
+   "sha256": "d1fffa4c12444d2e1bc5f6534825258c3b9ba81e275abb02f4e6c05f6d03eaa6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-latin-700-normal-BzR54Sjf.woff2",
+   "size": 13416,
+   "sha256": "79a7c3f1ddff7c79ba3eff8556ee7acc7f3c95259f3982b34a711b6de5fbd6a7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-latin-900-normal-DBVNDsAU.woff2",
+   "size": 13132,
+   "sha256": "f3d87b8fd1461250be9f429bdaa6574ee98b1bf93e17009692f74ab900935de4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nunito-latin-800-normal-D-J0wlBY.woff",
+   "size": 20360,
+   "sha256": "0ca02785f0bf8aaabada9adc9b4e2bb4952e1c641fea02d12f34608ca89fe904",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nunito-latin-800-normal-Dz8SOQK_.woff2",
+   "size": 16520,
+   "sha256": "2363d3ed037283ebb961e8c4b4917e40a8bc8853cf9965cf1ea7b4daa1df630a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/package-open-B81ri9WG.js",
+   "size": 581,
+   "sha256": "3412168967afc3d0baae96c633b9a12b182cf06a77a12e320f9d15b08fcfde0c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/pencil-line-Ds4WiNkv.js",
+   "size": 660,
+   "sha256": "0a270a05db80058eb2f26a843e61515f4cbb07acdb1e674b85f256fdfcd07ae8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/react-window-3NjezuRe.js",
+   "size": 8907,
+   "sha256": "239729831e5a6ac9114e2824bd81ea41c5436ffde9a660b5b477baef1c6d0d7a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/scaling-YRr3Q3Q2.js",
+   "size": 288,
+   "sha256": "1cdeaa33e54210f346752e1fc2798feaa93eb4395508936733cc674cf19b44c8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/scan-face-C8xE1wZy.js",
+   "size": 423,
+   "sha256": "63d088c62ac374552530a6fac0933e959c5240d324b0252326dfa17e7550851b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/shield-alert-CQ66YJTY.js",
+   "size": 355,
+   "sha256": "867516e778e4171db89ff949865c402e446a44c8fefbfb8ba2032a22832ff96b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/shield-check-Ci3LPxpH.js",
+   "size": 322,
+   "sha256": "769e0b9aad3604916470722967d51ad43c1c72b1c60e20ae964680f09e07a44c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/spline-DDGo19dy.js",
+   "size": 228,
+   "sha256": "1cf6c1d9e21561041458078b235f138b55123217495803ede0e00312b2b63ae7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/stethoscope-dExUy8Yo.js",
+   "size": 344,
+   "sha256": "ba348264412deec7ff49add2bfa131e243db5fa8bcc6e71c7cc8050bc25b0dad",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/tokens-BFrBxJX_.css",
+   "size": 11287,
+   "sha256": "6650751475dd9de8a9e6b0ffafaff76c9bd936646f34f0f36bafbf4552498de8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/tokens-DveM-ycz.css",
+   "size": 11575,
+   "sha256": "83d90be955a64f4265b26f65bb68a10b71205809b6853cdea7bbf913229f5c2e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/unlink-HULE5Pmf.js",
+   "size": 530,
+   "sha256": "82d8f9fa776ee2b2f9c36b76c4dae4a8a1fba36a97c15a6e1680ff5983dfb708",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/unplug-C_tz_bvS.js",
+   "size": 442,
+   "sha256": "24a64a5354e90969eb382e255e770996423c2f5a5d4678d763e4d9a619086ef0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/upload-DMdCNjuf.js",
+   "size": 232,
+   "sha256": "5ffb8f6549be29a76c170f671a29cf7f80cc65bd8668b37d9a5d73f2598c7c91",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/wrench-BzpHLEen.js",
+   "size": 305,
+   "sha256": "a252379ad7ea582e4ffd7cae2655c0ff8a59542c2850f35b80474be8ce50562c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/index.html",
+   "size": 488,
+   "sha256": "45af2693bb5e1fdfa04e73a6b78ba031b60f1f3cf9ed21105583dd633637369f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/licenses/fonts/NOTICE.txt",
+   "size": 259,
+   "sha256": "9354399a70f9e0499f7ded91c2566354c0cf2a0a404625de61511802d790bc66",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/licenses/fonts/jetbrains-mono-OFL.txt",
+   "size": 4524,
+   "sha256": "403581b69dac5cff4079205e01c6b467e56af449ecbd7247693ddb1baafa005b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/licenses/fonts/lxgw-wenkai-screen-OFL.txt",
+   "size": 4301,
+   "sha256": "fe4ddef88d2705569740a4b6c59e1a73315e1a55fb0a0d054bd791977681f8cb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/licenses/fonts/lxgw-wenkai-screen-webfont-LICENSE.txt",
+   "size": 1108,
+   "sha256": "f4264d4d1be71aa1b7578525b7a1eeef4b8f1635e1785ad3af35310954fabfa7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/licenses/fonts/noto-sans-sc-OFL.txt",
+   "size": 4314,
+   "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach.json",
+   "size": 758,
+   "sha256": "a19904677e977b2a784b325e4b4448ffae4d4d77707fa7666d89ed107704f4b9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach/.gitkeep",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach/avatar.png",
+   "size": 2461874,
+   "sha256": "124c90ccb9cdf5c74fb970f601eb29b16ef98432e2cb55681e168661582bf669",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach/background.png",
+   "size": 1650981,
+   "sha256": "b34f85d71faa4c267d16953b97e59aa042d36e0bb4c083d85bb20ac30e6e5f2c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach/background.svg",
+   "size": 1773,
+   "sha256": "bbcc5716566b67bfd2f484ceb86f5c3d911fd484cc34b37308254250b75e4dc7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach/home-hero.webp",
+   "size": 42470,
+   "sha256": "f33db4aa1e6d28fb3b6a5395a2dfc9170a77f7a1d30ef9056b47fef2a22412a0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach/home-idle.webp",
+   "size": 45328,
+   "sha256": "68b2a4cee2d4f6e795b498912965d6891e4752d0987bda0bcd068cc5dcc3aca9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/dark.json",
+   "size": 745,
+   "sha256": "78ef143257b50f81883fc94cc9a28bd5918e5086fadbfb46d0bae35fe2fd1033",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/.gitkeep",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/avatar.png",
+   "size": 2326619,
+   "sha256": "461d47a705c73178c4414ab4371c642bc3095d095cf8a1c36b998f561876ca8b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/background.png",
+   "size": 2029142,
+   "sha256": "69bf4db0f05cb938ba3783c97b3071fc2765bec1f1cb12d70e085a42c69f8165",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/background.svg",
+   "size": 1766,
+   "sha256": "8bfe68671113e7deb8bec9334c9da58a1911f97d9648895c657cf39595aa973e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/home-hero.webp",
+   "size": 42470,
+   "sha256": "f33db4aa1e6d28fb3b6a5395a2dfc9170a77f7a1d30ef9056b47fef2a22412a0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/home-idle.webp",
+   "size": 45328,
+   "sha256": "68b2a4cee2d4f6e795b498912965d6891e4752d0987bda0bcd068cc5dcc3aca9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/sidebar-avatar-v2.webp",
+   "size": 30524,
+   "sha256": "725ac1cfb0c0daf4883158ff1b4d9db93b6e3ca3782fd56dd3f40e786afadb7d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/stage-v2.webp",
+   "size": 89478,
+   "sha256": "765731ebeebe6d42501bfd6dc09fc2db7a70b7d81e653171c83df235b89fa6e8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-banner.jpg",
+   "size": 1757548,
+   "sha256": "9ab3e5da26e52bec7c1db7e1462961449c745c48867412357904cff79b5d0932",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-1.png",
+   "size": 413531,
+   "sha256": "28e0e6ef7210b678baab097dc5c81b58fb2f19bc08253c26fe946ad4a9e1ed9e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-2.png",
+   "size": 304011,
+   "sha256": "f7f6db339db29494d0928a4fa47ed286c0c5f55af35a8a9c93e98711016e3193",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-3.png",
+   "size": 387881,
+   "sha256": "4784470838da80dc1a7716fadef5f639932428491b1693f9ed2d883ddda1b7b0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-4.png",
+   "size": 370020,
+   "sha256": "045f7a1ae1352943f22c2b9d2423e76053e50fbad702e559e159ae9cc1eb3cf8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-5.png",
+   "size": 426745,
+   "sha256": "aebef3c034a97208d6504f6e49fee9bc8ce15340370f9e0281cc3178a3ca8dc8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-6.png",
+   "size": 339238,
+   "sha256": "aebb0ac87740335af537ee5098c7a88165ec62125deb155099101a2a4f0c2c37",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-7.png",
+   "size": 284697,
+   "sha256": "3b26ca8d341a4f5b05492e93217f6d2586cf56d1253b1004ecec47aefbd57d39",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-hungry.webp",
+   "size": 48074,
+   "sha256": "72e2c4f9ed1e759994c300c56904ad125a592b22fc3a6375f21146ebdb42d02e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-laugh.webp",
+   "size": 41730,
+   "sha256": "7d63112a835f5c8cf0c391c0326d7f5ac8eea2f52933aba6d71b9a488c28b0d3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-no.webp",
+   "size": 44434,
+   "sha256": "47230ef2d1d7c23d3aa292015de04a0448f8ac55d8409f0a0513442178b788e3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-phone.webp",
+   "size": 40618,
+   "sha256": "6f8a0ed348b8672d054b38ae77928a035c05a374f1dc079f8307d8b1d960a6eb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-proud.webp",
+   "size": 54030,
+   "sha256": "d568598d1b32bd9b1b0f65e045137a24ee8e117a3bdef03fe700858a2052d02b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-shocked.webp",
+   "size": 48848,
+   "sha256": "93df6a81b20154b904553eeca83d637aa3300346b599982c58d003865f49bfa1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-smirk.webp",
+   "size": 44996,
+   "sha256": "76c9d560eab127486861ccb9d2aa381d555cdbe0c83e1d8b7b99aebec313aafa",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-troubled.webp",
+   "size": 43976,
+   "sha256": "000ab8538dbeecdd2b6d2464c9830b928ad5c866bad2cf77ea901d4dde477f33",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/physics-mannequin.webp",
+   "size": 36396,
+   "sha256": "f508534df84784d1914fb0e16c0b58d9e2b128dea700b7f30f5c2e11b41460fb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/zh-Hans/Microsoft.VisualBasic.Forms.resources.dll",
+   "size": 25352,
+   "sha256": "756728b6ff905faec0391ce6408710322d512ce22ab63fb484a88849928330eb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/zh-Hans/System.Windows.Forms.Design.resources.dll",
+   "size": 264464,
+   "sha256": "dbb98cf2f20680344b761c46a74a804782c789d7c04290b56b94f96d5cc6a535",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/zh-Hans/System.Windows.Forms.Primitives.resources.dll",
+   "size": 16184,
+   "sha256": "7f6b9d2ed8e93eb940adb21c8571a867172b21e34839c142cff65bec7bb6c08a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/zh-Hans/System.Windows.Forms.resources.dll",
+   "size": 323896,
+   "sha256": "0f2ee691f76c09dcbcccdaf38b4df8261e44127feb947dbf1e8055a1e52b4871",
+   "parts": 1
+  }
+ ]
+}
