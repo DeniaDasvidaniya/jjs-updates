@@ -1,0 +1,5630 @@
+{
+ "schema": 1,
+ "edition": "crc",
+ "version": "0.0.2",
+ "build": "crc-0.0.2-20261116.1733",
+ "files": [
+  {
+   "path": "BepInEx/plugins/JJSAtelier/JJSAtelier.dll",
+   "size": 279552,
+   "sha256": "9259d53955455adb698e7627734adbc53f77b826d4deb5eb5205961c0c9790de",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier.exe",
+   "size": 219136,
+   "sha256": "0f0e08ba90b1f82901e2781406f5739aed3c23ce20b714fc9928a37d10317b32",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Accessibility.dll",
+   "size": 21256,
+   "sha256": "94d6dc96386ad1dbafa2b846cb977f28f9a5a4706656fca2560d5ac4eaf9d7e0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/JJSAtelier.UI.deps.json",
+   "size": 39274,
+   "sha256": "4e01e5994d3fb3961a76cd489286178c2697554aa5cf76ed7fe4ab1f9f991dc6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/JJSAtelier.UI.dll",
+   "size": 2834432,
+   "sha256": "bc9a5d171a9f396461b63fad782252808e2b603f05b0a0b45dc1deff38a1d15a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/JJSAtelier.UI.exe",
+   "size": 367616,
+   "sha256": "de7b0432c23075a4a06d9953a2ce5becbeb049022e0c5a6c6fa1217798aeb36b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/JJSAtelier.UI.pdb",
+   "size": 669168,
+   "sha256": "eb7a2ddf9d8bf64f3da3f942de38a3b805b2f5f4f87c0bd89340d99376174ac0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/JJSAtelier.UI.runtimeconfig.json",
+   "size": 527,
+   "sha256": "c0ecf8b9d1a52c17060bad8fade57c750c33949712ad2c9b45ea2ad8f8c8f910",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.CSharp.dll",
+   "size": 981256,
+   "sha256": "1216294a655485de747c175e9bc1891aa693581a75f041a4ee8a4469cc6621da",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Data.Sqlite.dll",
+   "size": 177464,
+   "sha256": "1078d41c6c0f2cee48a8b706e3a54ce145705993f19f703d2b3bdf2abcc59088",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.DiaSymReader.Native.amd64.dll",
+   "size": 2195504,
+   "sha256": "315a61c47c41b8d4c815f4274bb6584c1d24b4640c7eedc354ed5b03a9a1361e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.VisualBasic.Core.dll",
+   "size": 1194248,
+   "sha256": "1737670fcff0099a1c1671fa311d15f6607cfe61b16fae6bf3c5e944949c3995",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.VisualBasic.Forms.dll",
+   "size": 248072,
+   "sha256": "e8caa9c5d18e95652492187e6540540aa52865327b5e6c5ca9d8e63277d1183f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.VisualBasic.dll",
+   "size": 19256,
+   "sha256": "aaa8e587da2680eef010a4442248baa5863a69f4b62f75eeab8d43666a200e21",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Web.WebView2.Core.dll",
+   "size": 649832,
+   "sha256": "e6c517412c245c0f0d65fc494d4f7bf883eba3cfd7023c3f66cc1fe774ec0a22",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Web.WebView2.WinForms.dll",
+   "size": 39528,
+   "sha256": "d7f597db7b483f412df4319e626971454bd784d59c5f700d23cb01f5f3539074",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Win32.Primitives.dll",
+   "size": 16136,
+   "sha256": "11de423338b231e3deef5c305ec503c21b80125e9abea7f447ef24019d14cfae",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Win32.Registry.AccessControl.dll",
+   "size": 35080,
+   "sha256": "e48f00f647f6b03c5a3d0ddcf5d550913381e14213cfe1242829852cbb3d1574",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Win32.Registry.dll",
+   "size": 117048,
+   "sha256": "31f5a1cb2046a26c7be2e3a0a18770d8445f0c9d7213ed7365a8403fcca77ab5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Win32.SystemEvents.dll",
+   "size": 117000,
+   "sha256": "a766b8de9eba2da537ee3d596d367efb92b3fdd848c33564001b4d00ba89f7d1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/Microsoft.Windows.SDK.NET.dll",
+   "size": 26086944,
+   "sha256": "2891aee0893bc66ca2d9d781f1ea84017bbb7d80700e31fb6e8c0bc48490fa09",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/SQLitePCLRaw.batteries_v2.dll",
+   "size": 5632,
+   "sha256": "1ee3c6ff4d39171690d6ff6f84b4d876ed038ca28e39bb6e74995f52d2aacf8b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/SQLitePCLRaw.core.dll",
+   "size": 51712,
+   "sha256": "b72c9dfe1479a568d6b84e249eaf949e76c757888f8056fb6ddb9c0480e0dd25",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/SQLitePCLRaw.provider.e_sqlite3.dll",
+   "size": 37376,
+   "sha256": "6d6cb90de643c6b4b15f973d1e304f7dd91e8bf053c35013e4ea095d85b53655",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/SharpCompress.dll",
+   "size": 2493440,
+   "sha256": "d48ce36bde233f4ac04bb60070925ba562b55d3c1c403755e17bdd3209dc5cf3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.AppContext.dll",
+   "size": 15632,
+   "sha256": "ce6680f8c426d4faf30d2dcd56e0303803519bdfb7b853c854ea035fde8a0e76",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Buffers.dll",
+   "size": 15624,
+   "sha256": "c5fd49c6c5b30b07f8a8c2d4b7de36974f5da3554edd07eba56e90d7a7b971d8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.CodeDom.dll",
+   "size": 477496,
+   "sha256": "4b14091b990cc7cdd263e89c3e9c4c45cb043ca2a11e3980ae9b38d4cbc4401a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Collections.Concurrent.dll",
+   "size": 203016,
+   "sha256": "2c2ebaea56462b348a598056f158627c14e5ee581062d780ab9ccdf2b6c695c9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Collections.Immutable.dll",
+   "size": 948488,
+   "sha256": "157b8930e8ca0cc931d42e79f96d2f22516e03c7e6f44967565c251bd19d83c4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Collections.NonGeneric.dll",
+   "size": 104712,
+   "sha256": "f86617cb33a02d52fb7b7102062b1f692d98067172c8e012cdfd5486b50e9496",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Collections.Specialized.dll",
+   "size": 104712,
+   "sha256": "8ab70b670a55bde26b549aeb95c767c14b79dcfaf6f075096d9c0e84a5eae904",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Collections.dll",
+   "size": 297224,
+   "sha256": "11de530ddce2c99a0be5fcefa0e040062860cd41824834f42e06761a949af957",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ComponentModel.Annotations.dll",
+   "size": 198960,
+   "sha256": "6e78fc4a37107158e768e4e5017972ac7600097572707e243e0a64db68baf162",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ComponentModel.DataAnnotations.dll",
+   "size": 17200,
+   "sha256": "cbe648bc8e2fc7deeb0b71d1bf30cd17fa36bc6fca88e8cd73d456a31fc1f91f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ComponentModel.EventBasedAsync.dll",
+   "size": 47368,
+   "sha256": "e35fd260fd7e549a5eff3060285ed4edfa4bb0b486722bc104a88fdc3a57a77f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ComponentModel.Primitives.dll",
+   "size": 80144,
+   "sha256": "85485dd7639c9449b7d90e305e66612bcd46d14bfb2c216eb6b5c1572ddec1c4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ComponentModel.TypeConverter.dll",
+   "size": 768304,
+   "sha256": "ad1c1c041a1ea4b59e7f5168d9061bcb67217c4d6d7f6389418cdbaaf7bd3dba",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ComponentModel.dll",
+   "size": 31024,
+   "sha256": "e2bcbd02fdebb1d53b473d9b820b4849a6cafb7052f7bbdd4cc705cac7904bef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Configuration.ConfigurationManager.dll",
+   "size": 1046792,
+   "sha256": "8fd8551e2c9be185cc6ff88081cda4adeeddf10059701b198c996bf0a9e26310",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Configuration.dll",
+   "size": 19720,
+   "sha256": "633cf7e263cae05eaf52c9c10cf7b3e7b35b643781f81b0b2ab1ac75ca5caf53",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Console.dll",
+   "size": 170248,
+   "sha256": "3e43370848acffb6fd9589139348505d7a205fa46fbed9c86a54110e0a285243",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Core.dll",
+   "size": 23864,
+   "sha256": "1492e32a17b2596098eb824ecf35b4a8c3beee104309ec376b44f64fac26bc8c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Data.Common.dll",
+   "size": 2771208,
+   "sha256": "27afad1abcfd8ebcfa70bcf5e8442d407d1cbfcaac8fe37f7e54f8ac387778bc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Data.DataSetExtensions.dll",
+   "size": 16136,
+   "sha256": "78c2cb1d66ea4dafa74199c0ba8429877a6689abf0bcc8a94feb36c578008c4d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Data.dll",
+   "size": 25904,
+   "sha256": "f64d310f25e68254dd6d1a91f80feeac78d967857712a9a536146bf2a3fa6179",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Design.dll",
+   "size": 23864,
+   "sha256": "d427b80aba298a7e2026438267394dc70f70f5134c46b77d96b7d940ab7f0172",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.Contracts.dll",
+   "size": 16648,
+   "sha256": "a21a82f1af74383b7bf72facbfac474625bdef3da58c02cff531299b5aae6650",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.Debug.dll",
+   "size": 16136,
+   "sha256": "67c47156faaf5c3d05cc58dc0746c7ce6d752acd4e984d18d95f4d17a8413142",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.DiagnosticSource.dll",
+   "size": 502024,
+   "sha256": "44d30feb5d82c38553d63ce8b7890f0433483d17017f311de04131d68d4ff8d6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.EventLog.Messages.dll",
+   "size": 801032,
+   "sha256": "e0acaa275f33f652057c418f3f434f24b65321ecadcc220ffce58f65e2bf47f8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.EventLog.dll",
+   "size": 366856,
+   "sha256": "30c6365a74ba0d4007dfe6f97e0556e03b99e709ec051679fb6689ff85e09e87",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.FileVersionInfo.dll",
+   "size": 47376,
+   "sha256": "a9c6f786d783a0a8ddd8ba95a35afd88b2d4daf8867f32805e348549575c8574",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.PerformanceCounter.dll",
+   "size": 301328,
+   "sha256": "789a4fcc2b45beeb929bcc95b7e08fceb2f9da2fecad8ca2a12c4dcc9bb9c15e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.Process.dll",
+   "size": 329992,
+   "sha256": "786e7825067b48fd2cb9e10b1c971f547a0e83814a1a9b7951b8b64ca1e0b808",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.StackTrace.dll",
+   "size": 43312,
+   "sha256": "17fa4be3871f8ed533547e735941195ec7a5511e7ffee946a1d221bc08055dae",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.TextWriterTraceListener.dll",
+   "size": 67848,
+   "sha256": "eac81982e43947419ed7547eb86c27020c1faab60904c7dcdd15b5caecf2e4cc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.Tools.dll",
+   "size": 15664,
+   "sha256": "f662787dfd4770572b07b47456861f2bbe11389fd23f57d2c60c6e82c513c8ef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.TraceSource.dll",
+   "size": 141576,
+   "sha256": "afa1a327cdac6fe57f80e9a4fd3639c2a02713f252a8bf74f2001da5ccbf6c94",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Diagnostics.Tracing.dll",
+   "size": 16648,
+   "sha256": "cefaec1cb1859c56a9283e22131125f8f80419847e3d44d81c12ebdc29e1ab4e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.DirectoryServices.dll",
+   "size": 1022224,
+   "sha256": "b10c12e963c2b7a467531098a16dd7c6259305285dacb86c48363155e547b6fd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Drawing.Common.dll",
+   "size": 923920,
+   "sha256": "affb145b0c5fd85890437e9ee6bedd59c4cf43ba94939a6cee9466099ef71bcc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Drawing.Design.dll",
+   "size": 16176,
+   "sha256": "7a72e762130658109366c81c81beaf585b975ce90615e6cc98caf7109aa596c4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Drawing.Primitives.dll",
+   "size": 133432,
+   "sha256": "901590c8843e3f1687484064856069da2b817644b59d49071207479cac31d008",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Drawing.dll",
+   "size": 21264,
+   "sha256": "9e0f28238766c43f129104d6fbb8633b4e333f9b6b4d8acd8227164a0614c81c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Dynamic.Runtime.dll",
+   "size": 16648,
+   "sha256": "67c7a1f6874a948aee4f6879793e5f134309f268a99c8e58819b715e5f574b89",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Formats.Asn1.dll",
+   "size": 239880,
+   "sha256": "0187cc0406f9dd21cc2c65266f7d997b077015b0460419dd098b87aca12919f6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Formats.Nrbf.dll",
+   "size": 137520,
+   "sha256": "5b206a26d22aed5b8719fdbd0246a6dddaac245ad3b1af5a1af15fd47c58e323",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Formats.Tar.dll",
+   "size": 268592,
+   "sha256": "03ea8e585a168c7c72d173c2d3a516264783c966e5994b5cb4f5976b45878c4b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Globalization.Calendars.dll",
+   "size": 16176,
+   "sha256": "127810ad24d10baa543903cabda821b7f934b6dda4bbb2dc46cb948e00130b84",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Globalization.Extensions.dll",
+   "size": 15624,
+   "sha256": "9ca281dcf2234807fc0302429ff19ad30fe94dce5a4d589effa093e01173cf56",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Globalization.dll",
+   "size": 16136,
+   "sha256": "8d8b45c7e12310ffdd4e5c9159051721e1814b3dc88e3841a6c31c181b4458b5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Compression.Brotli.dll",
+   "size": 84232,
+   "sha256": "1f49fe49559809ab37eddfe64ffe3deb13e85a7bd42a849f963758b5047bd9d8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Compression.FileSystem.dll",
+   "size": 15624,
+   "sha256": "64f6f7335253cc9ab6c5a961575ec988bd4b54b9235acda97cb4853076a53be6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Compression.Native.dll",
+   "size": 938248,
+   "sha256": "0875eac9ca794560deed6c3fa93aeba8f4db1c40800cc17efbad830a2ce63b8b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Compression.ZipFile.dll",
+   "size": 100616,
+   "sha256": "75fbd96b17692d790f7dde3af1c2992f6e00830505b467de2698c808f3358f50",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Compression.dll",
+   "size": 420104,
+   "sha256": "f2c3e5790d0757f4a6b53fa3ea800093cc9672088e9ee63cf4a340b05f6d3029",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.FileSystem.AccessControl.dll",
+   "size": 104712,
+   "sha256": "b4d72ace86788e28d08f72fdd4fcf442f320906a1801177f3528b2eff93813ae",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.FileSystem.DriveInfo.dll",
+   "size": 55568,
+   "sha256": "d65cc64e18463cc2c76f3b1255eab2f04a1251b4d530f6f3d62aa0b4cca57602",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.FileSystem.Primitives.dll",
+   "size": 15632,
+   "sha256": "2428d1c27f8b5513ef51a318f312a35880fb1c8c765e811dce0316bdda32a355",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.FileSystem.Watcher.dll",
+   "size": 88328,
+   "sha256": "305adf0bdfd8599ef6448ce8fe3ec5da39edd7f3f41c266f5834487ad955d9e2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.FileSystem.dll",
+   "size": 16136,
+   "sha256": "a469caa71ceab26dabc7beafb86badf0780c84927f0880516323435dff357998",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.IsolatedStorage.dll",
+   "size": 88376,
+   "sha256": "1ab92ac777fa9cb4d73117822ef0c8c743354d7594762998120f97fc91138129",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.MemoryMappedFiles.dll",
+   "size": 84232,
+   "sha256": "d4bfcdb355a1d3912d1cf1520f2271bba39b92062d8cd30916ad6ec74308e030",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Packaging.dll",
+   "size": 321840,
+   "sha256": "745f0524409c555325738b6fffcbe8edf862dc13fadddc65b12d101b73514b96",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Pipelines.dll",
+   "size": 190728,
+   "sha256": "d01350d579b2b4bcbde583d80849f98e0bd73bb68108121fa00c18b117181106",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Pipes.AccessControl.dll",
+   "size": 16176,
+   "sha256": "b885108e3f4b229860ce87e87add32418b6df08808e7a51cdb03f68e468ead00",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.Pipes.dll",
+   "size": 166160,
+   "sha256": "436729bb97e389f9ed1371a3b085cb3362b557c0e625f79fe7f13fc86333904c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.UnmanagedMemoryStream.dll",
+   "size": 16136,
+   "sha256": "c1e8ee1588f0f9011c0bb3fc6c8b781457f20d82da1060c70c9886c995bdc50e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.IO.dll",
+   "size": 16136,
+   "sha256": "86c8f28afd8f46e401c329f10d534245ae318fd529fc35b074e925ad60ed4f70",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Linq.AsyncEnumerable.dll",
+   "size": 1292560,
+   "sha256": "e654250c4ca49ce0c86f2e8d9d94c642fb099a5d1e4d303fd38537a36428367f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Linq.Expressions.dll",
+   "size": 3639560,
+   "sha256": "9eac5e99d19e6ce344e1885150e743afb2a734947d2a17333b2552a3bf9137ab",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Linq.Parallel.dll",
+   "size": 776464,
+   "sha256": "afbe319e7be32f5e8993e8b59239ea27f070ecc34c12e4a721f9b25ccdc61226",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Linq.Queryable.dll",
+   "size": 182584,
+   "sha256": "e8ec42391d457691787d0785a6251812c0cba2c4491f0fff23eddcaaace1ec57",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Linq.dll",
+   "size": 698640,
+   "sha256": "5e36874e08bb3579aba965097ac9d3b2462ac5d631e8b095ead53289b10074e8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Memory.dll",
+   "size": 162096,
+   "sha256": "a8e1263bfb450d029562302f3784fd91106d8c67f28008a5104faf91503bba3e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Http.Json.dll",
+   "size": 129288,
+   "sha256": "b87e300bcb363c6f1055cea3c076d9e9a71d067a05f4e9b6bf183574f042f962",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Http.dll",
+   "size": 1747208,
+   "sha256": "d19df85033d5a0d390432f0a7c9158bec97a5b7ce1cdc62b4f42dea81eab9911",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.HttpListener.dll",
+   "size": 534792,
+   "sha256": "6bb2f3d2165b166a859992e3d400053982e006894440de6634519efc147acbe2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Mail.dll",
+   "size": 481592,
+   "sha256": "0c38342886a74655182b83a11a7414d5581405697fdb61794de58c5a719a6fa6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.NameResolution.dll",
+   "size": 125200,
+   "sha256": "1195e6cb29f96ca9d6bfcaad1c8f5c5943c7431caa0e19152931a49255a313a5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.NetworkInformation.dll",
+   "size": 157960,
+   "sha256": "8a0e7156004e255b7f94d397bfb3f646c3fd0f8c3a286d3f7005ef49da453750",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Ping.dll",
+   "size": 92424,
+   "sha256": "e1ec6e414c454a537f5d38a630dd7b1880a9e2f6430bba3ef8153b54c0c30f1b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Primitives.dll",
+   "size": 211248,
+   "sha256": "92639fa57d6ea7bbcbd47f5d108a615cafc75929f5dddda25ceae33db60e959c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Quic.dll",
+   "size": 358664,
+   "sha256": "5cc5c44c0d158575bae152e84be12c7c234baeae8165d96a50aa1c0c40a8c999",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Requests.dll",
+   "size": 375048,
+   "sha256": "7277099c9780debcd6c64e227db064245768833918ecbc5b9a816e1b78ac2b17",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Security.dll",
+   "size": 665872,
+   "sha256": "0550c9d893ce86033569514d04f54eb6cb17974a2e201d091208158f57c0dc73",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.ServerSentEvents.dll",
+   "size": 84240,
+   "sha256": "a1d739af64446b38426c9fbcf906f322806ba00daf9e2202ae6f5d49e8250b5d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.ServicePoint.dll",
+   "size": 15624,
+   "sha256": "0ee26316320eb7e653519ed8ab9ed3130943de238ea64a4c54ae97c7bddf06dd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.Sockets.dll",
+   "size": 530696,
+   "sha256": "e819f4accc4db69beea71884e843149b6d2a27b6404a45523ba71183e259c719",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.WebClient.dll",
+   "size": 166152,
+   "sha256": "2345c292d96ae776812dc8865148efcf57b45d280097767417fa39695fc11a4b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.WebHeaderCollection.dll",
+   "size": 63792,
+   "sha256": "c58d991a3b583a446ba25ab8d4d4c6995ac304b36719fb09e9c4d3cf9f9595eb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.WebProxy.dll",
+   "size": 43320,
+   "sha256": "a9e363980946bd7e7cc4e9fa482f51ad2c1551a3247e7ab20a40a98dcd7b9bb3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.WebSockets.Client.dll",
+   "size": 104712,
+   "sha256": "d76b4a799fddf2a1928adadef630941fb3ea8ccc1a24fbd3587e420aeeef8504",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.WebSockets.dll",
+   "size": 243976,
+   "sha256": "49fd3979a27fb9b2d1775b7d3c64ebeaf11c23fa42fd0bfd3c48d8f5e1f753e8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Net.dll",
+   "size": 17712,
+   "sha256": "0bcc1a6b5b6ef78fc077f9c9cba323e3918655c1c5611b9329dade6d58749700",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Numerics.Vectors.dll",
+   "size": 16136,
+   "sha256": "6e1d77ccc29569523b7d89a32b8f8a077fec1a253b5eb11d8704c77e40b3bf6b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Numerics.dll",
+   "size": 15624,
+   "sha256": "e0b64fad960ef94c2b0e1e3cd7cb349337d5f338cdcdf84528af53dd74f2bef9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ObjectModel.dll",
+   "size": 80184,
+   "sha256": "a1249f4f3e07833ae08ee9094b0870d17f3506836fbebc5ff72c730ba963a19b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.CoreLib.dll",
+   "size": 16013576,
+   "sha256": "bb9a91b896447b666487d7c6538d0e1a79dbed3604ed913315a59a7c0ec6e7c6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.DataContractSerialization.dll",
+   "size": 2062648,
+   "sha256": "273582508431f527eaecd7c15dd47d6656c27998bb0e2207678d3031ac161fa9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.Uri.dll",
+   "size": 256264,
+   "sha256": "d6ebdbc74e8f4df527fec1ce188822adba990a7c2e11020c89c415c80b61a34a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.Windows.Core.dll",
+   "size": 1906952,
+   "sha256": "ee1e19fbf385fbe71bb1775bde38f263f57505b6c21011be8a30c0371b8d07e3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.Windows.GdiPlus.dll",
+   "size": 428296,
+   "sha256": "d2decdace719c3125fdfe9bb30ab17ba64cf3e56de9ded2a60900dc28bf7a544",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.Xml.Linq.dll",
+   "size": 391432,
+   "sha256": "c028f975e4c4487a6266efe93106b17ed0e1020a1ef802efb2c971a7cabb2ad1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Private.Xml.dll",
+   "size": 7788808,
+   "sha256": "9380bd61bfb15a0066cbf5c10f9a50729c8020d72c84a8eb37fb0074c582b392",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.DispatchProxy.dll",
+   "size": 76040,
+   "sha256": "be4f2ccc9618986ab93e3d36bdfeaef97f5680532b21530706740ed3316d2745",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.Emit.ILGeneration.dll",
+   "size": 16136,
+   "sha256": "350ee31f24138ccc8d4d9c0a81657737094e7809fb14ba84e3beec453590ee3f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.Emit.Lightweight.dll",
+   "size": 16136,
+   "sha256": "4660887f7581d2b6086c5de1957d935100f3e5c43ff9bae4cc0a2ad1fc810af0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.Emit.dll",
+   "size": 309560,
+   "sha256": "919f6d308b547e49733c97f58920bd8a2424900ffd4407ea65220236084b5433",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.Extensions.dll",
+   "size": 15672,
+   "sha256": "c2fa29380bfd9f79f1448a098e11061951bd20fb71e2d2acfa8c9abef6c07e94",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.Metadata.dll",
+   "size": 1145144,
+   "sha256": "a54aee93d721406412b227bc9c99d3537b1a7e26f87b40a5b5324ccd6723eca0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.Primitives.dll",
+   "size": 16176,
+   "sha256": "ed0fffe7dfe849150866dbe84f0750ef7607e771accecdd11e1f603dda0ce2e3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.TypeExtensions.dll",
+   "size": 43312,
+   "sha256": "51980a05d0d08516b409b937e09c4c35ee81f0b2c2e2e58fed8cf21f32874650",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Reflection.dll",
+   "size": 16648,
+   "sha256": "7200a865a15397c510d0befbc56a8cb1470a4909d8b6ff3fe5369b0f15455094",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Resources.Extensions.dll",
+   "size": 194832,
+   "sha256": "6a077f6eaf7a8ffe8b51af6dec42fdbb0f6606d3ca95a7c26f704454965ee0bf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Resources.Reader.dll",
+   "size": 15624,
+   "sha256": "a2d4266f4c92d14ab3108e75acbe174fdf14a92157ffaf4b8bedd66ce257cfc9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Resources.ResourceManager.dll",
+   "size": 16184,
+   "sha256": "fe3395fc58df26ba95e63ae751e973efc6e1b45016107fb4e43b9039e5f6e2d3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Resources.Writer.dll",
+   "size": 51464,
+   "sha256": "9968cdf16886bbb245ac91e9e9f62780dad7cc4a94278c9c4a97bc617b5a2e46",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.CompilerServices.Unsafe.dll",
+   "size": 15624,
+   "sha256": "01e005456e184302e2abed7a82ad438804e9fd66230cf8d558dac28d6963ca2b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.CompilerServices.VisualC.dll",
+   "size": 30984,
+   "sha256": "ac84d83968ad7bfa8dd01fbbcb084239a2f7011cd8f355aa64f2819ed4f35473",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Extensions.dll",
+   "size": 18184,
+   "sha256": "90cb058739ffe22ab509f4a6fcd1ac9a2a8482d95b664274387e4a5fda129025",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Handles.dll",
+   "size": 16136,
+   "sha256": "f2c39a6c50b0e7164a908e581f014eef12adc666de4b6dbd825305d236d978f9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.InteropServices.JavaScript.dll",
+   "size": 51472,
+   "sha256": "4c27a35139c5551dd832be8cf7f7a491e99507a7dc7ccc374d2d84b4de0c8226",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.InteropServices.RuntimeInformation.dll",
+   "size": 15624,
+   "sha256": "5e5cd672d7fccebc611f667255f41a9dc96072ecd7e15a7e75d8c73d03b89bed",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.InteropServices.dll",
+   "size": 112952,
+   "sha256": "500ba5ed075420e8d6857bf38c79708a062f855d1ce87d505b3f1df9357806c6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Intrinsics.dll",
+   "size": 17672,
+   "sha256": "4dfe18fc8e27047c217af162637e2d838940372e77ea41fbf96e190fbf5c8c49",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Loader.dll",
+   "size": 16136,
+   "sha256": "ce55718ba48bb4e795eba89d421942b3ed79728ab0e23643305063cebc1f997c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Numerics.dll",
+   "size": 354568,
+   "sha256": "774062c99509e4f9e19f66ae52bb4108167fdde62e8e429ebb154ec20490e91c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Serialization.Formatters.dll",
+   "size": 125192,
+   "sha256": "fa9db442ecc83348b7b4e2d0fcf38e5ebb563fbff3cb3722474b2842dcd8f24b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Serialization.Json.dll",
+   "size": 16136,
+   "sha256": "4fb5a8e35deb731f8084d6af5d740fbdd09934ea6277bb68137be845b17eb05b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Serialization.Primitives.dll",
+   "size": 39224,
+   "sha256": "b074fc4c44b9b28cabdbbc048bb916d57c13bee2300a148e54bc209ab1dbddfb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Serialization.Xml.dll",
+   "size": 17160,
+   "sha256": "fac309e540fad67c93dfbe0a8cd7a60179118712e338aef8a4b93ded7594633c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.Serialization.dll",
+   "size": 17672,
+   "sha256": "69a3b1ca73e92eb7667e37caf7308f4ec7e058a9cf1734ed59d2d12cbafdd127",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Runtime.dll",
+   "size": 45368,
+   "sha256": "cc186c0b3b8f9ac63d80070584e01035c787833993b0c0bb4eb0be94cd871725",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.AccessControl.dll",
+   "size": 227592,
+   "sha256": "00935fdcfe40bd40cc3b87e78f1b73a841aee85d94e5a9e76bfe842481d3d030",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Claims.dll",
+   "size": 100664,
+   "sha256": "a57dc1dfd3d2cb774e517e826c05d3e81098d09cee868de4104cf6f1a8a7c4c5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Algorithms.dll",
+   "size": 17680,
+   "sha256": "5e6f143876c7caf8fe3763301c9f3ce97a2bdc00f10bb713b26a21704da146e2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Cng.dll",
+   "size": 16648,
+   "sha256": "9b495de22e989e1b62a909b30a065d6ad45c96e6bb13d2f92be4e435d4262b76",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Csp.dll",
+   "size": 16696,
+   "sha256": "7572cf5ea1bd7b1052deda0ff8688b5603aeaed011f561a2d4b55a145e1301bf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Encoding.dll",
+   "size": 16136,
+   "sha256": "905ec1b237ebeb3d2d55a38c8161a0648a169873f218f1e90093ae553aa6b476",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.OpenSsl.dll",
+   "size": 16144,
+   "sha256": "642c46b067e36a52ce3a940fae00b7be00742348828463b35cb2b059381ecd17",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Pkcs.dll",
+   "size": 768272,
+   "sha256": "9ebfdb63f2f1c8fcb3a3b3c7b25589da8fc0d5535b6a7c0540309c9c855aae9c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Primitives.dll",
+   "size": 16176,
+   "sha256": "950225eceb44c3eacb83eb127966e9db89dd449c8e2617024a8a0e52567e50c3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.ProtectedData.dll",
+   "size": 59656,
+   "sha256": "fd1188040f04a670df1f7bfbd904c13e83ead53c46d3c83d17d215ecadaeac56",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.X509Certificates.dll",
+   "size": 17160,
+   "sha256": "78176db6faa6daed742ad64e7d23f01b4704b34669167f3f4dff672a77543c33",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.Xml.dll",
+   "size": 448776,
+   "sha256": "1952e574c2dfbbf3f1af4c039436cc30412e6a5cb90c8b241a7ea9308e22b122",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Cryptography.dll",
+   "size": 2550032,
+   "sha256": "b11f291573c6dbd6b3d1cadcd0e7a4f7eced94ff009e4061981d91f1315f721a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Permissions.dll",
+   "size": 190736,
+   "sha256": "2d268e0d1bfcdd671006681e79494abcf10c9282e646917f4bf7cfba45d7ce66",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Principal.Windows.dll",
+   "size": 178480,
+   "sha256": "972a50bb0fb2569e1b77c20465ce8783fc53dba9c2132a33a749ef72977a4c23",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.Principal.dll",
+   "size": 15664,
+   "sha256": "2062cb052e3b129de61269679b3f6009067d6bd2ba36abfa112d11871f68d0ed",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.SecureString.dll",
+   "size": 16184,
+   "sha256": "8592f385033e5957f5557cff208cb012746f98f81b7b618cc73f2707ccc1fc0f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Security.dll",
+   "size": 18744,
+   "sha256": "e4b159f946cd8a24f150e644b4a252d2283854e6803fbdf792deef1eedf43869",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ServiceModel.Web.dll",
+   "size": 17160,
+   "sha256": "d981d76cfc8be110b817c65f5eaf3d1ae7bbcb991f22a8a4908ef3729cfe6569",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ServiceProcess.dll",
+   "size": 16184,
+   "sha256": "b1f211075bd6f647a933e93767ccac1dd983f84cd7bb783863818b62dada7ecb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Text.Encoding.CodePages.dll",
+   "size": 862520,
+   "sha256": "57dcae9c3eb520a76d7e776fdca8485e0c3a0d5c694cfc9deebeccda271c26be",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Text.Encoding.Extensions.dll",
+   "size": 16136,
+   "sha256": "e3f16402a12ace1a58fdb8ff2a622312d181c0e9ceb947c13079072641544324",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Text.Encoding.dll",
+   "size": 16136,
+   "sha256": "e61784fabfefaefbe965eef809ee24608c57b003af7bbd2a6a4a7b7498196acd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Text.Encodings.Web.dll",
+   "size": 125192,
+   "sha256": "7e3b262f5c49801817159d8a0d3bd1d442492638cb21e06860d70772d9ed4e44",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Text.Json.dll",
+   "size": 1890616,
+   "sha256": "03bdedbcd34f950789e5d1a45025c0a548b9c908c4dbc4b1818258583288ab07",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Text.RegularExpressions.dll",
+   "size": 1034544,
+   "sha256": "7f02ebfcea58353fc8198e556d6cd98cec4546702146aa2dd5d026eb4164604e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.AccessControl.dll",
+   "size": 76088,
+   "sha256": "97ea0375860e6cc9caeacdd529e3d57073ceb1f02480c4f300744ebe9a573ddf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Channels.dll",
+   "size": 157960,
+   "sha256": "71515172b8087382eb311e75dd6dc9c48d4f0314fa6b5c0a8a7408ddd38c8b14",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Overlapped.dll",
+   "size": 16176,
+   "sha256": "8ae5a11d7e9f817de475e7cb7395fe1c9dc54331b928ebdd54080c24416c36e2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Tasks.Dataflow.dll",
+   "size": 473360,
+   "sha256": "df40e2b453afd99421feefa494e4a31d81d5cb45597f3fbeddab699e7b149d2e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Tasks.Extensions.dll",
+   "size": 16136,
+   "sha256": "cebb24b2937ed931c9cbce38cd67967c950c2f810bc2d4be7ffcc849a4f47485",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Tasks.Parallel.dll",
+   "size": 133384,
+   "sha256": "065e456a0021f522c2e49149f5d58573bf01b6fc3f3c8bb477ebba53317128c7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Tasks.dll",
+   "size": 17168,
+   "sha256": "b327cbaa317092db3d1c0c4471a7d070bc5ff9bfad1ee23667dcd0d4a08479b6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Thread.dll",
+   "size": 16136,
+   "sha256": "d6bec5a332a2613def0b9d19ded9f6719f6626f4df9ff831283a85fc3d48aab6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.ThreadPool.dll",
+   "size": 16136,
+   "sha256": "0d648780e9e3306fe0abb498dcf6c32af97a8884ae628f1b9f4c8e8f5dda1e9a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.Timer.dll",
+   "size": 15632,
+   "sha256": "03d13fb126f20a364b84297b6c73d25671cca39a761db58688a50136792b2dc0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Threading.dll",
+   "size": 84232,
+   "sha256": "7175ac06b5908412692d2c2e124cb79f58aaee61ade19bb81118d14a92bb7694",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Transactions.Local.dll",
+   "size": 641328,
+   "sha256": "01eab2d51a9a651808d002c31d1d9564a4094bb09cbe5f58085ecb7d47232462",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Transactions.dll",
+   "size": 17160,
+   "sha256": "40b23da0a35c918c0da534452275441ab5609e826d87e669b59de7432a56214f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.ValueTuple.dll",
+   "size": 16136,
+   "sha256": "da2ad4c7c25f925c574b5a22a5b563b182f2a0b4e3158880127daaf34d259391",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Web.HttpUtility.dll",
+   "size": 63752,
+   "sha256": "117dfe2a7904a19544c6c53043b6cb1aee8173eee8891819c7face7ab56b01a3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Web.dll",
+   "size": 15632,
+   "sha256": "7cc51af426e403d999bdd17d6cfe2df61077697d1ae6a2d6ede88a8c657f1cff",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Windows.Extensions.dll",
+   "size": 121144,
+   "sha256": "67a7d6dd5ebc4ee479373670b1fe95ba2a6de75b712837d24c6af47a0850f810",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Windows.Forms.Design.Editors.dll",
+   "size": 16648,
+   "sha256": "1a5b69181c46df5415da9fb4865dd3473e7ee26682710106f659bddbf8257127",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Windows.Forms.Design.dll",
+   "size": 6093064,
+   "sha256": "5d9744e08ba9b124b7de027a1e4d2c58bcf54cab29afe239e001ac92a37401e3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Windows.Forms.Primitives.dll",
+   "size": 3623216,
+   "sha256": "ec2fd9ed0f8c5126a4d7888a9e685581f8bcca3b06a1308063cb1e487b07d34c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Windows.Forms.dll",
+   "size": 13715760,
+   "sha256": "705abce3a4a367f9f394374d71d9a57dbd346963a1e01d2c2f97ac0fa77b93bc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Windows.dll",
+   "size": 16136,
+   "sha256": "6f0cf8721f31a497d14bf71cba65102ae42046ef4fad48e02bea12a1c5c11044",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.Linq.dll",
+   "size": 16136,
+   "sha256": "5047d733af46e3bb072a349a00548832b77a4377676ef83a50e2af9ecae7623b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.ReaderWriter.dll",
+   "size": 22280,
+   "sha256": "43bc374d683dee2a05d99d8d98e5b3287aec1a72e2b4a0a9a50dba3224273dd3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.Serialization.dll",
+   "size": 16648,
+   "sha256": "d42a4c387092fe2acaf9ebfd06b003b28b36f05dbdf660cf06bc75f9e0cf2c19",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.XDocument.dll",
+   "size": 16136,
+   "sha256": "412f5f408752c1933d9949df05451800b53d991f35c259bc5794f7ba1e13e472",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.XPath.XDocument.dll",
+   "size": 31032,
+   "sha256": "03b5e91ab788492bb1ecaa31fe8f0b6f80d7234008189d993cf75e64ba5c17d6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.XPath.dll",
+   "size": 16136,
+   "sha256": "c4b89cc56c191a655c3d9680c82b37a74cd0f51473fd8faeda9009b703586c05",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.XmlDocument.dll",
+   "size": 16136,
+   "sha256": "21894f464c6a4b05e92f0493da5dfbe5d16bbe6e24592e8b5c6f663b88680625",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.XmlSerializer.dll",
+   "size": 18232,
+   "sha256": "92b383612a32c7958f6f4653fcf6cf5f1a84b54aa6296feb80dc27f0b58797b2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.Xml.dll",
+   "size": 23816,
+   "sha256": "dbffe2d21148e35f9a2f588c2c35288771030148b75c83cbf1ecc2beefbec6f5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/System.dll",
+   "size": 50960,
+   "sha256": "39e2bbc12e0216f0974b144406ef7909e3855a725136d8929bdbc5651a724b2c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/THIRD-PARTY-NOTICES.txt",
+   "size": 223044,
+   "sha256": "8bc883b6f7c9a04f5a84705973d2b56fba20dd6ee908501ea9851198aa861d67",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/WebView2Loader.dll",
+   "size": 159848,
+   "sha256": "2f965e10aed3b356a408978a0e6d74eb86e3e722dd008fa9ad39f68884479e85",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/WinRT.Runtime.dll",
+   "size": 528944,
+   "sha256": "bcf3a14e8712a90837fc5c0d8c8a24696af2bd7f74e9767597ec81ededfb23db",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/WindowsBase.dll",
+   "size": 16648,
+   "sha256": "2d078879ef7d948d5d251a954e23a8604e943898f6502afebe0718df97d95974",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/assets/JJSAtelier_app_icon.ico",
+   "size": 204850,
+   "sha256": "20044981f5413c68872ed3c827b300be9cf9f5dce5627da6d249786b975d6611",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/assets/JJSAtelier_app_icon.png",
+   "size": 2167475,
+   "sha256": "999ce6baec5bcf6b37f6bfe93ba397363a9bf6f894a11c6dda4867f53b05f145",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/assets/JJSAtelier_game_shortcut_icon.png",
+   "size": 89614,
+   "sha256": "c91a6ef744c43d5399bc3abecd7315d4ce6b771497154fc711561a757f58e35a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/assets/game-check/catalog.json",
+   "size": 213711,
+   "sha256": "e836904669d3f82baa171bb81ed0a2f7ae8a06a108ea6e8166066f2125f90727",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/clretwrc.dll",
+   "size": 318216,
+   "sha256": "f78f188261eeab85c705fd4cf6bd9916b27c9efa7f48d56d04ddf44b0b882518",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/clrgc.dll",
+   "size": 673040,
+   "sha256": "57aa82c35320ce7bcebce1571df596241d36b71fd312df2b2906d34fe3df2eef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/clrgcexp.dll",
+   "size": 709432,
+   "sha256": "af49af5347b1d69248b7315afc80894dae5f0b59ce9dc2eeeeb4f5b9d94f10d7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/clrjit.dll",
+   "size": 2091272,
+   "sha256": "5b61a424e0e3aab28bedc506564ba28be05783f9921a16aaac6ce5dbb3e1b72e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/coreclr.dll",
+   "size": 4608784,
+   "sha256": "dcb8a78e286fe3796aa037d5243be63c3e9370e1a8d964d1789938a44f9fbc2e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/createdump.exe",
+   "size": 71992,
+   "sha256": "5d438d5eaccef364981fa5a633d0f4f2cc060bf3560485706740ee7295f51b60",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/e_sqlite3.dll",
+   "size": 1972224,
+   "sha256": "6ad8e149f8ce3ed3716402b4b3a2268ebbdc7b64391b5fafed747e03bb1b9418",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/hostfxr.dll",
+   "size": 380168,
+   "sha256": "8b34afc8dea90a2bb8d9668fe8800e27d1ff40029b2eeecae77d5bb19b937e40",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/hostpolicy.dll",
+   "size": 379144,
+   "sha256": "62817f2c82559f572bd5905b330431deba43169191a9ea03fb9f9d884e874655",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/licenses/Apache-2.0.txt",
+   "size": 11358,
+   "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/licenses/CRC-components.txt",
+   "size": 467,
+   "sha256": "b49abe2cd2a2ad2145c3fb22165b1798921e9f987a1da8eeb88add20ccc38fcf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/licenses/LGPL-2.1.txt",
+   "size": 26526,
+   "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/licenses/MIT.txt",
+   "size": 1023,
+   "sha256": "f9c4c77baa3828004ee54b8a4f2db2e88ed44a6237a493965bf551fac0fcb62d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/mscordaccore.dll",
+   "size": 1352024,
+   "sha256": "1319ec27d52a224b1eb79746995e14467b0188380faa98e7aca75225c2554c27",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/mscordaccore_amd64_amd64_10.0.726.21808.dll",
+   "size": 1352024,
+   "sha256": "1319ec27d52a224b1eb79746995e14467b0188380faa98e7aca75225c2554c27",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/mscordbi.dll",
+   "size": 1235800,
+   "sha256": "24b15982d2f868c7964af6c9a56699644ebfaa5742d43a770716eb9224b18a85",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/mscorlib.dll",
+   "size": 60168,
+   "sha256": "0669a7898f0c4a6869a1eb44032896d8f1b0755db02581cd15d46b408f23a591",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/mscorrc.dll",
+   "size": 134456,
+   "sha256": "a208568ec94c363222e3e32cd642a0f96cfe8fcf9f75db3ecb12abec78053677",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/msquic.dll",
+   "size": 524320,
+   "sha256": "bb89d7a5dfe8f5e794929bf48bbe2e29b35ed7b7246fabb9e74f486abc1afeeb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/netstandard.dll",
+   "size": 101128,
+   "sha256": "9f64ad816fe6ba25b271d52aa2055131988dddedb8afacad0716ac01334cbcea",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/glossary.tsv",
+   "size": 4838,
+   "sha256": "0a387f0f969e5de17c5072bf61023863c9d6d926f9aab193a9896f24ca054307",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Defaults/names.tsv",
+   "size": 14159,
+   "sha256": "1fa745347e2f17eb29e77afd71c1e4bd2c0689a09c0f4162fc4d3f94e02ef769",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/I2/editor-dynamic.tsv",
+   "size": 2143,
+   "sha256": "04d295cc7de256710be79fd9b68069441f7a7880245ad1a040fc1764b75cb353",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/I2/editor.tsv",
+   "size": 543243,
+   "sha256": "4c96987a11efdebe151f9505dd2c2970b5a3a50f56de2284f32c0632d090ee6d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/I2/native.tsv",
+   "size": 25,
+   "sha256": "ed3d4772eda4071bfc65fc293d135a9164a173a38beaaba96b963b9ae800f3ef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/I2/runtime.tsv",
+   "size": 11746,
+   "sha256": "ba1706807f9679ed57a53e4132396f71bdc6ebb3f37575b17d70db5b145dbd8e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/I2/try3.tsv",
+   "size": 3990,
+   "sha256": "8113aba91378a36ed74f43799ef61e842c0054b0f0e58f7c3b43a9af44a0abd6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Name/00-names.tsv",
+   "size": 281,
+   "sha256": "256f3f4fa8290446cc012e0fc313de31f47595c75c1080352472429a8cf3dc45",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Name/30-try3-handles.tsv",
+   "size": 7541,
+   "sha256": "153850363cded914a187331dd8a96f67ad08137174852ffff256a7b39c688f8f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/a3_kan_0001.tsv",
+   "size": 18459,
+   "sha256": "d776f844df747b7085c923726d332bd515bfbdaa763e6ab3f4aba56efecd35c0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/a3_kan_0002.tsv",
+   "size": 15699,
+   "sha256": "7a5b907abdb0b2362ffbea27a82264d7df77d8b8e54d6ad7701295cccfe49ae0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/a3_kan_0003.tsv",
+   "size": 28039,
+   "sha256": "2c651788167b7fe08f6ca14d1853e77536b90cd13c5a3a15550775307c4272b7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/b3_kan_0001.tsv",
+   "size": 20653,
+   "sha256": "4bce224f31e3869f22ca7c6b4b4770edaf0880b23da447a79c7b8f18f74e959a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/b3_kan_0002.tsv",
+   "size": 28862,
+   "sha256": "38215b90e5082e49e9368bb5edf86af8193210b36f80c676e9cb5b0d6b9cbdcc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/b3_kan_0003.tsv",
+   "size": 46606,
+   "sha256": "e54bd063f3f7398a3adfd2803293060b35a7a79ccfeeaeb4c9ef05cec390d781",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/c3_kan_0001.tsv",
+   "size": 41222,
+   "sha256": "0a6426367bda30abfc319f80a3c026cd546368d5f8a6e6e23eff8eeb2ac3cd88",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/c3_kan_0002.tsv",
+   "size": 48724,
+   "sha256": "defe5f8737438bf6173a9e541faa431b85363647ee603478a58e3aa97438ca41",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/c3_kan_0003.tsv",
+   "size": 64658,
+   "sha256": "caa386a7c38d3f53adfdd86db59f6c00c1d4d5d09bd7078dcb06c54ec751243c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_dance_crc3d002_djf.tsv",
+   "size": 487,
+   "sha256": "29e1a6974e53d11ddd7a00453a1a588d31c1edb9712dfeec5fcb56587c770e75",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_dance_crc3d002_djm.tsv",
+   "size": 186,
+   "sha256": "34b2e0353e0d40ade41fb8ef7ef01f03a4fa2951864a58464063c316372d0195",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_event001.tsv",
+   "size": 2937,
+   "sha256": "b60c4340c4eaddb6bdf157474e5ba6b04e297ed75a5232f5296b75bd33cbd388",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_event002.tsv",
+   "size": 998,
+   "sha256": "a5f8c93fe31c4ff7891102c64653af99297a794b66dcbbe0003a1214415501df",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_event003.tsv",
+   "size": 626,
+   "sha256": "72a77e5c149f1df3744aa6a39d87bf3c0b36e54d59cf67e9225fe490410efb37",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_event004.tsv",
+   "size": 584,
+   "sha256": "52c5c07db49bc083ebac07e652609bdf1c0ebd22e33fbecfaec3f6c2d1f77c73",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_event005.tsv",
+   "size": 241,
+   "sha256": "5c27981d2885c9cffbdedabae67371973ee1ebc248734945c4f7b306ff29533a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_event006.tsv",
+   "size": 306,
+   "sha256": "c3a5ae1308b520e34dcd3b8808403ebf24a4444f2afea95afb4058893a0604c0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_f_tetunagi002.tsv",
+   "size": 472,
+   "sha256": "9fa4bd519f2f25d2efcb6b6263b486d73d1b8de57e17213135cd25f5b4b6864e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_gatya_f.tsv",
+   "size": 659,
+   "sha256": "c935c557ba8068881c8c13acebe70afd2b001e8063bc9b643d93dddddf5c6932",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_gatya_m.tsv",
+   "size": 118,
+   "sha256": "0fc6b18fd32d78ce0fc157c39b818fdfa08b313d9423ea8dfc6c6f289bcb88bc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_gm_fishing_man.tsv",
+   "size": 966,
+   "sha256": "a574535bed2e874e3477dda041382eb46c5959585739b74582dfdfba29d23600",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_gm_shooting_range.tsv",
+   "size": 1538,
+   "sha256": "6cddfe0aa9c52b9681478447083d40e94aacbda7115578f29593e87bf957b651",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_gm_shooting_range_m.tsv",
+   "size": 781,
+   "sha256": "8f29adfa43635064205e8fbd64ed218e7cfcc4278e4b18c909163239bf14d85b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_ippan_maid.tsv",
+   "size": 688,
+   "sha256": "08acea78abfc62053e1303bbc32e8e403e820dd3819f88f19da5b3e6a91dbeff",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_ityastretch.tsv",
+   "size": 389,
+   "sha256": "89d44c36ce82cb80a161e1cecf3316668fa73b70f06c528f79c186b4f017efc5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_ityastretch_maid.tsv",
+   "size": 292,
+   "sha256": "34f80d5078a9257355e408c3d1fe33d4148c5bf92a87b54445e0659944a352a4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_maid001.tsv",
+   "size": 258,
+   "sha256": "b97bd97f1d45f8e42defc46f71b1738a5389dca3a0ab8bf895fe0eea64f45b31",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_mukaiai_tati.tsv",
+   "size": 2142,
+   "sha256": "ca8fd39112b18b7df14afded823a76308c2d8e451b25c0ae0b594346e4e11778",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_otoko_suwari.tsv",
+   "size": 930,
+   "sha256": "c92a24e1d534fced4db17234dd7cde851723900065af617d9d60872d4783656a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_otoko_tati.tsv",
+   "size": 460,
+   "sha256": "556a4453a438a120fbc95a2d2251ddfbf34616482fdc9b9819fed9780a29bed6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_ryouri.tsv",
+   "size": 471,
+   "sha256": "8cc79f18d0c4e6ccbb0cd2bec6505094981296f5cfd10765f9c1a2c398c95463",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_ryouri_maid.tsv",
+   "size": 18,
+   "sha256": "415bf69455635efd37ff5fe62766a2eb2dd81b4c61c86fac1b1a09736a6dfa6b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_ryouri_man.tsv",
+   "size": 111,
+   "sha256": "3991b76451850b926bd28ddf555625b1571b98c0576b5e28cf63065eabab7e47",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_tetunagi001.tsv",
+   "size": 352,
+   "sha256": "b53e13dbda631eef98f9684d0e29ac875d38e5f2dcc088ee8d54f058f44534e3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_type0.tsv",
+   "size": 307,
+   "sha256": "7d94db866de771e00424185629597f72e219632713dbd6e0d56c66a599608e62",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typea.tsv",
+   "size": 2762,
+   "sha256": "f7c403450e8b5819f0478e1ee2171f6ff141c1496dea165af0e3df977e891f10",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typea_tati.tsv",
+   "size": 175,
+   "sha256": "346de364a9279d9256f4197e6c22f02b68c1557b772a5f9ced4d40d23aa86a82",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typec.tsv",
+   "size": 6489,
+   "sha256": "0023e86aa37af6bf54bd25308ad42885035cf0464332e201152cb133572e191a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typec0.tsv",
+   "size": 826,
+   "sha256": "f1d9743360075a8c213d7843774d86be3b6049d9c18bb56e5c247b67f2ed9693",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typec_suwari.tsv",
+   "size": 2367,
+   "sha256": "11180673d83fe38f04bfbaca636735ec5feb1159849cc347c263b0851412bcaa",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typec_tati.tsv",
+   "size": 1359,
+   "sha256": "1f62475e1a70c1ed84f7de6b3c340efa9d03b6c965595389966e78c474f11afb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typee.tsv",
+   "size": 2225,
+   "sha256": "bf954c8db6b0d9a4ca1fc2ef91c48bf3e31ac8771a537ec250b56fbd14f53366",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typee_suwari.tsv",
+   "size": 741,
+   "sha256": "c70700dcc170e579e6ddefe1b953215d8eb9c22880146241e707d69bec345227",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typee_tati.tsv",
+   "size": 1305,
+   "sha256": "1bd3f4c1d27630666c8d103192ab7c15eacf468e54fa705475043f6891d73a5f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typet.tsv",
+   "size": 5276,
+   "sha256": "49df70c26c805ac66986c9d02b00c1ed034216bee3fb8dadaa892019c1a5a139",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typet0.tsv",
+   "size": 1126,
+   "sha256": "49b4252c2ed5c5e1bf0ec8c14503732dfd81dbd5e82985404c48402627dfc614",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typet_suwari.tsv",
+   "size": 271,
+   "sha256": "fb8dd4384649742a5310dd7b50fbe0cb573ff26896aa9a4a2e63372f6ea27299",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typet_tati.tsv",
+   "size": 612,
+   "sha256": "e607833ff191039fd0cf1610ae006de9ef55400e45fd8b44b77d6f2b6f2bbd67",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typeu.tsv",
+   "size": 2282,
+   "sha256": "0508883f6ea6cd1c6de75b4a6a60b84790fccb3a63a554aff134462aa7d199b5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typeu_suwari.tsv",
+   "size": 119,
+   "sha256": "b2f9a5c3494cf80705205ca0f48d882b9b48f477f304537360647cc27a73b3a8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_typeu_tati.tsv",
+   "size": 1191,
+   "sha256": "217a9d281fb943df2580cc066b9d5ec856d6efb1a53f7831502af19e5920a91d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_cm_udekumi001.tsv",
+   "size": 331,
+   "sha256": "d5ce78597dbc4b369980221b9dd865f4c77224d25a069f92bff068f3c2c4cc79",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_darts.tsv",
+   "size": 2577,
+   "sha256": "35876299a40f278de3763b50f79ce5947883233ec7b08ec468459656a419890d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_ck_darts_c001.tsv",
+   "size": 1184,
+   "sha256": "caab4a86c03b6dd71b89d77a12256b412aa030f85a998513d1960528d224d593",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_op_0001.tsv",
+   "size": 1886,
+   "sha256": "4ea3e00d88619b0b73d464918d127dc161de93fd4a7e470597f68b53b45a44c4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_op_0002.tsv",
+   "size": 4141,
+   "sha256": "114dbae0b44c8f5ca26d6ccf0a4a046a0bfefda77ef116bf43bc72a8bf9c9d12",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_op_0003.tsv",
+   "size": 6336,
+   "sha256": "fac4b1b93695bf47517a31763ecaaafbd1cff900d9add0519a528b50ff8f6baa",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_op_0004.tsv",
+   "size": 3576,
+   "sha256": "a73b60515c5040ac078bb34b153afae3e440b4bd4f1a4c05c018026581820c9a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_op_0005.tsv",
+   "size": 1294,
+   "sha256": "5ec2b9b498c883f5044d026ebadfb8ea02fbb087138c837c22981f2c75560342",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_op_0006.tsv",
+   "size": 3580,
+   "sha256": "11a2fedb2b64bc89c1779a1b5baced4f18feb845a9a899c549c6e016d1ed2bfb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_op_0007.tsv",
+   "size": 744,
+   "sha256": "377500d5b6e9ffbf15ab1272698cc704bb46d9def0c09929b36128d502ccdc99",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_op_0008.tsv",
+   "size": 7322,
+   "sha256": "8b3ed1187883546f3620a845be1425e2d323486c82f64bd76fb2d3bdf1e231e6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_op_0009.tsv",
+   "size": 9420,
+   "sha256": "168758b95177fcf8181822cf12dda9b83fcc7d656236bd2d86dad2d46e1bfcfb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_op_0010.tsv",
+   "size": 10355,
+   "sha256": "585d25b5c4d259b070bd1ad377943532dfb172f930fcf88a6df215f611c180b6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/crc_op_0011.tsv",
+   "size": 7180,
+   "sha256": "91b2369dcc0b50894ea0655947b3931ca55667da85042dde86f4df4fd2d0b69b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/d3_kan_0001.tsv",
+   "size": 25816,
+   "sha256": "33a02b224d86c0219a473264b224902345d650456e387231018c3a2e93c4e2de",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/d3_kan_0002.tsv",
+   "size": 23389,
+   "sha256": "c96c3c99c1eb8e144cc6efdb7539248cf7ee105911ec123fa1c8cba3b967f134",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/d3_kan_0003.tsv",
+   "size": 65403,
+   "sha256": "44991db9035a0a805389aaa3e110156f9b66be2b0586b7fd394d783a21b80011",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/game_startup_try_2_1.tsv",
+   "size": 222,
+   "sha256": "1ed70745a9e4419f98d7140e981d90e833e7e26738ce4a993bdf9e1982553aec",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/newgame1_try.tsv",
+   "size": 348,
+   "sha256": "aedcec9bfbb35a8ca0a06f35935a31921d5c782af611f183d45b8420351f5493",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/setup_dance_try.tsv",
+   "size": 1387,
+   "sha256": "4666d5817e043f36c162f608706a59c11e6279f67be009019424a950839a5ee5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/takingout_work_confirmation.tsv",
+   "size": 225,
+   "sha256": "d61deeb961e97e74e50597bd5f2a1657b315b8071531a76418c39dba916539c2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/a-castclass.tsv",
+   "size": 20129,
+   "sha256": "5b265d0e3d9b227693f7aa7103de22f071cdf9abb91d373b0ee723ef4630a213",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/a-cooking.tsv",
+   "size": 3914,
+   "sha256": "e4c1b18bcbe7e937ffe5a10292750bfa85edaf2631cfbc94440b529829a7b957",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/a-date.tsv",
+   "size": 49023,
+   "sha256": "9f62371cff9ecc34010971d6494f937ef35e9d5b8275980273416e1f5fece92a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/a-fitting.tsv",
+   "size": 69976,
+   "sha256": "b6fe7488e5db57d05829abded7f4fe2a80710fb74446880efd679b71a0251c53",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/a-freeexplore.tsv",
+   "size": 95222,
+   "sha256": "6195cf3ea8d8e32077a01424b2576b592df267d0a182fbf1c6b243ba69929fee",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/a-freetime.tsv",
+   "size": 12692,
+   "sha256": "505485f989d83d8393582b7f26360249709b3a57158818bbee2bc5f163f89b2a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/a-h-after.tsv",
+   "size": 6401,
+   "sha256": "85eb868c8ec0087c54881318a7e09dd3e4c361d8301a319bf7a26dffbfd03e4f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/a-h-before.tsv",
+   "size": 5395,
+   "sha256": "bccdfe9bb926823f328a96266fe9e7f0d2ba17ccc92c343312c5d5d5ecbe6070",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/a-h-choice.tsv",
+   "size": 21042,
+   "sha256": "e44be3aaa7b4edfe9901c718f2097cdb7071934c45e506f800ffe0f647b0570b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/a-h-voice.tsv",
+   "size": 2111312,
+   "sha256": "35d294e445396bce99015ddd57b66c35b1da4fa6d833582b42ea2dad69577ef4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/a-takeout.tsv",
+   "size": 1079,
+   "sha256": "b6b64d498271835a25ee67f2f2879ef68f9f0085078e1c8e3543faadea642c96",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/all-common.tsv",
+   "size": 15551,
+   "sha256": "6bfb1a73e36cd386edc824adf4627f38f0104a26a218793e81445f0b20c82df7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/all-devmenu.tsv",
+   "size": 66182,
+   "sha256": "e54aa5a8cb7122d89936bf3c97cc8b85f38bbddfd21032afeb5064d27c2f4aac",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/all-solo.tsv",
+   "size": 17082,
+   "sha256": "cc408f333385f289c4cff57db7428424ae6632e67c30acfa720694f50a580e7c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/all-tutorial.tsv",
+   "size": 30237,
+   "sha256": "66b62d82ff66bc6cdc571d1aa8e17240d7a8235cf3b593936e9742580589d11c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/b-castclass.tsv",
+   "size": 20720,
+   "sha256": "e0d9daf0408dbcbce0dadd0bb2c3fb50ef04cfc72150f27c0b6f979bc53e3372",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/b-cooking.tsv",
+   "size": 2930,
+   "sha256": "c941970badda03f7f8b0e09ff1ddac2ebe6560272638df6f0dff3f183c75067a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/b-date.tsv",
+   "size": 41451,
+   "sha256": "1c335b5589b579839c2b1d64805310572c8e7e80737e65a8d1ae933e2217cea6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/b-fitting.tsv",
+   "size": 43432,
+   "sha256": "98a7629e7cda4e711f115c48e9ac4bb2667b02c32cebbe3d869120e9262bdb75",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/b-freeexplore.tsv",
+   "size": 80382,
+   "sha256": "7717d237e0d9e46f74ad01a8ddece05db3ae4365270198dae2d0ac1c3f2428eb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/b-freetime.tsv",
+   "size": 11818,
+   "sha256": "48b1620cb8a5b9fc43ec4e05f9e0b1539da00268e5985adfe6a937af2c05dc2e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/b-h-after.tsv",
+   "size": 6735,
+   "sha256": "f77465192fb68ec3202cfb3409822f3e9f2f240a4b33cb04fb42b25edc0c74a1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/b-h-before.tsv",
+   "size": 6999,
+   "sha256": "0aae5493a0c3b03fe28792c3b334a40f47853e079c7f581e74656043e84b9c0f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/b-h-choice.tsv",
+   "size": 19386,
+   "sha256": "5422579b78a815a7c42e960a1b62a4c39543b056cbf58b0ddc634edcf5de16d8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/b-h-voice.tsv",
+   "size": 1451763,
+   "sha256": "0f57c03068c8b1e26ee07f893d8e28c3823b8d9e273a645551d86cebc810ca28",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/b-takeout.tsv",
+   "size": 978,
+   "sha256": "cac51b3d753917ca8a728ce9653260bfa7fbbab3b03b7b3ace1a4728286e98a7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/c-castclass.tsv",
+   "size": 21569,
+   "sha256": "2cb74799a3108a5ac884570f5f07405cdee3aa075ba0456564f0bd64f986c63d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/c-cooking.tsv",
+   "size": 2249,
+   "sha256": "b8fda1c037ae7c26759ec985f518fa2fe229596479eb1fbdfa57c2043a8e63e2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/c-date.tsv",
+   "size": 64525,
+   "sha256": "41cc13a281eaf140f2e40f40329c17a61b7bff35b26a74a2a01a58f2d9211db8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/c-fitting.tsv",
+   "size": 51350,
+   "sha256": "54afce83b8ee61adedd35683b464d97181992645e03297b333353e77ab26dc0f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/c-freeexplore.tsv",
+   "size": 88566,
+   "sha256": "ccd8753ab4952fe8a2938adf53f9f42d7223e88d314cad922d8b651552683cb5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/c-freetime.tsv",
+   "size": 14191,
+   "sha256": "d1c4d03d7e1e1c5999dd2abd3a3f71458d98abeffff53765f27bc45a84259ebc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/c-h-after.tsv",
+   "size": 5578,
+   "sha256": "db304af600490dbca9331adc7f6c4396fee2144a0c7c5d6f00fa17fb069b8064",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/c-h-before.tsv",
+   "size": 6830,
+   "sha256": "32d4f4f56d3347a5ff683b949bbcf7e47d662a0b2d8436ca1aa4582626622abb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/c-h-choice.tsv",
+   "size": 18978,
+   "sha256": "2089adc26b92865c103c8df29e795c0fafa53719028e9971c7377d88ecd4a6c4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/c-h-voice.tsv",
+   "size": 1489590,
+   "sha256": "bb4adfd03d89399d868f1c4f20513635b31496e96d0eb8439e8efe60b777d938",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/c-takeout.tsv",
+   "size": 1152,
+   "sha256": "1472aff941edeea1bdbef38c21c4e3340b6f76a22a5221c75d39d65df9704926",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/d-castclass.tsv",
+   "size": 23071,
+   "sha256": "bd374711de062e922f12d3bbf230427768db27cf36825f4bcc2c892fd56cc455",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/d-cooking.tsv",
+   "size": 3660,
+   "sha256": "3aceaa9d6169317269d7bf9d9871dd2d8989f94c72d531e5b0fddbf0a6028086",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/d-date.tsv",
+   "size": 59317,
+   "sha256": "1c468502f8a7741598352a782dd3a34a20f20ad5b9fe152ef2057e79e26d61ce",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/d-fitting.tsv",
+   "size": 54532,
+   "sha256": "f007270f860350d66dbb0fa3e2877683b64d04f6497d6fd6eb44a844c6496a81",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/d-freeexplore.tsv",
+   "size": 93155,
+   "sha256": "74986116f13cd1158d8bae9043b5207c76fc1dfd576bcfaf1e333b29757030cd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/d-freetime.tsv",
+   "size": 16005,
+   "sha256": "e4bdd6ba70e891e2481b213d69443a90b825c4f5b84b47571a60193d75bac703",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/d-h-after.tsv",
+   "size": 7190,
+   "sha256": "3ad827dbfa0a0fc8888dbb6d13fa297c5937fc7bcee0d87adec2809b6ecfdac8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/d-h-before.tsv",
+   "size": 4704,
+   "sha256": "bfd7e544e41766ba26f64b1818e4c723ed2a2393131092e7e019cf679e5b957f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/d-h-choice.tsv",
+   "size": 20674,
+   "sha256": "6ede6c7345704b91b34dd398e899572334b3d5f5388ee752cde40754763d3a71",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/d-h-voice.tsv",
+   "size": 1510279,
+   "sha256": "d8996ab55ccf7e1205c9618a9a7ccae144c9a51541bee32b6eeb14d8a1652f17",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Script/try3/d-takeout.tsv",
+   "size": 1122,
+   "sha256": "f8e2e254c3b677d4ac372d0ae526827b1a47c309a19a7a2d6f51313376907cbc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/archive_button_newslot.png",
+   "size": 10487,
+   "sha256": "3414b1563e7c2954a50ad215e390df715871857003e79f94c8228da9ef0b11bf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/assign_list_facility.png",
+   "size": 3744,
+   "sha256": "0c402de7f0ed98a30cc2f767d0521843fdc1f6997a924b85f54c8d52ed9a0c2d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/assign_list_facility_off.png",
+   "size": 3494,
+   "sha256": "423ffbc796ec3385cd0b834d899f5e5e1a536917006d0997ac1a7084bbae9dfd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/caution_ja.png",
+   "size": 85646,
+   "sha256": "d740ae59fdc13083c4e52358a15b5018fcd5f253aa2e65a198fe20491584df99",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/caution_ja_tr.png",
+   "size": 73899,
+   "sha256": "5d3584778ec199af53f48a6fb10e9a47d6727858970c1dc9dc6e614ad501badf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/config_button_fullscreen.png",
+   "size": 3696,
+   "sha256": "e17c51fbdeb51ba1ce691a0834faac0bf70088d2fa9dd9c5eeb7811aa65ddee3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/config_button_off.png",
+   "size": 2297,
+   "sha256": "74ea4ff28343b0a80e92078a66ff44202d58b764d39db639945ce2c77c4e4a4b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/config_button_on.png",
+   "size": 1443,
+   "sha256": "3aefa866c38297b04622f1e8bf276d3c97d39c705ee312cc27702bb82298f280",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/config_button_window.png",
+   "size": 2491,
+   "sha256": "a9933847ca3d6cce6517ceaa2d9e8d09a1c419951258a59be79bb220e5f2884e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/cook_recipe_mealeffect.png",
+   "size": 6176,
+   "sha256": "f12e715606100128754d3868deaa02ac35eb612be57bee0cbe5a8290c46a3def",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/cook_recipe_usematerial.png",
+   "size": 5363,
+   "sha256": "bd8ef5c25d3b2c48d51a5731827b08f0d40758873e71ddae45547bfd68007c52",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_comment001.png",
+   "size": 279096,
+   "sha256": "d2f22c81d4bf14ef959e2b964049af8caf081d4f66d70401f63b17052de581d6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_comment002.png",
+   "size": 285753,
+   "sha256": "7d9c85fe95d2e431c87783a49a9f439b05abafd5f763a75ef6381a96c76fde4b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_comment003.png",
+   "size": 299207,
+   "sha256": "dfb8e8723a1700e00beaa97414ae755a588bb27e4cc8683925db8daab3b0b89f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_comment004.png",
+   "size": 297695,
+   "sha256": "6026f66448bb83b8d88dba9ca4a239996d01a3e3131ae3ab2423e4f4863aa45b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_comment005.png",
+   "size": 437551,
+   "sha256": "124bcbbaea0a70003c5c8b5b59ad2817d83d0db2880fb46b87adb247538e2166",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_comment006.png",
+   "size": 236408,
+   "sha256": "071591770668eaee7b3009d670103d8be1bfe71f1968f72289d594fc71cbbb5a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_comment007.png",
+   "size": 226089,
+   "sha256": "691f2ecd72e5b65e43e2be8a077c119f894b59cf37820b21cdb44d8ed7ca620b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_comment008.png",
+   "size": 335560,
+   "sha256": "3bedcf67977d32e0d82a3bc5e961632970707ef5b7db9ebe9c62cef0d67f773c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_comment009.png",
+   "size": 480585,
+   "sha256": "83033f24372e07109624f2fe3d2d9f1c7a5f715d0a0c8f5ca60185b706362671",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_comment010.png",
+   "size": 341866,
+   "sha256": "e9367543c6d6978257da501b0585a2f3439a3a26ae5182f35f0bb1886277ce67",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_frame_newspaper.png",
+   "size": 1930294,
+   "sha256": "ab30549ec90205eba6a4a6c4462a67907ea404d62804f9d009e39acd460b1cb5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_frame_wedding.png",
+   "size": 1831982,
+   "sha256": "501bb7cef95a93b25af13da9c1dbc97d9c94c45b85b8c29dddb0a261a66b95d5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/deco_stamp002.png",
+   "size": 592310,
+   "sha256": "c0cf17a82c720a598da84106e4bb680d2e33776ae7c25744c152b09ef86abfc6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/drone_hiddenlist_button_show.png",
+   "size": 1460,
+   "sha256": "c3bac26646a23eb10747bae9c92cecc97f524c81d5513fe61a05708c887f905e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/drone_hiddenlist_button_show_select.png",
+   "size": 1559,
+   "sha256": "fd93827b27d383cbff4411004ac2fbf80f376c5bd1f1af65c841a2b58d5563d4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/drone_hiddenlist_title.png",
+   "size": 4334,
+   "sha256": "1640ec5a858b217dce516cfb710b8a46164a6ffdb56058d5bcd549a0813be355",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/drone_top_button_edit.png",
+   "size": 3142,
+   "sha256": "aa3804e9fb5ecf3727381570b98440e98b6d6df34a02b14ed0eb6f4d65e25ece",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/drone_top_button_hiddenlist.png",
+   "size": 5691,
+   "sha256": "dcf423b4de29339370a3b246992214c0b7a0f04397df24db289d66b265442dec",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/drone_top_button_take.png",
+   "size": 3091,
+   "sha256": "247c674e19467720dcb25c4794c1e3bac705bd2795a9077e76c1b2556a8b8b08",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/ecard_window.png",
+   "size": 35141,
+   "sha256": "b99c7a0f6b0153ce509333c1a3f9ee39bd2d410696750c3b026aec112076f14a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/ecard_window_cast.png",
+   "size": 35148,
+   "sha256": "49ca8eea4473950841498a5d4e4ac547b177d37da5a1277bd43e1247205d8f31",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/edit_add_button_map.png",
+   "size": 1359,
+   "sha256": "c6bc9bb7190f88307a2ea8c1de0cb489cff977dd3ea10e16749680190453f91f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/edit_add_button_work.png",
+   "size": 1142,
+   "sha256": "17df7ff490926861354ebfe03a1c7168725e003c3e9bfbbaebe644b78caf5f5e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/edit_add_heading.png",
+   "size": 9615,
+   "sha256": "54b033ade74ea4668590807396ad40d8eeb5c02f40dd28162cad7e4f3d1860cc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/edit_button_start.png",
+   "size": 5548,
+   "sha256": "0497525d78644b44c48cd800d18947331a343aff934cbbd87cfbee36f0a1f1f0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/edit_dressup_button_add.png",
+   "size": 10253,
+   "sha256": "893758ce36566e3fb0dd9c29e9739ce111600e4b84f9096b3ac2863b46986658",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/edit_dressup_heading.png",
+   "size": 9338,
+   "sha256": "a427fefe15c2cdb4950f1c4afe66466f30cb88851cdf26a213221c629e71f5c1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/edit_status_Itemlist.png",
+   "size": 59940,
+   "sha256": "b53ae65e216ea0732d435cea56bbaa71ad2dded44d5738ba8e0c7c542fe92c7c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/edit_status_Itemlist_hr.png",
+   "size": 32937,
+   "sha256": "b03092f3e20605cbbf14bb8085379a4218196c9a30c99acec424ddea3e57c620",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/em_title.png",
+   "size": 12783,
+   "sha256": "5830d9c5b0c439bda666b64c2f54d8aac5def22fb34bc46153a2717c7d950f5a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/evpoint_icon_noentry.png",
+   "size": 193973,
+   "sha256": "ef2913bdf45e22a449aceb23a35ef340af5f8263d7c92b730c3bfe31a8864a75",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/facility_ev_cond.png",
+   "size": 9473,
+   "sha256": "1c3e6793dc2bbb7cac352c79d474097d22d7e8e9b95d46c6a9d3c41b0e868431",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/facility_ev_time.png",
+   "size": 5728,
+   "sha256": "c6764dd1b57cce827364af76e462026be129a8a7fb45e63fe347279063bd9f8e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/foodshop_bill_button_fix.png",
+   "size": 6143,
+   "sha256": "51c5ff14a6f4e7d9b0b11f908da86cc34d0b278e18eac38917b42b8f98b986e4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/fs_menu_button_order.png",
+   "size": 3262,
+   "sha256": "e5b99de5628efa5b6debe5e4e5c6bc5a2aa8993564444f6d5b74c310eac9ee80",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/fs_order_button_back.png",
+   "size": 4670,
+   "sha256": "c5579bec0c09e8e3f7b2cd223e2bdc5cd913e2ad9267e50377952164c6bc737a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/fs_order_button_back_select.png",
+   "size": 4548,
+   "sha256": "28aece8312529fed5908a5cc3f92b9d47b84d458e4747b5476b01993a46e19c7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/fs_order_button_decision.png",
+   "size": 5557,
+   "sha256": "ed36020396e5fb5611a8b6d4355592a27136ce43fcb575629bbd131cfb9131e2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/fs_order_button_decision_select.png",
+   "size": 6430,
+   "sha256": "ce41ae1c8b31027eb00688e343ca72dbeef92b17e20858698302cf5ebe9d5856",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/fs_topic_filter_window_fix.png",
+   "size": 6679,
+   "sha256": "bd29707252d474c10408138ca8eee19fd81ff9a319bd92f2e0f343985a46d6a3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/fs_topic_filter_window_list.png",
+   "size": 14076,
+   "sha256": "386c0ad9843e9b47b1419173475be31e5d6fa30a7f3c80eb8311f2f42e350448",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/fs_topic_filter_window_single_none.png",
+   "size": 3350,
+   "sha256": "5790f2ec80aa5b1ef0027495ec4b18eff0a80103759977adf26209e7399802b4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/gacha_button_oneroll.png",
+   "size": 6077,
+   "sha256": "5dfefd15190f02ce184782df7ccf97a5b256809b1303f5225d85c307f63db547",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/gacha_button_prize.png",
+   "size": 5295,
+   "sha256": "0a95f970258bebbed2fc29031deccf5c2ec437e4c0cf4aa8b67983557cc7184e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/gacha_button_tenroll.png",
+   "size": 7380,
+   "sha256": "338f6534a63c33186dacbb83d86740a61045545405cc0ea10c304767fab8442f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/gacha_heading_charselect.png",
+   "size": 8569,
+   "sha256": "421f086a690fd56a6099e05a0b7498d4b20f68510605423357e4067e9f25eabb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/gacha_prizelist_heading.png",
+   "size": 9537,
+   "sha256": "d0429957ea308ad1e483c99145cc6393b15cc92283171d9cc6a2fcf770e39b2e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/game_darts_playscreen_button_angle.png",
+   "size": 2596,
+   "sha256": "f186bc7464909223741e03c4595b90271446729e7e86c6b70b1d75bb8eaba57a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/game_darts_playscreen_button_sekuhara.png",
+   "size": 3604,
+   "sha256": "4586ece05791b696878dcce06555d792a0d6f565cbab9a6d1aadba8605a354b3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/game_select_button_ranking.png",
+   "size": 4651,
+   "sha256": "d080cb963c39d72ddb0af50da1ec48f69f941cf748b608cfaad90b7cae7a7936",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/hrsta_romanp_anal.png",
+   "size": 3075,
+   "sha256": "6d70f54fa7163b20a2a19de2fb754a98413448d7dfa83f7d818169acf3579b76",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/hrsta_romanp_back.png",
+   "size": 4299,
+   "sha256": "f2daf2b86893f5550059263721c20c31c6a5bb95c36019c47437090ec03ed158",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/hrsta_romanp_clit.png",
+   "size": 4755,
+   "sha256": "cc8fc56c3eb9fcc49536e41ff6f211a6248545ffcd005a780d982d1a73dc36a0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/hrsta_romanp_nipple.png",
+   "size": 4528,
+   "sha256": "7586b44c7f85b92f903b5de6157c96eb1f60ec8098b2ea50e21f58575b98d9bb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/hrsta_romanp_perv.png",
+   "size": 5136,
+   "sha256": "96dccb7702ed52342b7257de87ad925d437be7a07b0d6fd445f3f305411309bf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/hrsta_romanp_pussy.png",
+   "size": 5217,
+   "sha256": "723c9626abad40b58496006364f1cf3079560cf0e519bf49e4d0d0a2d27e2d74",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/hrsta_romanp_service.png",
+   "size": 4065,
+   "sha256": "4382329957a83ab4d162df7646bb46160ed61737c2d359d53f3b3ec583dcdb52",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/hrsta_romanp_token.png",
+   "size": 13358,
+   "sha256": "d7f947f487cfd03846c1dd787507a34eb4960f051a1fe9b1ff96fba3d1b2dffc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/hrsta_romanp_ut.png",
+   "size": 3121,
+   "sha256": "db05e762248d8ac2abc39edbeb731de2fdb96519ce5a2c930011a09758c2851d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/hrsta_romanp_vagina.png",
+   "size": 2733,
+   "sha256": "2eb0c59abd13a5310165589d295a11f124d1c94b1177b9c23c555ebeeb9277be",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/main_cook_button_material.png",
+   "size": 3281,
+   "sha256": "13a8bfb4f3481c8ccaaf712b35e2121c3125a31328b39c63129ad71b1588dc14",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/main_cook_button_recipe.png",
+   "size": 6755,
+   "sha256": "f82b7a6ee89e284d3194cabe8f5e5f3321d82ef2694783f168997a3d76a14a57",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/main_cook_relation.png",
+   "size": 7739,
+   "sha256": "51d02eecf9914a3727e443236a538a665bbac001660302fd64b869a9d74791ea",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/main_follower_window.png",
+   "size": 10805,
+   "sha256": "812bb669559291ead3e7bec4b971311f9af805fd2addc72b062269d8f67e543d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/mainchar_button_fix.png",
+   "size": 3906,
+   "sha256": "00e1e443acb4a69e6b3edfbdb6fd535f927b0fca15e806a635ecec55528f6d92",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/mainchar_button_make.png",
+   "size": 4238,
+   "sha256": "0e977bb634f80a11dba9bffdcef527f098374cfaf2bb6c03dd8edd0da21f42e2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/mainchar_fix.png",
+   "size": 4666,
+   "sha256": "ccfddd440bc1c4b9b5e55fe8b2d9876183981219ff2e811926ba89e5868bd0c3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/mainchar_make.png",
+   "size": 5134,
+   "sha256": "77a6d4458de3400490e1a51261d584204c824ec84bd3544a0d22bb1a2cc2179c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/mainchar_title.png",
+   "size": 4193,
+   "sha256": "b4962d95411e819d50488b8c2b3ac8d7d1abd9ab1cd1bae6b2a41a5ef5ef7aa9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/mainchar_window_player.png",
+   "size": 2992,
+   "sha256": "9bd4fb14a81ae6adfb30c970bd29740acc921e75626db000699796d00efa1be3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/minigame_cooking_tmb_recipe_chocospray.png",
+   "size": 72965,
+   "sha256": "b108686be52a093e274ea5be79f929243dac02fad034753d9231f9bd00a33f4e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/minigame_cooking_tmb_recipe_flour.png",
+   "size": 66119,
+   "sha256": "d4d8166f92fc4671d4d65107c3313e7c3527609336d6eb1373292b2aff5fa231",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/minigame_cooking_tmb_recipe_heavy_cream.png",
+   "size": 81383,
+   "sha256": "f03eeb48b338fc1cbdefb2b9fb9842acdf6648a2d723aa07a2da10ed05e756b4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/minigame_cooking_tmb_recipe_matchapowder.png",
+   "size": 59392,
+   "sha256": "da208cd7d83a38bcb1a85bb051ce1bfd864066a76e3130d39774df2792da130e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/minigame_cooking_tmb_recipe_milk.png",
+   "size": 40875,
+   "sha256": "7c0bfc3bf603fa884db5762f3238b23d9801ed9f3e1916279127de8802602a0a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/minigame_cooking_tmb_recipe_miso.png",
+   "size": 123919,
+   "sha256": "d4df81de617faf6a61c7e1ba79a98ca56f86cefa3f8e7351b0db8ff43dcd2058",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/minigame_cooking_tmb_recipe_panko.png",
+   "size": 64245,
+   "sha256": "8b32c2ade7b8cb95d0120b837580ef5c2143dc456c0524c2468bcd5fa0d5aa36",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/minigame_cooking_tmb_recipe_rice.png",
+   "size": 74844,
+   "sha256": "361ad4e37ac022a9985039bf0e9ef6b7f894c684a8128c4f0d73523ff3a7cbdb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/minigame_cooking_tmb_recipe_roastedalmonddices.png",
+   "size": 60658,
+   "sha256": "867fb117b677d41ecb50a7a049161445f787c6c5c6146f4361694e6eea79a860",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/minigame_cooking_tmb_recipe_sesame_oil.png",
+   "size": 44819,
+   "sha256": "3f1755d6f378ce7e7f3a117522c23017324e9953e2be65711203cf470186d316",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/minigame_cooking_tmb_recipe_tofu.png",
+   "size": 63338,
+   "sha256": "edbb47ac41391cd65dae9a69c659676ff38d1469a47cbeb2da2f478efd513c07",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/minigame_cooking_tmb_recipe_white_sesame.png",
+   "size": 72058,
+   "sha256": "dd9483b294da514e2a03ca6bf998b3ec60427ca38b03726439c019ff0e713844",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/nw_yomu.png",
+   "size": 6510,
+   "sha256": "809a13fb8f7be909ecd65d97d0c2ca5cd2ac0834f59ed4bd77b943afebbd5a4d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_button_deco.png",
+   "size": 2657,
+   "sha256": "2ec6c3f72742d4076c2aabf7642f04dc68c395ca882213cca3721cd72f9aa7fa",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_button_expression.png",
+   "size": 4245,
+   "sha256": "9c04f05dfa929af31ee31b572b2638958af6b370cdb196939692724ccc65890f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_button_preset.png",
+   "size": 2815,
+   "sha256": "b272cff67200bde1d02c9945eecdb08bdf296dfcb92b8fab2181d46f408fa4a5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_button_shoot01.png",
+   "size": 4945,
+   "sha256": "4398986f58df648463179fa8c5574cc9f2cb8dae1bdcd6ef01b5c606f6efa52e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_button_shoot02.png",
+   "size": 4989,
+   "sha256": "1aaf6b7510a5a0b51666427ae0dfc0f6cd365c2913b64f33f259b98a643967e5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_edit_button_chg_frame.png",
+   "size": 3845,
+   "sha256": "04a22ca2644862d8cba5f7fca623c8aa0052831371a00fa1c56420e2598e6228",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_edit_button_chg_icon.png",
+   "size": 3863,
+   "sha256": "536d0862ef0873db1b60b5615d818f985764aac925572f7545f853aacb9c557b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_edit_button_flip_lr.png",
+   "size": 3213,
+   "sha256": "fdc0fa0d6732929cfe95ea17035d758f92f51252f24550641cd87f34c1d03996",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_edit_button_flip_ud.png",
+   "size": 2931,
+   "sha256": "0e532b1e1e904faee943d625586be24aa3f64b16171c2ec21d5f68a20e261840",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_edit_roll.png",
+   "size": 2804,
+   "sha256": "53a4da739fbb5c7409a32a54953c19787109d68d46e0fbece103f61023bbaa83",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_edit_scale.png",
+   "size": 2802,
+   "sha256": "80c7c0b48301fffd12205e3a2be011ec06c93d2939e35f4137ed8785a83121a4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_edit_title.png",
+   "size": 2814,
+   "sha256": "c223a2ab35dce8359b90a1854108b78ccee6d1b157d9eeb91b4a6873df5a217b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_effect_button_all.png",
+   "size": 2037,
+   "sha256": "74453e52b7fe23696d29cbdcc87b38bc219786f7e660bd868fd921e1a7528a08",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_effect_button_bg.png",
+   "size": 2891,
+   "sha256": "49b27d7a77cbd404be5c9f1b4ff4c1b3bf0405fa7e600d4faf22252893dbb1d4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_effect_button_char.png",
+   "size": 2755,
+   "sha256": "32281f4322236818a8b60c39609399184c96cc12a0e3c338cf158b07ae14b250",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_effect_button_fill.png",
+   "size": 2230,
+   "sha256": "937231cfc0ad345f89ab48f89cd31abbf16af4916c6bb9f8bbf4fc4ce63805d3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_effect_button_filter.png",
+   "size": 2283,
+   "sha256": "3785c0bca8240a12474b618ae72bff9cad6c3960cec24d9d7c7a7436378557ac",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_effect_button_hs.png",
+   "size": 3911,
+   "sha256": "bca164bd08a7061f3e140b0d0f9385d4349002f0ce0c64df309be3de11423919",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_effect_sat.png",
+   "size": 3768,
+   "sha256": "730765cdad19c2c3ddb6e643da38f60ae9dec21893583cc224cc914990b0e2a8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_effect_title.png",
+   "size": 4689,
+   "sha256": "96c8bb5489de2c6529740b808af6455d796310b80dbba30bbf4651fef4a45fb1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_fill_title_color.png",
+   "size": 7015,
+   "sha256": "032f812de95d9df544686635a7ba16d0bf1480cdc2dbce3712336046125364fe",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_fill_title_fillrange.png",
+   "size": 4376,
+   "sha256": "896b1104422899decfd22a817d6a6585b61b3b8b869fc08b9152b5e179604473",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_fill_title_grad.png",
+   "size": 2913,
+   "sha256": "d50058096bbffbb77dfb039ac89173389a2f480e29670d60fd624f90af5d99ed",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_fill_title_range.png",
+   "size": 4274,
+   "sha256": "11bde8f6453dd5323c3ba0e604faef8f8d3671571b5dee39186483ecc102b1a3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_frame_button_etc.png",
+   "size": 1994,
+   "sha256": "02c04198e71d3695dff1b12b60d3502a5851dde0b1294cf996356957f6c2468a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_frame_button_l.png",
+   "size": 2997,
+   "sha256": "99c2db25a246a09184adf425b5e70a611350b2b9a4cfb11202539dd5b7fbb51c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_frame_button_m.png",
+   "size": 2798,
+   "sha256": "745829566c20f83913c3ed4a9db1791e0fde2047091348027ee3e604f3f25e53",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_frame_button_s.png",
+   "size": 3021,
+   "sha256": "c2e8300146bc4dad2e16791fae91b199243d94dc60222b1171a0dcec13bbcae9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_frame_select_title.png",
+   "size": 5428,
+   "sha256": "44b221f1bd1dec0bdeb2b6e24ad88b437b5a09c71f8104c145d96f03ccd2d650",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_frame_title.png",
+   "size": 4279,
+   "sha256": "33d287a2b35d15660c63e73ddbe8f8ef6a08f01db35f8e0ebf8322ac8ab03681",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_icon_button_emoji.png",
+   "size": 3146,
+   "sha256": "2787258c2b590e1291cbf8661a0cca9e996173c68a93f9ae59a4b35279549ee1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_icon_button_logo.png",
+   "size": 2145,
+   "sha256": "9e08f22a9bd1a0ebd0dcc836956cb291ffb2f48f84f664cb78adb6e677728ed7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_icon_button_stamp.png",
+   "size": 2348,
+   "sha256": "96023e6bc09e21b108fa0645da81e8f2812af9e1e64d179127af8a6bbf643472",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_icon_select_title.png",
+   "size": 5988,
+   "sha256": "26b30bc9ccdaa86e9b22cf72673077dffb9c70b3c99189cb52f75cbffd237562",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_icon_title.png",
+   "size": 4584,
+   "sha256": "8146bf07c89102d82374ead916c51da8acb5238bdd5a0e03cb81ef174c044f79",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_layerlist_title.png",
+   "size": 3710,
+   "sha256": "9a7d267076f7bafb5e6c71ec2c3a23ef6e31eb050afdf41d964950daaa5bf660",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_preset_title.png",
+   "size": 2720,
+   "sha256": "2d785a4f61e3fc52d2b6ba489c9288ce4ffd62fc19f4a2d0c313ac3f8d5e57b1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_topic_button_effect.png",
+   "size": 3513,
+   "sha256": "aa4681756c8d126a04f5fdcf8a36b8e30f9546fe586a0adb94ddb911d08bf802",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_topic_button_frame.png",
+   "size": 1705,
+   "sha256": "21558cfa001a7a948e74376a4afbdf598823a154ea681c0a9b537b3513382546",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_topic_button_icon.png",
+   "size": 1899,
+   "sha256": "a423c5e3682d6ffcd29ccbccaefb5c42fa5054893f853fe4cf75c47012570b81",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/photo_topic_title.png",
+   "size": 1861,
+   "sha256": "7bc9f3aaf44f0b0a616c71f7995f761dbbd4eca6422b6a678a4d0f6c953e0016",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/re_club_button_entry.png",
+   "size": 3600,
+   "sha256": "910de284b2d83e88085f16dc5b6785d9b4120e366bb90cdb0a977871dbfcf4cf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/re_club_button_join.png",
+   "size": 1985,
+   "sha256": "17d5e6b30ebd4e84a91ca52e02ae6496d8ea9b2c3f4cda873295858c33d0989a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/re_club_button_notselect.png",
+   "size": 2192,
+   "sha256": "9fa5f82fbe0132d2ead53ad4f4ed7bcb1b0201727a8f8aaa8a7d39ddb0610cf0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/re_club_window.png",
+   "size": 6746,
+   "sha256": "684c16c03bad45a25e86f1d0953d3365a9b70e11ff4d5c23f87721437275b134",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/re_rank_benefit.png",
+   "size": 15157,
+   "sha256": "5230360c2b269bc06614a2c0f6ee769cb7ff76018504424499f37a21f84c00cb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/re_rank_button_do.png",
+   "size": 5548,
+   "sha256": "7c660c75d94ab617f9899b87d6905d0f24604631e98146d1a3f1af2637c96543",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/re_rooms_charge.png",
+   "size": 4715,
+   "sha256": "5d04cf7dabeffa5ded91dfea0834e5f98c57c73cf626063078727972149e9e8f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_conf_sp.png",
+   "size": 6048,
+   "sha256": "3c6437b83acf6abb83c839d7593a68010df0d7e8cc6e6a8b4c5f191072620a57",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_skill_point.png",
+   "size": 12652,
+   "sha256": "7a10f0834d97d98ee4c0b0b183235b1cfbc10af9fdf9941fc3a6547fd53e0b31",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_sns_visit.png",
+   "size": 11236,
+   "sha256": "3a6c459d8ffa87e62783f0d0c58e1d2104f7f4a7b8da5affafe909a30786fe66",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_status_category_charm.png",
+   "size": 4012,
+   "sha256": "72a95c81c707c69cdaa053b7232dafd1894d4394ba80c867eeed5e9bbf6541f0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_status_category_date.png",
+   "size": 6932,
+   "sha256": "16fe4227d292ea3b91e83c4e12ad7090c6246224dfe23fe4b670041136131e7e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_status_category_looks.png",
+   "size": 5389,
+   "sha256": "673d8c4f533a6780f3736643b9940931b70019a5fec66783f539e1bc0dfb8ee8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_status_category_mental.png",
+   "size": 4955,
+   "sha256": "0e042f91733958a64844d4ef1b48c1e9e0a8c7ea203075d935d4ee1c5d48d851",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_status_category_wit.png",
+   "size": 3409,
+   "sha256": "b297002e8c71de7ce7de6050c486448a9852e5f0d8128026ed6bbfc72b7896b3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_status_heroine_getskill.png",
+   "size": 11678,
+   "sha256": "2ca0ced6541814d8592db503ee69518cd2c24624fb7f528807059b2208c20118",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_status_player_money.png",
+   "size": 11151,
+   "sha256": "f6ca5e9b8bc85136d5390994c5689113d08bad751ae6ca9efcc901b6bc68ac98",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_status_player_sp.png",
+   "size": 12892,
+   "sha256": "619be3855f2807ef0f5c8a70e097ce0acc2315aae00c68585c1f8cb189b92951",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_tag_relation.png",
+   "size": 8307,
+   "sha256": "a9bcd5e4d882d1d5da8021af69691c6a3f982bb6bb841c8d34823a9685da6fe1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_tag_relation_off.png",
+   "size": 6919,
+   "sha256": "02a15a7024fb38d2ed8cfa38b43775d664a0d1273d4a809a639b3baf0cf8adc6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_tag_skill.png",
+   "size": 6119,
+   "sha256": "0a35d969d27b72f448572eefe2e42e5b8c261be0a471bfd16e86212109f44521",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_tag_skill_off.png",
+   "size": 5745,
+   "sha256": "ee7bb7231dc12ba2c062581b4e919d76142d7284ea35eeed812bc854f7c552ad",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_tag_status.png",
+   "size": 2850,
+   "sha256": "590e85a0c14bfd9057c1a38aaa363770f01556fa18b403265f7db7568b0fa570",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/result_tag_status_off.png",
+   "size": 2373,
+   "sha256": "668af647d08ce92c974657f5e51254fbdc45f30af7575048a848910610d21ab8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romance_tutorial_001.png",
+   "size": 1502494,
+   "sha256": "c8f8c8b817d73c5f76fb171e6ed8f9240081a1fe7c25eba0b19bfde665167477",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romance_tutorial_002.png",
+   "size": 1506017,
+   "sha256": "fd1f14e0d01c1aae436d87a1db8597e1e06cb67b07a447c767e95aa7cdac511f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romance_tutorial_003.png",
+   "size": 1510092,
+   "sha256": "abf526e5e5e6eb547d91d020c6879feb8cba5b61deee93ddff0ac4470d35c3a4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romance_tutorial_004.png",
+   "size": 1516766,
+   "sha256": "44c34832c80ca85630362b2173e2b971814d4812b62a97783b78a42b712668bf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romance_tutorial_005.png",
+   "size": 1509734,
+   "sha256": "5c8edb9c95680bf9dc82c4ee2d7400fad2b5a20889643c3b172945991fece5ce",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romance_tutorial_006.png",
+   "size": 1572184,
+   "sha256": "1d3fcc67a9c3827f5aa58b7ba26369ee19e3c52b5512dddc38c279537f9b79c7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romance_tutorial_007.png",
+   "size": 1601247,
+   "sha256": "b65b51d13b505ef7c93193af79f9b7d2bf413d2b50c7292a12d0376f1a620fd2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romance_tutorial_008.png",
+   "size": 1529614,
+   "sha256": "acb41af978cd17e6253aa3372ac7dd6c11142d7054cd90ea6476340cae78742f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romance_tutorial_009.png",
+   "size": 1497787,
+   "sha256": "fffca4a9b01240891a74d4cc6a480b9082cd4d901b655cae9381d89effdf9d36",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romance_tutorial_010.png",
+   "size": 1509783,
+   "sha256": "11122a8556dbe3744e4a4eb3623ebae159cf1354869c513f9586c0443ea9d1d2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_button_adulttopics.png",
+   "size": 8499,
+   "sha256": "d9becf0af292b3a545e4fa3f30ca7f093135dca3e56b29a59f86d1328e6d3d44",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_button_aphrodisiac.png",
+   "size": 2714,
+   "sha256": "e6eb62c7fd5889352091d8675bb6628d4f8d61c64da6f51b34f1d32171a5d9ef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_button_blindfold.png",
+   "size": 2826,
+   "sha256": "954f159c347297aec97ade6cb0f80c8de3e6fbf27536e68b3048e0724027b3e4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_button_cancel.png",
+   "size": 2873,
+   "sha256": "32f47d9e069b3af9722a2ebcd09ce51e72f4c7aa73006b6f271487d58b6b689c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_button_end.png",
+   "size": 5617,
+   "sha256": "20993360a4277c1f92ebd3964e01548e4ef38c1d595bb1fe9a2f80782b9cd1c0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_button_start 1.png",
+   "size": 5464,
+   "sha256": "61c27ede53450a7556b9da45913e527f6cde4c718e930e5ba50f7284bf89e1fb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_button_start.png",
+   "size": 6028,
+   "sha256": "e24d2ec911aab922dc2d717056b830d81d240588034e0b89b98893c30d92a677",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_flow_title.png",
+   "size": 7008,
+   "sha256": "d8aed70bb46ac14359a1b0201d5252618c92d7cea83d26b846f1447c1dd0d9b5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_accankle.png",
+   "size": 2297,
+   "sha256": "faf3ee1c714cdcb8a5934dc9a1e2bae1d575a8785c726d017bb2c7d96371c43e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_accarm.png",
+   "size": 1996,
+   "sha256": "9e69a7954715c30268dd9a368bca4ce028d240a8d9ed761fc030e4df3eed8c15",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_accback.png",
+   "size": 1775,
+   "sha256": "db8c1249495bcc1b48e3328bbc78ab725b6efb9dda922f0a96c362b8804b9ae5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_accneck.png",
+   "size": 2518,
+   "sha256": "cd50553fba417a7fc0036bdfae861a246b2169603a8260545b2ccec7e8d48589",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_accwaist.png",
+   "size": 2169,
+   "sha256": "7e2a58a1f9211e7632c3f2f62c641960902c5269c1f2ac7fa9e03b875adb63a5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_bottoms.png",
+   "size": 1579,
+   "sha256": "1207dbf1f8e43f41fbbe2007a6097b3a5813472af6dce58ee2e59721cc1ee23d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_bra.png",
+   "size": 2382,
+   "sha256": "be1e25f1e3f54fa70654ee7874a7bc83b3387222aa87c94061c20b1812688f0f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_fullcloth.png",
+   "size": 2076,
+   "sha256": "3c0134de10cb8af7ac512f456378cb5723271f784c8d90f601f9ee952cde92e8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_fullcloth_player.png",
+   "size": 2081,
+   "sha256": "c931ed7312db742b16df0ae51a8f0ac9c3e49c8dd7087a3e0a34458cedce9eac",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_glasses.png",
+   "size": 2160,
+   "sha256": "c0e1ef81967cd2f63ec7caaf686279f8989118dcfcacd808b09c8703b0999e22",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_gloves.png",
+   "size": 2485,
+   "sha256": "33700e5cf9cc0b5bf99fd801d071e6207103d7660d3bcf6c48998e1c350df0c1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_nude_player.png",
+   "size": 2042,
+   "sha256": "efc9ce32fc4852c3522d67abc17d2e20f6c86bc4beda4ba830feca3c9ced78ea",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_outer.png",
+   "size": 2514,
+   "sha256": "622205957d5101d08b41a86bca9c8057ea01f34b24980e3b0428291a6c427cd7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_shoes.png",
+   "size": 1909,
+   "sha256": "8270fb159bcef7361b39180b4302c68464341c1ce0c1f20bca0a62b6e7dbeff8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_shorts.png",
+   "size": 1444,
+   "sha256": "2aa279f02a19b04a63a9b0673e98e07ce33fa84f6b6fba8e98560969a2011f9f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_socks.png",
+   "size": 1652,
+   "sha256": "364a488185292c7b173249e08fd62d540773c3304f37035ed6bf20bd441147bd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_tail.png",
+   "size": 2181,
+   "sha256": "21817abcfb0c64211b018cf1bb23f15b96ea2976bb3b65602c649d0c16a0490d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_tops.png",
+   "size": 1784,
+   "sha256": "693fe96e5c72526bb40d9f244a4c1723bad46a5c9156e871e477c080a74a4117",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_unbuttoned.png",
+   "size": 2250,
+   "sha256": "6da013409b9c32a22d247b337dd6546dda5c7f7f3a1bef66df7bed1fc1f159ef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_icon_wipe.png",
+   "size": 1827,
+   "sha256": "92d8e9b77fb05f40b57ddc20a1381534f3bd3c8723ebf3bf5f7c67d709aabc18",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_mctl_title.png",
+   "size": 4021,
+   "sha256": "b727ebf7ca5fae515a67824592b3cec773d95574119dca43d2708dca73076467",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_option_title.png",
+   "size": 4667,
+   "sha256": "423fc44373dbd014e495e71508729e4706831ac1eee7304a2909e4b2a282f049",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_playposition_title.png",
+   "size": 3978,
+   "sha256": "5f46fe6bee07ed2262856004fb82cf970c724c45cd50864d50de7351826a7d75",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_result_skilllearning.png",
+   "size": 4948,
+   "sha256": "89e6c8e60e278033c8258536c8888500f7faafd85264830cc72400ec0ea259e4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_result_sprelease.png",
+   "size": 6275,
+   "sha256": "e70b0687f3f1e103d728eaca6c7c86ac60bb962ef4d1e7a479af372c7bd8e8b7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_sens_anal.png",
+   "size": 1980,
+   "sha256": "d2962597d0287a4b669d11377ea346ceab21a3d31d56568f91d7ce6e35d3654f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_sens_back.png",
+   "size": 2351,
+   "sha256": "0e1124d03c912787cac745ba790bc6fbb287320716ee2c5a7cb2905112f4cbc6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_sens_clit.png",
+   "size": 2501,
+   "sha256": "32b01a0e4a3bbb377d6d442731eaeac53f68bc781362b0991ffed3e0d0d86777",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_sens_nipple.png",
+   "size": 2473,
+   "sha256": "257ded92f4f16eeab1666a65e7afba8345e11a551132c09ab46ab52658da9600",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_sens_pussy.png",
+   "size": 2643,
+   "sha256": "89c9bc41c0d3e75714496f9535ad715a6f216b35a1b77bf3567a8feb0c644bcd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_sens_throat.png",
+   "size": 1617,
+   "sha256": "5e41ad467243df8b243a761ede451e3cdeb350f0d4db0c2aabfaea0f75050faa",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_sens_title.png",
+   "size": 7589,
+   "sha256": "950c99ad37ce3c2d89cd7503f189e3761f8ff5228f4868d4f66ca6861605e41c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_speed_title.png",
+   "size": 2539,
+   "sha256": "8edb48dc45d4187396ceab7eae6854834b97c74e81f2d156902ef4d66cc44436",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_status_bond.png",
+   "size": 1222,
+   "sha256": "e8ad8e4dfa848a0b16f433902972ec759b7c268d9fa80a4e6875223bfa7c6c8c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_status_excit.png",
+   "size": 2633,
+   "sha256": "96e22320a0d2b12e674e820bd1600804f3b988b4efc104faccb7bb4cc5eec64b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_status_perv.png",
+   "size": 1988,
+   "sha256": "f6aa79e139dd9422b57cea8c9b1970b68a5b244a20c846b2c987debcde12a23b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_status_service.png",
+   "size": 1912,
+   "sha256": "cc6316eda58eb4fc2cad5c7e221d7fd282de843bb7e685b881b8bb6eb2fe8598",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_status_stamina.png",
+   "size": 1820,
+   "sha256": "4de9edcd8b5e82661ad0f1c3f6c966dbd8bc59615792eedc6ce178c50ecbf371",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_status_state.png",
+   "size": 3150,
+   "sha256": "7ce8de79c47be5f501ae97362482b52f1b9608950ad59f33dd762001734c5c76",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_status_title.png",
+   "size": 2237,
+   "sha256": "ccbeb4f96aaf724d70872be8d838d3aa26661ba6bcdb660327682ed3b79664b9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_tab_command.png",
+   "size": 3167,
+   "sha256": "7cb351fad45f57a2422e8d5287e23eae1f3aaeae955c93d4fcd8125c2c0ea482",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_tab_command_noactive.png",
+   "size": 2022,
+   "sha256": "f9ae48e499b1d52c0c85f8f53e89c1eaab2a4af2c495c1786e86b7d39390562c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_tab_dress.png",
+   "size": 3030,
+   "sha256": "9505db706542de5b28f6d475c90e92f0d5b3d41ece0e74e2e03d4440d1afa855",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_tab_dress_noactive.png",
+   "size": 2028,
+   "sha256": "e5840f8d7a3f549e9d00d521a57bd3b165d8e4dd28bca5ecb86869f280064b09",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_tab_playpose.png",
+   "size": 6256,
+   "sha256": "00f73881fa698b8e54bd874769ae2e0bf8f9c6e6e34a0c4b512f906f5102e2b0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_tab_playpose_noactive.png",
+   "size": 3811,
+   "sha256": "eabb47db7d58629a4b8f1152eed62ad94b5c0b6440140e517c7506e7f9e704b7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/romsys_token_title_love.png",
+   "size": 4428,
+   "sha256": "e7bf8a5c789cf8d406bd239045ed64a763ad8e3a01c14dd3fee82b063c8de8df",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_bill_button_both.png",
+   "size": 4722,
+   "sha256": "0bc3363103180c600891f2daaa04cdf59bbbeb2fb25f9f60b746eb73fddf72fc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_bill_buy.png",
+   "size": 3677,
+   "sha256": "3e1483465707153d1e1d8cd062f8825d307084c892e98ee4ce01d3fb06bf6856",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_bill_move.png",
+   "size": 6322,
+   "sha256": "d20a90055bcf2d1e744b08a620a10380f9e193fb226db7bb8cee1864471cd9c6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_bill_notbuy.png",
+   "size": 3142,
+   "sha256": "ed3ce73eb2ac451197c1296e56a300031fa676fe5af607e86e824e6be8bd9e6c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_cart_tab_crc.png",
+   "size": 4346,
+   "sha256": "2d13412c12aa615c2eb462b6efd8397cf77517e233216967f54017609b03a03a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_cart_tab_crc_select.png",
+   "size": 4901,
+   "sha256": "41bf494fcbd9e41eadf82fa09f55f3d45dad707cb287a2d21cd68584719dc598",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_cart_tab_dlc.png",
+   "size": 4169,
+   "sha256": "e99007fdbb3add3f6be2ca818fee7b56e1c6f72205fe42a0e52054ac9bbe0eac",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_cart_tab_dlc_select.png",
+   "size": 4836,
+   "sha256": "70f0d2faec8d518864fe40c78a69ee6820cf95654f58db67a73940ad547f925a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_dlc_detail_open.png",
+   "size": 4516,
+   "sha256": "e8745bd99bb8fa7121f2de75d56418627e5f41df3a5718209eec484ced2e69d6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_dlc_pay_com.png",
+   "size": 8568,
+   "sha256": "195f6c2d622eb3d6d43de163e25920bf19158a0fe7c428794bec0ddaad5c3519",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_dlc_pay_cr.png",
+   "size": 6684,
+   "sha256": "e92a3d3f41a5433d16384ea00fb97e51bcfa3956e38909d5f7d3102c65d2e621",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_dlc_pay_scourt.png",
+   "size": 7656,
+   "sha256": "a97421ce3a755004bbe1e192ca3386c75a95404873d02ce4fe48b8be6a5558d1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_fitting_button_parts.png",
+   "size": 3969,
+   "sha256": "985867646da6cdfb15954b5fc55daa5a26f26262afb19050a5f0b4c7c48cd012",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_fitting_button_set.png",
+   "size": 4117,
+   "sha256": "51acd09a57f9aa70a90c153ce8c33cec7b535a4a0ca693612daf7f1ec579a831",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_store_button_set.png",
+   "size": 3214,
+   "sha256": "6149673bc4a9efdfbc8c9770e0fe7c86e9a67c93229728381ba4bcae323bd18c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_store_button_single.png",
+   "size": 3365,
+   "sha256": "2e2b5d971eb52cb23dd893633b5d9e14f3fa8b90879d142029b76c20876d4bcf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_store_dlc.png",
+   "size": 4004,
+   "sha256": "d056426f7d0f0ccf804cce457893d8e5742c06b6259c8176c0dd73a1746489b5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_store_sort_abc_down.png",
+   "size": 1928,
+   "sha256": "63de228f6595eaafa6a2f3c521406923bb2d580b4952350ae4b8b8114f83363a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_store_sort_abc_up.png",
+   "size": 1943,
+   "sha256": "f09c20e5c77b8dab1cc458b62e890c839eb7439d6d795bb3404a53f3fdc7b02b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_store_sort_new_down.png",
+   "size": 1771,
+   "sha256": "8986dcd4e3e1de9429bf00f44c4151c2330f25707ec0d0df16b923720d4daa8f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_store_sort_new_up.png",
+   "size": 1827,
+   "sha256": "18504e706aa8d4804643aa1fb3fb12b079cae094b68c193450c12467d4b0c3ee",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_store_sort_price_down.png",
+   "size": 1996,
+   "sha256": "a48a3b1fd659e158d03d14df69554c1ec168d9c7a3510612b35222170954e2a0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shop_store_sort_price_up.png",
+   "size": 1932,
+   "sha256": "92e07f7e2d13808e57ca50898fce71248ac3331495dae6b35a45afaaae351765",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shot_set_button_end.png",
+   "size": 7420,
+   "sha256": "1698ac550d9e4eeb2f8ad21d0b1551ef647be092080c2ff36f6e51782e3c2142",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shot_set_button_start.png",
+   "size": 7319,
+   "sha256": "de2ac7fa5b577b69a14692cbd6f5980498a93c5c2829fc45d221ee1f2f7bf7f9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shot_set_course_window.png",
+   "size": 3805,
+   "sha256": "4c7be5e36551fec5a67d1a2ba2fbbe6cda8e5e3d82942ffcdf240b347a09db38",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shot_set_course_window_select.png",
+   "size": 2275,
+   "sha256": "e7a6a5def05309b669c4082bc4a1d9c1d2025912f5175359822fc961b2c299ab",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/shot_set_window.png",
+   "size": 7346,
+   "sha256": "49e880383bec208292411adcfbc25458935d8eb9e57f1b85b2afd1225cbdbf59",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/sns_button_check 1.png",
+   "size": 3032,
+   "sha256": "d4dbec25f0ca43e49957053683798f64119f2691262f1a6229073852e7dcb34c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/sns_comment_head.png",
+   "size": 3840,
+   "sha256": "1c371f20ea5e27221b710154c62f9679a6f17b82ca80aff240da5acb308b668f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/sns_tab_trend.png",
+   "size": 5506,
+   "sha256": "0b1e1c08f73538b48e796f378e4c7a0018a68381cc554f80ace82f34c7ed8d48",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/sns_word_history.png",
+   "size": 9007,
+   "sha256": "a24d5466cf34ac89bc58658784fb1e8e7ff31636498d83464bfebe740a5e6080",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/start_preset_window.png",
+   "size": 13726,
+   "sha256": "b08aff4d0aa5754191f23666b703f1d7eda5125731a73102a86799848d068d37",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/status_personal_itemlist.png",
+   "size": 47504,
+   "sha256": "1c734d3539063f7515d56056fd2c8d43ea8d289b87da551d092c2478ebbb74e1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/status_personal_window.png",
+   "size": 29654,
+   "sha256": "7116421c9937e3390358d8972108547c8a76c73e68c56180132cd86eb67571fd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/sthr_char_topic.png",
+   "size": 8178,
+   "sha256": "72495343fe25cade43356213ca69c4011b05f014c5aaeda6f7aa9af348bc368e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/x1fishing_tutorial_01.png",
+   "size": 226473,
+   "sha256": "73d786475c5f3e4de308dd0a87b64e70cf3f8f1139154214b4fe2c3c810874bb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/x1fishing_tutorial_02.png",
+   "size": 233656,
+   "sha256": "6113d465472e7df60a7ebdd210f4b86201629954651d23350d84ff31b6cd8bce",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/x1fishing_tutorial_03.png",
+   "size": 240459,
+   "sha256": "d6c63343aa7040e15bf99cd58baba0313dfde3cf60bb4264bbf49ca4b1bdcb10",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/x1fishing_tutorial_04.png",
+   "size": 238832,
+   "sha256": "587d43158546bfb02d490b4bbfe7343c8bfb5a4154934a9e6d50521a30be94de",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/x1fishing_tutorial_05.png",
+   "size": 249664,
+   "sha256": "effdc7ffbe02fcc678ab8e633c5416511587f7f917f42f1cabab51d668499a7f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/img/x1fishing_tutorial_06.png",
+   "size": 197607,
+   "sha256": "021aa0736f5bd893933f33401a899945b4156e372d85a0339d6b3f12042185f0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/Sprites/labels.tsv",
+   "size": 3353,
+   "sha256": "a0d18950c52c6259b42019d37835b35f8d4ee74e756c52ac1f1496e5379437f2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/00-common.tsv",
+   "size": 1484,
+   "sha256": "cd2cf8ddc58cf87c229686f3333d53ee0f6a52657127374dbfb9148c8d1b55b8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/10-runtime.tsv",
+   "size": 12499,
+   "sha256": "8842a9146965e5ac4c9d471fef038832ebc04b7f919272470be4f4e4cf7ce0db",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/20-tables.tsv",
+   "size": 68833,
+   "sha256": "7a8b5b1f5016ca9f40255bf6c9392c1d50008cf426735e513280ac0a9b881253",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/30-i2.tsv",
+   "size": 452970,
+   "sha256": "928011bf5de55babf1478e93d91fdffb7affe3d7c6050ed892b6a2e00475f477",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/35-try3.tsv",
+   "size": 151673,
+   "sha256": "eeafd5cb74f88022ac1b88e61455dbfc11948c338bc52388588bb70e20045016",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/36-try3-body.tsv",
+   "size": 3335,
+   "sha256": "3676d5bf0e456bc137f9e26156560458df88ff42c878e7a420f7349df83dd23d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/37-try3-code.tsv",
+   "size": 9348,
+   "sha256": "1ad7c40446331b41722ea9602667c012ea5975891ddc0bb9febfd9ffbcfd0e77",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/38-try3-field.tsv",
+   "size": 2231,
+   "sha256": "1ec2763f7867bc5ce15e9cca85a887fc08c212563fd7669b27f70c23c0085e72",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/39-try3-audit.tsv",
+   "size": 5264,
+   "sha256": "f947e2351d820799062e51b0788336e1afb771400d16834c6ef543cf51464cfb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/40-editor.tsv",
+   "size": 5377,
+   "sha256": "0afd2951e72f0b6da53823d9d75b93c7b869d05b1052d90d0071a382903f96c5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/50-editor-static.tsv",
+   "size": 3918,
+   "sha256": "3ace740f737a7e29205fda43edad93712914bae597f1fdf8dd831ec01d45121a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/60-editor-dynamic.tsv",
+   "size": 3449,
+   "sha256": "8604391a1774e2c52ffaa55c2f91fa87493d9f654d6eb2429eb1333efa6342ff",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/resources/translation/zh-CN/UI/70-editor-parts.tsv",
+   "size": 49516,
+   "sha256": "31d38d84dc5ccb5b560be64e61e2fc73c3b542d49640e8cbb052be0ea5744c52",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/runtimes/win-x64/native/WebView2Loader.dll",
+   "size": 159848,
+   "sha256": "2f965e10aed3b356a408978a0e6d74eb86e3e722dd008fa9ad39f68884479e85",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/themes-default/daniya-peach.json",
+   "size": 758,
+   "sha256": "a19904677e977b2a784b325e4b4448ffae4d4d77707fa7666d89ed107704f4b9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/themes-default/dark.json",
+   "size": 745,
+   "sha256": "78ef143257b50f81883fc94cc9a28bd5918e5086fadbfb46d0bae35fe2fd1033",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/JJSAtelier_app_icon.png",
+   "size": 2167475,
+   "sha256": "999ce6baec5bcf6b37f6bfe93ba397363a9bf6f894a11c6dda4867f53b05f145",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextCharLight-B6NvgXf0.css",
+   "size": 39931,
+   "sha256": "67421c38733e5124dbde05e706f556f8de97db915e83d71199b427758888f2a2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextCharLight-DiAShZr5.js",
+   "size": 108168,
+   "sha256": "3350efe883e91e43eefe0421e2f1387c9af52a15f2d22c3176bfab9268a71918",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextCrc-BLKpnR-w.js",
+   "size": 61085,
+   "sha256": "7ba95ce4b71865e028d69570c2f8ba062f04b4a8ef6d39589af7c11a8b6687a9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextCrc-gSPRaauO.css",
+   "size": 33225,
+   "sha256": "06326401ed26e7ff51de3164b399b1dde8cf0eaa734afb502a6e7c4be2f0312d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextCrcMisc-EE9EU-DO.js",
+   "size": 6371,
+   "sha256": "ef65716148256c0418ecf5a41a4d5b5463d0ac86400716ea759633f2255af174",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextDlss-5-ww6EVQ.js",
+   "size": 65326,
+   "sha256": "5aa62dfef5be78bd077ddc376efd65a917dfe99337c99feece10c64c6132fd94",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextDlss-BABsFx0H.css",
+   "size": 60432,
+   "sha256": "6efbdf1f223cebdc12def4ed74d28eaa1b34a42569d3b7940d5d965c56f7d31b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextHome-B0uFWmK5.css",
+   "size": 20744,
+   "sha256": "ebe0c50a8d93c6a1ca236a63d7bb264bda9a1522fe3f4cffab5e92351b2e9633",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextHome-BXpVEvsF.js",
+   "size": 70065,
+   "sha256": "63e4421e498b581a268903ea7fbfc52c3dc4451b671339b20202f441150df3d9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextInstall-BdZqzr-J.css",
+   "size": 109930,
+   "sha256": "9d8bdaf51b75898f012f3456e470a3d4936a923b89ba453e6ee98400aa1f58d3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextInstall-RB6iW8m8.js",
+   "size": 137659,
+   "sha256": "37f1b022ac8fcd51d8eef2e67958a9ec743ef2278e778d7f35bb98dae4d2223c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextLook-Bys8yVUv.css",
+   "size": 150700,
+   "sha256": "08c702ef3d2c1ecaa5928f2e2dda2ad4d90cbc2ae05df2d707ab6cb9083f5642",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextLook-hXK9ogq-.js",
+   "size": 269236,
+   "sha256": "95fe7adadece85dfc4900a30ddc77e147f646ff457004e66fd84ba5507347709",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextMisc-B3M-w9wN.css",
+   "size": 9445,
+   "sha256": "3c042e347c36b4537143a78a040e513bae2df7b22bdd77699d2af6168419cd13",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextMisc-bK1TyOZa.js",
+   "size": 55377,
+   "sha256": "3d4ecd20e789f4266224bb1f8dfd124f29f89f12626ee4d3b355f474e2693334",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextModifier-BuXWpHpD.css",
+   "size": 31795,
+   "sha256": "770790d83dc3ad8ca9454cc83eb145034bb9404fc64032e6e632b0b5207d6348",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextModifier-CHKWNMT3.js",
+   "size": 25497,
+   "sha256": "9aab07d46971124bee0ed09194c138140c3188ba9440140657a56523383dcc5b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextPerformance-CwiJrn9r.js",
+   "size": 74551,
+   "sha256": "4438f88973e73b8999ae211644bd67f55a1a832694a60490901fb6a311f3c1f1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextPerformance-DAEY1CFp.css",
+   "size": 68053,
+   "sha256": "4081f1b070fc3a0a58c79ead77036ca576239e61666662bbfb11857401a890a5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextSettings-BK8-G5Hq.css",
+   "size": 18835,
+   "sha256": "9afed397df730d7e07108d50d88ebbfd5ea7a307f0558760f77618880446f418",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextSettings-CieqCS6w.js",
+   "size": 32281,
+   "sha256": "70f9aec0066cd2465c9d4e6c00a0900819251e9d31a80dd9375e69d6ec0f3786",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextSpec-D2rA77m9.css",
+   "size": 22165,
+   "sha256": "3c97b6ee68b0e4937d114621ca41c44bc3ae36fc7555f88af9b4bfdf1afc48a1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextSpec-o42Yt-Xi.js",
+   "size": 20445,
+   "sha256": "2231e85b632a9a7e3328b5f05c121e9bce132bc7ea013274b7f21c2092a82968",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextStory-BxD3l1ma.js",
+   "size": 368176,
+   "sha256": "bbb2f04cc6abf9824d490950a8776141f54ca88a4a279403ba7c73408e21c7dd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextStory-llscJbVz.css",
+   "size": 132747,
+   "sha256": "9174964b14b993f935bf416c6695a47a20d5f6304a003a7880c70e03e7ff447a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextVoice-DYiEFxlj.js",
+   "size": 179872,
+   "sha256": "75cace0ba6178e2b98b7f8a69794082268c9354166505e69725ac498099c13bc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/NextVoice-xr8ixRfn.css",
+   "size": 73242,
+   "sha256": "53a32b37992dec1e6846713bf65104da0c8a1cbd3e1f852749a0c1529b6553f3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/StoryPlaybackLayer-BjZIHP7T.css",
+   "size": 6505,
+   "sha256": "74f53ef5cef138a5b65f109dc22f67e6f55a38ca7d2ffc67d26f1ba434d7df27",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/StoryPlaybackLayer-DJ9qEmho.js",
+   "size": 20355,
+   "sha256": "15bb0668090f4ce518d56f17735f541235dd534508d46cd493bd8e50e3fb054f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/app-window-DpgIWzyB.js",
+   "size": 260,
+   "sha256": "bc2267d8d5c92eb0633359ef2925430f570b2078b6db8818172025137e5d74e0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/arrow-down-ExVgLhsC.js",
+   "size": 167,
+   "sha256": "5b6de60b193e3b1ada34896b9044678ad05b49972c804daabe0dfd10c76d203b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/arrow-up-Dohs6Nqa.js",
+   "size": 164,
+   "sha256": "74c595b161cfd32cb29a92369e383f87aba9c12b728cd6f945d0e8703d9b5b71",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/bell-C7eaVlrI.js",
+   "size": 292,
+   "sha256": "67493b8a02afaec1dbb7c4e487be3f281653e68921c4bb70997d02cd535ed48b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/boxes-C9TwX6Po.js",
+   "size": 853,
+   "sha256": "83d66b87bac77c8fb7ce49e13461ccc619391338c4a5a63b3949bf59cddab797",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/briefcase-CL5aJeRt.js",
+   "size": 222,
+   "sha256": "b33114a215d9c66ff7b6cc6256111756f4be2ca42cdcb40c13dc50de1c4dabec",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/camera-Cx3IqJqe.js",
+   "size": 338,
+   "sha256": "fdd45747a440b214659e4a3b44d98c987f5b91f1f6849d2f29b8e366a574d88d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/catalogCountApi-DoYN47RG.js",
+   "size": 248,
+   "sha256": "82afa1770c93d8d5bfd1884d410ddf36d01ef89c74dfe2637baabc56ead56661",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/circle-question-mark-C0DYm37B.js",
+   "size": 250,
+   "sha256": "2df6f624203e5f9cb40e837984ac247929d1d9bf891ccbd5ae94c20ca04ccd17",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/circle-x-CyRbDXK-.js",
+   "size": 209,
+   "sha256": "92ec33c67907d7fcf4f013e73698328d0b69090a36063b390565032002cdd7a3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/clapperboard-DBMG47tX.js",
+   "size": 362,
+   "sha256": "f8db2eb7eb0fca30fbec1443d989ebe1ce0823f826924c57f070723cf5f9c46a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/commands-C9RTWQnr.js",
+   "size": 247,
+   "sha256": "29b2c86ffe579cbf7ea8c63f47a2a9101d688624f4624c897f94b05f5720557c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/cpu-CWFdhF8p.js",
+   "size": 644,
+   "sha256": "377b04da60317dc425195b8ed1f8a2db1835500589a52170c1ce3b621bbad148",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/crcDemoWorker-D7y0sr8O.js",
+   "size": 22017,
+   "sha256": "879ac6ddab73e60dfabcf06d891b411d991227a0501e4a1929bf645579e79335",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/dlss5PresetService-CLglGBWE.js",
+   "size": 1164,
+   "sha256": "3476bffb0fa9433782449a3891f86dd398a2484847c137891ae1e43739920257",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/fast-forward-CJ8mb9VR.js",
+   "size": 287,
+   "sha256": "b7bc2020a3e4fdd546143fa47521c832bce8b3f289bf2f425f9e453245b99b07",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/file-text-ChROsYbM.js",
+   "size": 387,
+   "sha256": "e4a2a5c2642cdf9f79159f6e661e0e1e6733eb7dcd5f9070b064381a6032f056",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/flag-DnQEz2dH.js",
+   "size": 256,
+   "sha256": "231b54526cdd13394be1dd09fb12080940bd3f0753d274b557adb931c3e814b8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/folder-BmxSbqXq.js",
+   "size": 661,
+   "sha256": "1214b204a5d1f4db8c1ede585bf8029bf6ec2fdce5093a8a30a7c0d95c16a48b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/footprints-BAhaJHOR.js",
+   "size": 451,
+   "sha256": "118396cdddc3f0cf46c5667c5f521318b0c1bac7929da51aabed723bc2a6bf9e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/gamepad-2-CHBjogGH.js",
+   "size": 623,
+   "sha256": "e80b095e2f6c432c2ca1331064ee71a1b95e34e464ffaadee24c48ddb3ae61a8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/gem-ChKz_l3v.js",
+   "size": 336,
+   "sha256": "f2a11dede9bce5600c967a2ce6f5ff4ef988ea54c60a3fcb9300e049d5ffd56b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/graduation-cap-C7BzglTk.js",
+   "size": 334,
+   "sha256": "a25a52a5819e811ce99b6dc7b4955de583ff1e6332ea17a3b8887d767a720b87",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/grip-vertical-BvBwEPBM.js",
+   "size": 758,
+   "sha256": "e1389068da2465dab0fc2af7d9c6da21a5821e93bfb7abd1edcbe922f0ead4b4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/heart-CXzd9Ztp.js",
+   "size": 460,
+   "sha256": "5f12906c745de0ce267bc34dd89a390072c3e1b0b8a26d09b628ae6b8130898b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/image-DZMhtvRG.js",
+   "size": 271,
+   "sha256": "ebb8d74c5f52e0e9c1dbdc845228e8fde14d758353c482a0cb19e8d4eef44755",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/index-BCBZ65Qg.js",
+   "size": 1047499,
+   "sha256": "b16cde87671025036d905dd26d5bfefa97bf3071c81fc06846150d661ef89e4e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/index-BOKT14By.css",
+   "size": 376593,
+   "sha256": "41a19245299f10e4be199af17433878ce1f2ead0b4041977808502b276c6295f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/info-BjoazY1M.js",
+   "size": 206,
+   "sha256": "156d81fc7f73d32121832acf29077a87f2836d7c3be230cbee4be2325a1edbe8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-cyrillic-400-normal-BEIGL1Tu.woff2",
+   "size": 5328,
+   "sha256": "522f5827308102a9c0ea7860b5a11306043610ecf03d150ba32056a06e8c56e2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-cyrillic-400-normal-ugxPyKxw.woff",
+   "size": 6976,
+   "sha256": "67c9cc7864b4940dbfb246c7b452c1de8e96f140f334d363fcdd87dbfeadab72",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-cyrillic-500-normal-DJqRU3vO.woff",
+   "size": 7024,
+   "sha256": "d408a664dc721f614e6346e09f3f32b2837005db28f5e4797ce8dd19da07e4ea",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-cyrillic-500-normal-DmUKJPL_.woff2",
+   "size": 5356,
+   "sha256": "26c9ed511def1f0fd3d1b5fe6d5c0c594d9ef8dd2435d2ff240ea265a416b6e4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-cyrillic-600-normal-8K4wrrwR.woff",
+   "size": 7020,
+   "sha256": "658b2246b9d068b64c9f2dbea7af4faa1a58c9428664ae5507a7306f3999895b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-cyrillic-600-normal-EVf6-Yzo.woff2",
+   "size": 5384,
+   "sha256": "b450f960a0d29846370fc050b6183727d2075a2bcb1c5595c99374bf083b5a83",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-greek-400-normal-B9oWc5Lo.woff",
+   "size": 5664,
+   "sha256": "09f89e8369d7745ac5fe92e62a9ea13f66f40fd95b5495fac014c54b3a1ca6cc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-greek-400-normal-C190GLew.woff2",
+   "size": 4228,
+   "sha256": "365b7a8eaff022b13ed0561fde3890a04a30507d773ecd5adb3aca8e766a285c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-greek-500-normal-D7SFKleX.woff",
+   "size": 5720,
+   "sha256": "89656e472646bf4d52c23d499fa2e467ad3ee73447fda24eefb96e176b1312d6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-greek-500-normal-JpySY46c.woff2",
+   "size": 4284,
+   "sha256": "5b6dee4610cdaab7c4218c1692aa9a536414010eef4e5b3cfb25f45007811bcc",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-greek-600-normal-H7WoG9Et.woff2",
+   "size": 4308,
+   "sha256": "de02415369898d9aa2d9f30379b6c201fc1c0a7017589d973747d993a68f709b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-greek-600-normal-mc2nkWzM.woff",
+   "size": 5700,
+   "sha256": "5d78d0d7859974f41fc49b1cae442e25575016670c5946c2d1317661c4a728ad",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff",
+   "size": 27496,
+   "sha256": "658b9ee07b0249cf910a8d6f3d812d46c962bae81d7379a0355b1db35c61586f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2",
+   "size": 21168,
+   "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2",
+   "size": 21832,
+   "sha256": "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-500-normal-CJOVTJB7.woff",
+   "size": 28208,
+   "sha256": "a270dd0bf13d91053b8999b7c120ffadb59680cfd63fe1a6b388a13bf2809fe1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-600-normal-BfsvjouI.woff",
+   "size": 28180,
+   "sha256": "3f4ad0687bcb0edc596c7c85138c5140ba3a9c5a3ce2ee944f27608c0f18bab9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-600-normal-C8RAYTDA.woff2",
+   "size": 21860,
+   "sha256": "400c6bfda18d5d14acad1c15d6dcb9f8e13c015e7286317e0b9a482539bef147",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-ext-400-normal-Bc8Ftmh3.woff2",
+   "size": 7336,
+   "sha256": "505dfba8ecbe77e82765f36d317ed7ef4ac42719dc5f4ae68d1c483fd22d0d14",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-ext-400-normal-fXTG6kC5.woff",
+   "size": 10128,
+   "sha256": "e7131bbf591e1ed9b74e44e162f6a39affa00ac21654cb683585d085733f6355",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-ext-500-normal-Cut-4mMH.woff2",
+   "size": 7528,
+   "sha256": "879df9319f1cbf633bee1dd489e376a9e1e8c458f4abddcfe381cb83b5e6b027",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-ext-500-normal-ckzbgY84.woff",
+   "size": 10336,
+   "sha256": "8006c29f8ec53d12d281774d669a02a70b599590d110ff1a4b4a40a6fd975676",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-ext-600-normal-BfB_LPfz.woff2",
+   "size": 7512,
+   "sha256": "90899aac1c15552c028fd205376bb537a2a5205164fe8626efabad77d7260c20",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-latin-ext-600-normal-DObL3zCW.woff",
+   "size": 10316,
+   "sha256": "7f5fbd7caf6fefa665e65015225fea76b59d425a7bc4645dfd77e6eb7db35ea2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-vietnamese-400-normal-CqNFfHCs.woff",
+   "size": 5372,
+   "sha256": "1dfe0f740fa86409034058e49474b01126ae9ea8c1ecda905917b90d57f03b00",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-vietnamese-500-normal-DNRqzVM1.woff",
+   "size": 5476,
+   "sha256": "6b14186bc983291a126aa8d6d9c3044415c968262279eecbb9bb194f1daf7800",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/jetbrains-mono-vietnamese-600-normal-OWROknRo.woff",
+   "size": 5476,
+   "sha256": "1e3421e0f17174374ea4b6103d2f0118cf914c36004ca10cd4b092b8390ee6ed",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/layers--cW4af5B.js",
+   "size": 423,
+   "sha256": "90e4ec51f4d4ad7035ce52dd51803edf9aad5ed3d53e84a13977dc50f92a8f75",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/layout-grid-_FeSUfok.js",
+   "size": 348,
+   "sha256": "d2e8932eadd51b52d6487fea1f3d1091646194d103d297baadf482cc2d2d11f9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lightbulb-4ErAxXuu.js",
+   "size": 288,
+   "sha256": "2531295b018971bd4dc56f1304c91d4f10f3524e2b0ddd40c1d9b7d00f298b11",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/localization-BgmNRjBz.js",
+   "size": 5129,
+   "sha256": "63ed9b87789b7ebaf7cafbd3cab939793972fc4e1c8dd0c0c358a19bdd9ac88d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-100-DLPe7tEt.woff2",
+   "size": 67824,
+   "sha256": "8a804d2a30d6ec4a46bf49ef31fb90940127b7e08a5a27bce1fcadd8b1f77b20",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-101-d3VsZKWT.woff2",
+   "size": 61676,
+   "sha256": "f1b94ce82489e69921536589cc6e076296698952b18052e3f06239b302b62cc4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-102-ClzJuLq6.woff2",
+   "size": 64028,
+   "sha256": "57c4273e102463cb5a16e23b4c35a2d9bbebc7fdb6b01307a8ab4a8b9b4b3e24",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-103-DuDnQ6K-.woff2",
+   "size": 67936,
+   "sha256": "ee40ae51d56d94dfde5dc94c2938e75543a8b77826b3642d92be454eb0d41199",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-104-kPGW3Eem.woff2",
+   "size": 65168,
+   "sha256": "99f4d24fefee0022dc34549ca7df2b67d754d64ccd93a3c71d3ebea3e4c70aeb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-105-BzD54h-0.woff2",
+   "size": 66360,
+   "sha256": "76ae6db02dba58a22ac96d1f17e325eda80a4802e9e2244dbf58e151d1eae43e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-106-BQ7fIzlx.woff2",
+   "size": 65272,
+   "sha256": "934b1bea5b3ffcafece589bcb68759ae7072a3d53b73aec3bbce5bf8629b65bd",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-107-D8tDfFHI.woff2",
+   "size": 64504,
+   "sha256": "d1e784c369f2a393f84b059dc75be54362adfffcaf48bc93487f0003b30acd97",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-108-tGhkpwep.woff2",
+   "size": 65240,
+   "sha256": "09bf5fa33a71399fa8e2cbedb0628a75d3ee8e90e3dad9f7451eff696fcffb71",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-109-7SMVSrly.woff2",
+   "size": 63712,
+   "sha256": "7c151ca31e0d3985bac61dc74845d2f481e4407ac1f84446dcb0db7967e689c3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-110-_uDKrFed.woff2",
+   "size": 62920,
+   "sha256": "596fad5f0a62b0641c0cf231142a1bddb3b0ec0a762b370550814fbb4b180ea0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-111-Bio825RE.woff2",
+   "size": 64856,
+   "sha256": "b60f4be538417232acdad206fa81813a59f83c77cb958e234e3e368b13473a8a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-112-D2ee0i-C.woff2",
+   "size": 61368,
+   "sha256": "326cf9f60a0c5aec39d4d075decd4c01f6049fab46d347a0b0cbdd52acde5a23",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-113-JPFVDrga.woff2",
+   "size": 61232,
+   "sha256": "476e7916f1cf1f67bf09f641147f42dd80eee0277d85ae603cda634158ee3114",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-114-BcfxYA4w.woff2",
+   "size": 59640,
+   "sha256": "87ba6bea1a37f3810c0f0d3302d5e611572db8baee30a2f5b62f96a37495fad6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-115-B1HeeOsd.woff2",
+   "size": 57040,
+   "sha256": "531f80be14010bb54e7e2bdb46da82a4ae646398104338fd17c610fa5cfeec73",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-116-hY12tXpq.woff2",
+   "size": 54464,
+   "sha256": "584cdbf4b40c7edb9902ec475c8aef82cd40198ffffdccf1d4c606256af8687e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-117-BvuZwmre.woff2",
+   "size": 53384,
+   "sha256": "04337d979f64e6ed6ee37eee65996c97d70b3214cec0da1f8e16c150cc7da9a8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-118-tzvs_H7j.woff2",
+   "size": 47400,
+   "sha256": "09be8478062ebc42b8d569f4a1087064eee81d372cdb6c4e642f29f29dfa6553",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-119-J2DWuYDN.woff2",
+   "size": 36592,
+   "sha256": "5c02815906e8d40d54a4085e86a8d785a4a64afb9dc7f013ef4d776d7763bd19",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-21-pDubCJV5.woff2",
+   "size": 30620,
+   "sha256": "a28e2cb2ff66daa3e85e922afef0ee548c22bf833e258d482b29e6f3c88f9e56",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-22-ChAPMpqp.woff2",
+   "size": 69140,
+   "sha256": "ebfc11dd161a09280276f0740a9775ea2e749444d28dd2364dbb416223229009",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-23-BBx3oNpT.woff2",
+   "size": 64020,
+   "sha256": "a7c89167f6e70b3a1a1637b1ff516e7e60e515c86e751e9853e756191d9ba3bf",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-24-CYt-Oagk.woff2",
+   "size": 65632,
+   "sha256": "2e259c5c81f78aad31045a513267b302a058e58aea7a7aaea1da761379e36c85",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-25-Cx3j-ZUv.woff2",
+   "size": 63224,
+   "sha256": "eb32801eae6f91d196f1031d9db0c30b507599a370e9f9f92ae5ca9c9bd7b1f4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-26-B9AfZ3LL.woff2",
+   "size": 64708,
+   "sha256": "07dd9cb77921ec639ddac30f517e084c829fcd507c6c55eb8d5537b01f162000",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-27-Bh2s9MNE.woff2",
+   "size": 56100,
+   "sha256": "c49bc3fbebbb265e82cf8370c21f9a3d202c5f01e2f468a062fc8be37e8f2831",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-28-C02JPoKP.woff2",
+   "size": 53568,
+   "sha256": "61959932555aed26d63a5a28a965097c716b20a653bcaf061d92daa21f7333ef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-29-T_tbUGhk.woff2",
+   "size": 66432,
+   "sha256": "0d4722fd2121ab837a2cf0293a10e6e20e339a5f4f864b5dc8dae5a1cb783a69",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-30-DMfyNzhz.woff2",
+   "size": 70980,
+   "sha256": "2860bf9c12d68db289e20046642f70f0f3b126d8494b2c072b228c36eec612f4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-31-DFfdzbkg.woff2",
+   "size": 56564,
+   "sha256": "08f4148a74e72cbedbf7080282c2eb4c1974b75ecf0e37b29caf8060fee07805",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-32-Bs1fz2iW.woff2",
+   "size": 54208,
+   "sha256": "3885f08eeb1218fb724e29157b35cc65dfbfa26d2f6ce355d9454536b9f39620",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-33-cpB96OkZ.woff2",
+   "size": 59140,
+   "sha256": "f4461c09c6796f27149799b462bb6a070543a5df503655992ad0de5ee71104a8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-34-BhinPYWX.woff2",
+   "size": 53988,
+   "sha256": "3d9c9167667e3715bdaab7d49f594355f60fc9676bb9ac06dad7aa73e2b2536e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-35-D_njRQqA.woff2",
+   "size": 52940,
+   "sha256": "d0766b468d48edd367d71449242a621f89cbe31dc89917b1600638510d521402",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-36-DqXlLE3t.woff2",
+   "size": 57224,
+   "sha256": "f73af83014ce4e13474a1866342926489ed0b049db293fb509e2f59a0492cf9b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-37-j5LbvMph.woff2",
+   "size": 57600,
+   "sha256": "4307aaa64c8ac8751a7f5dc72c843c6a4eedf8f54fad5f729cd35c15a10878fe",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-38-oO4jWdKm.woff2",
+   "size": 64668,
+   "sha256": "5593c47191d76988bc48265e9931dd543867d50e420ecd950109d475bbdf5e02",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-39-CabsX4rw.woff2",
+   "size": 63012,
+   "sha256": "226585a1c44943013f21a85e1225e08f56a486a9a9853af626768e6f16adf570",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-4-PatS3YHh.woff2",
+   "size": 7164,
+   "sha256": "ddc08df592cac9358b399f3c722b23faa31a4c60702b7d69897df60dfb412ac5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-40-yrLg3C3e.woff2",
+   "size": 59080,
+   "sha256": "6bd02c8b9e55be20e04e51f320ab050467864051ae6b01abd2447d6ee457dd85",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-41-DBXmCQhc.woff2",
+   "size": 46152,
+   "sha256": "cd6fae6b4204e8908edb542e5140651042e589fcd16867a909e0512216d45289",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-42-Bqij_UiQ.woff2",
+   "size": 55072,
+   "sha256": "1a5f6217a249c4c0df16239779e57de359688e76cd4d16247c0aba9d7c95ac70",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-43-D3kp0Ntc.woff2",
+   "size": 53104,
+   "sha256": "2c1fb7f7e6793b4b36ac0ccae5909013ad792634d2a4fc7990f596f473b03c5e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-44-B_BNGvK4.woff2",
+   "size": 59308,
+   "sha256": "0317396309f5574533ac2be1b1db65889a6f591b1a1899f30c113d9531de0173",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-45-CZc0cQWs.woff2",
+   "size": 70952,
+   "sha256": "2629f41f5e8964c2dcbc52021f35d0c706767abf2d4e58c1940bb5502cf808d3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-46-CHQX5Kd9.woff2",
+   "size": 63380,
+   "sha256": "ac3840040c050028eb80cf9b9cbc3c7097e6aa296e73a9bd30a46ff00bc7f144",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-47-Ci8gLrHA.woff2",
+   "size": 71336,
+   "sha256": "e932da0a16ae1b3e703b09a4592103c5bb18c4ca29962bc2f1583637799abdce",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-48-run3ugD3.woff2",
+   "size": 59436,
+   "sha256": "a5a459ca12ba964f72b687b3fe6672e38dddd1d2684f087e8a0c8d3bde2e7a58",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-49-DgfiUb6u.woff2",
+   "size": 63308,
+   "sha256": "73aa5e1ec152b73c1190ce3d7b95a36fd249678c4dd70e108873a923c8a0f0a9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-5-B0CtGbX_.woff2",
+   "size": 17948,
+   "sha256": "bf0bfa459cd6518023b4474475b2391044cd6b880f7976594053c0b0cc705755",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-50-CdCG-POr.woff2",
+   "size": 59392,
+   "sha256": "f2ecf8946d44d09501a5b0e6d94f3fdec10fe10baded548798f16ed82f1c0b77",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-51-L2okeQZ2.woff2",
+   "size": 52856,
+   "sha256": "5e68f24c0b1acb90536eca132ea29f3c72c42ad1d0bb87e4cb08db0208d230ef",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-52-BZAqyGJW.woff2",
+   "size": 63088,
+   "sha256": "563833cfd2b5471384579da1b71263d487def99c0e5ace163485eeae1988fa39",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-53-B0xWqLeU.woff2",
+   "size": 51864,
+   "sha256": "8ceb577045fac08f4e7a09f0e40486da956408b253e2f6c9ba34cf49dd6ab2b2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-54-BZVQX-EA.woff2",
+   "size": 62272,
+   "sha256": "fd74a69d8c02aba2c48827583f3767380631714de5039415b8d50d60ad23fa63",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-55-093mkIUJ.woff2",
+   "size": 54088,
+   "sha256": "e7d0e02d0759a4c25c4a4e9c413f6b2ab7b1ffef9d6fafbf08f5a6947878d584",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-56-CbhWG8G-.woff2",
+   "size": 61604,
+   "sha256": "446a6e43be2ab21177d5219c1a373d89c3941e7f3bf23ae1c5e9e0886a576794",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-57-pLQuvo6c.woff2",
+   "size": 60408,
+   "sha256": "8fde2dfe464e488bb2c2617622d95f79c91ce2312683d247d1e4b107e6770ba3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-58-BHhoY50x.woff2",
+   "size": 67032,
+   "sha256": "9dc42b8048be03c684f8e1e4eabb51aa34f63899748a7afba333c65a4f758719",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-59-D1_6DuIQ.woff2",
+   "size": 55748,
+   "sha256": "27589d42233f450394d45e2137ffc8fb37e8d8b78049855c17e0925ad6dbeded",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-6-BnAelmYU.woff2",
+   "size": 12004,
+   "sha256": "1e58fdc3be0dffc422ec958b02b5c7bc33a32fa2e8442a05c08efca661f60965",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-60-HDBIuLTZ.woff2",
+   "size": 47852,
+   "sha256": "3021f9f43a38ebf913e0d956c69dcff62eeff8e2c6c15f2edbedb9698747e830",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-61-C-c13SeU.woff2",
+   "size": 48476,
+   "sha256": "1769110a7734eb8d0eb1b642ed0b9eaa00f1c247e88c2280c0b1e6a1807ef940",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-62-kHRVOhZ2.woff2",
+   "size": 72924,
+   "sha256": "de72c385d287e63bb9191dcb6b987b6d8a63035171b54dc8b236f7688c72dff9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-63-C0MCsvFv.woff2",
+   "size": 60856,
+   "sha256": "ca306935afe359331f33db55586d1da1dd2a7964c475e382b5b97e28114d5494",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-64-DZekguCj.woff2",
+   "size": 49760,
+   "sha256": "db66ebea759c4074f1b75690c1205e8c8ef630ef61accbd981dde654d2acc891",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-65-CtP6c3IU.woff2",
+   "size": 53864,
+   "sha256": "6948e7df85843b14cfe04a57e7bb6678391eeddd2ba64b79c8b9498e84be05a9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-66-DLVWoMSf.woff2",
+   "size": 60204,
+   "sha256": "cd7f5190dc3f432a5082b464bad0666590e2ad1e2cc8b22dfda3878e41f8ed43",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-67-BVuOnayH.woff2",
+   "size": 66112,
+   "sha256": "621721c00fb1fedfc194bb272ddf2a5d5f32a2d62d604e243f1c31b2a20b328c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-68-DpxQ6Mnx.woff2",
+   "size": 51444,
+   "sha256": "b7dd445ebde789d0675fe39e72509716089b52a20220aee0c27585aab82b292b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-69-qesBxLmC.woff2",
+   "size": 66744,
+   "sha256": "03d70d473b899e0dfccefc7f4f22b0634381a7521d046c2d40da1b1047906c06",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-70-BBt1xN7h.woff2",
+   "size": 50056,
+   "sha256": "557b430d6f37f248cdc5089f1d5341b690788e20f4f4bae8aa93c738ba393671",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-71-BWqZacwB.woff2",
+   "size": 55448,
+   "sha256": "fce68c0590d4571c14a248be1d73a1d2ba13994f79894f28a24eb2891fc077c6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-72-B1wP_Yst.woff2",
+   "size": 59932,
+   "sha256": "093d822793929f3bbd9fa51da24fc97b38a76ac1c143f175e91c33155e4a7b8e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-73-C99T7jNZ.woff2",
+   "size": 47412,
+   "sha256": "2e3d172696a86a7a5206e170147f6c46a520bc1195def097c69d287e81f2c6d9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-74-DrUTsWBe.woff2",
+   "size": 68292,
+   "sha256": "156c9651fc3b703b1e9cdef9800703444f7148900cdde6fd1bd0017eb29d4b00",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-75-C4M5XXQe.woff2",
+   "size": 57660,
+   "sha256": "7b6ba2c8f16a75069037c10b7bf64a7ca23142c573fb8e878228b38f55fe8c48",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-76-Bq8spVWF.woff2",
+   "size": 59740,
+   "sha256": "0f69f38ee64e049a4e5e62e3607d9e2bf735b155a8148d05178f677d9f710914",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-77-D9vNupE2.woff2",
+   "size": 48064,
+   "sha256": "fabfa44383e497c5ea5e58965477eab317a8df5362084b9889cb8ebd37b716b6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-78-D6th7Gnu.woff2",
+   "size": 62192,
+   "sha256": "71e610b3267884b481f22ccc7af933c5927bef19291332d9d7a8d639c631a0c8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-79-bezM85cS.woff2",
+   "size": 52508,
+   "sha256": "650563722991c98055f3d5802ea19d0100de3df3de688e0459cb67271853c98e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-80-DD8pnhG2.woff2",
+   "size": 40064,
+   "sha256": "5f01f48ac5d9afe60c424d6c60cb46f7e607307f5ca0045b307514a8e646ae76",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-81-N6jtSyBs.woff2",
+   "size": 51816,
+   "sha256": "6b087bf2c126daf4c31d0065e7222f6d05fc25d65465cb9660bbd5dc81c908b9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-82-D6c180bZ.woff2",
+   "size": 52876,
+   "sha256": "b790dfa07c9db8df4ac12afd735f1aebdd12a0a3b6fa2c100a5c618bdb03f889",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-83-em17AadM.woff2",
+   "size": 55388,
+   "sha256": "2807734d16712e415b3169d6c1483fd7a208faa5a1289dd0b1d26176a118a907",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-84-CJ8gdrMK.woff2",
+   "size": 39280,
+   "sha256": "fe295739ff6fc12ab3c0a961ed46b282377afe1bfbfb3d069a92f5251a8da218",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-85-9PPGO1eB.woff2",
+   "size": 28228,
+   "sha256": "5d9e81438638dea672677f40bf77e12e49cb3d046a004697091b20a8a4ecd8e5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-86-CjWPf-u5.woff2",
+   "size": 22332,
+   "sha256": "987fbe45ddc06133760ab6df9b7f2e212cbc2cfd4219dd0156fefbc03a986d66",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-87-8D_X_yOC.woff2",
+   "size": 11480,
+   "sha256": "ddcb8e10c63804e3e623f0fe54164f294405bbd6e4e6a8c1aed2d87cb69dfc4c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-88-9vtKFPBx.woff2",
+   "size": 11112,
+   "sha256": "e9968bcc326844b723fc3b4679f64c7b90d92ddad6a616d697fc70bab19129cb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-89-BhE5jAKX.woff2",
+   "size": 15084,
+   "sha256": "5c07eb971b1fd560a6709ddb0301c3a3aa823acb78b0bda2a18e3b1804e44bee",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-90-D2Npfm5E.woff2",
+   "size": 15748,
+   "sha256": "5ab3067113365a4499cb3a0f1ea24737c31daef3ae3a5b394023271db147402c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-91-C6Ft1-Eu.woff2",
+   "size": 12636,
+   "sha256": "81d552290f2bfd9774c86a11fcbf94304bb62d162699aa312fc7a3cf7b6e705e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-97-CaExyQP9.woff2",
+   "size": 9768,
+   "sha256": "d80bafdfe62dc6c9dc3f16813da65a7fb97fc19412b77e447eb7a6dbf62b328a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-98-CPoVbsUd.woff2",
+   "size": 18816,
+   "sha256": "660c3d16e661127b1ec7e57ea1fe3944cf97e40410db27c61973aa10029835b7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/lxgwwenkaiscreen-subset-99-ZUQZGVgH.woff2",
+   "size": 17236,
+   "sha256": "80fd591c92b285b0fa1f431c4434483fb97b5949c816c35853bbcb684c9e3f78",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/next-misc-CIh4fvsx.css",
+   "size": 18848,
+   "sha256": "849b3312bcc5a6011a5e823b4d251d8dc762fcee1cf9d0caca241028416a6773",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/next-render-sjtCy22h.css",
+   "size": 2020,
+   "sha256": "f88cced89e6a0e229393f4a231d30f939899cfb5035d540ad4c6feec294d66af",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextBench-Cy248RU0.js",
+   "size": 3376,
+   "sha256": "694a3d557fa5a601f67b5bd679cf601a05a692af24cd602d3b33c77418c78db2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextCrcLive-JRtFFuXp.js",
+   "size": 5984,
+   "sha256": "d015246869d10fac01ae83da7ebc41242ef4126961dfcddc9f68ddd0b89330d2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextDemoReview-UK-hbnzk.js",
+   "size": 1376,
+   "sha256": "53338f1f653b08c96ee66cdf70b965886f20ed511e55a24e04fd3fb3246bbf58",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextDlssData-gSbJ3hxZ.js",
+   "size": 38537,
+   "sha256": "2b0bc96d8360dc7efc3d54b82bec60a6f1c73a676d1ec99810225896d6b7a013",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextGate-CCSlf2Ek.css",
+   "size": 8610,
+   "sha256": "5a23766cd01ff0fbf21d3ab9487f11abcec04da30b6b77b07a42f923cce2ca36",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextGate-DdP5OKGr.js",
+   "size": 3537,
+   "sha256": "754d0196c3ab8667a2abe7dfdfaaa1ca2785022cb4712f4ac77b81d2ccfdf335",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextInstallCover-Crgv6VsR.js",
+   "size": 3330,
+   "sha256": "63e3015d3f9d474d4c574177ece201f8b607c9fe3778ce7d629a0d87a18b6d57",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextInstallDemoPlugins-Rd-_Ep87.js",
+   "size": 24402,
+   "sha256": "7449851f8ef3d0afd88eaba327eab73e737150854686ecdd70dea9b6c699ab2a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextLookData-D-_jrMdI.js",
+   "size": 38776,
+   "sha256": "6d582a53926772f0d2d36ac0cae91eb8e85a214bec29960c8be6d3468a1884e1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextLookStageLive-B-4g4-jg.js",
+   "size": 110435,
+   "sha256": "a70710797108ae0071ad04c6e8a2e1d1f37bbb038cac7b7f24237174d2a82b91",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextLookStageLive-DPk30_3A.css",
+   "size": 775,
+   "sha256": "23bf6b3bdb12c1d0de6b7d5a92529ba0749b5b0e8567015139be6b6f0b417d0f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextMiscData-Dl0fmZRm.js",
+   "size": 1870,
+   "sha256": "3bb1ee18f086deac4f34f0acb16de6874bf9855dd2273d47b505c4807b6be917",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextModLive-DhRKBhBF.js",
+   "size": 26106,
+   "sha256": "fdb8314ab1736f1910ac32f59092097e4a3a10b651bae9af1fd08bfac33342ab",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextPerfData-ClZZe6Lx.js",
+   "size": 16102,
+   "sha256": "ebc9656883ebd50b0865ad5c3d9428a03edc17503e2f336bcb3686b0030ee22f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextRenderParts-_cFeR3YC.js",
+   "size": 460,
+   "sha256": "b8c5cc1fc2dcec98f1dd0ada34939bbbb455b7a31e0aed02718b7fb3ea41184a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextSettingsLive-CIg573fQ.js",
+   "size": 7159,
+   "sha256": "118eabcf15e9c30ee7d6ea88a5d4827a899a15323b66379f6e525602f7ce2e1e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextSpecData-CtvSieRt.js",
+   "size": 11178,
+   "sha256": "b85d135358d2894c981ee73bd25c131195c46e56c161881e78787f934cdfbf5e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextStoryFavorites-DRUIcCEy.js",
+   "size": 44125,
+   "sha256": "84bc1e6a469e7b25414a3e9742855bafd6fd09d5abe94e4e96eea23c9558aff4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nextVoiceLiveData-BXqMVcwD.js",
+   "size": 6265,
+   "sha256": "72ac75dd67393f2013243f21328b63f9829da8b8024f71d5e4f653b583ccaec8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-chinese-simplified-400-normal-Ba7eOkfT.woff2",
+   "size": 1142552,
+   "sha256": "95e3633b6a98f764ba3adfb54504a0cd4799328c009adf9081d6c1850f9c4c78",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-chinese-simplified-500-normal-z_irmif2.woff2",
+   "size": 1159128,
+   "sha256": "885f52ca6a25fddde7641eaf9cf6d6fd9e8f1a454f99f77f0f1be1be0c6470a5",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-chinese-simplified-600-normal-CI4uXaOp.woff2",
+   "size": 1162352,
+   "sha256": "578fb41a3dc2817b703611ad94b5c27dac96a3907c9d6b843c513217b562e1a2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-chinese-simplified-700-normal-DoUziBww.woff2",
+   "size": 1172244,
+   "sha256": "e1df51edc00bce27b58044e829fb8ec6accc8a5daece475413de90d52818845c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-chinese-simplified-900-normal-Di-dyiBb.woff2",
+   "size": 1122948,
+   "sha256": "0380a1ccb0eecd59c160306a76123f60f07c60794846db15bdd22ee96eff3a4f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-latin-400-normal-C8q2FS1w.woff2",
+   "size": 13304,
+   "sha256": "2a75408e073f2d7e03e14c24f25fb093571b73a030f2f483ae256d6975e930d0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-latin-500-normal-JVPArRf3.woff2",
+   "size": 13324,
+   "sha256": "7da09260d852c84bfe25e5be0e3a3193418d69eb55fb8763aef8553b1d9cea79",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-latin-600-normal-D5ts6k_I.woff2",
+   "size": 13272,
+   "sha256": "d1fffa4c12444d2e1bc5f6534825258c3b9ba81e275abb02f4e6c05f6d03eaa6",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-latin-700-normal-BzR54Sjf.woff2",
+   "size": 13416,
+   "sha256": "79a7c3f1ddff7c79ba3eff8556ee7acc7f3c95259f3982b34a711b6de5fbd6a7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/noto-sans-sc-latin-900-normal-DBVNDsAU.woff2",
+   "size": 13132,
+   "sha256": "f3d87b8fd1461250be9f429bdaa6574ee98b1bf93e17009692f74ab900935de4",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nunito-latin-800-normal-D-J0wlBY.woff",
+   "size": 20360,
+   "sha256": "0ca02785f0bf8aaabada9adc9b4e2bb4952e1c641fea02d12f34608ca89fe904",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/nunito-latin-800-normal-Dz8SOQK_.woff2",
+   "size": 16520,
+   "sha256": "2363d3ed037283ebb961e8c4b4917e40a8bc8853cf9965cf1ea7b4daa1df630a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/package-open-BDwfeVX9.js",
+   "size": 581,
+   "sha256": "fc7592b37be2fe18ab168038cbe5846341a55b6b26eb3534207984bb90d50848",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/pencil-line-Ckm8OgE-.js",
+   "size": 965,
+   "sha256": "452e96a028483921db99d9113433fb22d5d3dce9b2802ff01746158f87c3a0d3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/pin-DJGg4qUw.js",
+   "size": 348,
+   "sha256": "aa03e9023892cc978a40c2f91541f5909b0880fcbafe931ef98199eff61669e9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/react-window-3Y0T_8nA.js",
+   "size": 8907,
+   "sha256": "59587eaa9fbd2e912e23dc7fd80e2e8d53b4793ca082dc41db94cf3bc86b8898",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/save-Dk10jk3d.js",
+   "size": 329,
+   "sha256": "0039226b9f2a63cd94810a2c6c249f1175cfec6961a0e861dad2b83f97934bba",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/scaling-Bdq3d41r.js",
+   "size": 288,
+   "sha256": "e2ba61c2802e0e8f73325db7f87cdbf34f656636a35a4beaa0ce6a6f1851a266",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/scan-face-BqWWlydb.js",
+   "size": 423,
+   "sha256": "b11e882d147dc6a969b144e52b9ddb1975d263f25ad28b3e5c7410768baf46b8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/scan-search-CgQDHs70.js",
+   "size": 744,
+   "sha256": "ce718a4fbbb926cff0fe157cbb1f7f1abfa488a81c0a42142516da546b2f466d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/scroll-text-CDjb8nLX.js",
+   "size": 351,
+   "sha256": "4bb6cb4031b95f1e9a9edd8fd2410cdc56b388b07ad92d3bb9a0b0bb1323051d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/shield-alert-BFj9knsK.js",
+   "size": 355,
+   "sha256": "a2a45be2d04d54c0545b99a095f2fad4d0f4814e6b71ea04924b374ebbb4776f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/shield-check-Crh96naD.js",
+   "size": 322,
+   "sha256": "f1e679b6af287d1551ef5c7821910964d5c7ca5eeb00ada65060e383aca296ec",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/spline-Ci1v3k2K.js",
+   "size": 228,
+   "sha256": "c7cba1746c7ca01b73b955a806f3329fd3b940f9a73daba9c1d52529526f23e1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/star-COvQOfgF.js",
+   "size": 474,
+   "sha256": "c90ca1aba9e06b247ab237c99fada2f61a538724a3913521d3089c1c0c4ac9c1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/stethoscope-Bwf8ceFq.js",
+   "size": 344,
+   "sha256": "9ce403217c0b2c98cf785a18d74e8cc312aa54d4c02ebf59a9d25876ededa516",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/tokens-BFrBxJX_.css",
+   "size": 11287,
+   "sha256": "6650751475dd9de8a9e6b0ffafaff76c9bd936646f34f0f36bafbf4552498de8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/tokens-DveM-ycz.css",
+   "size": 11575,
+   "sha256": "83d90be955a64f4265b26f65bb68a10b71205809b6853cdea7bbf913229f5c2e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/unlink-YXqqNfwp.js",
+   "size": 530,
+   "sha256": "8b562c32e626b26bb3c9734a4b19358c3a0d7a8abf07b31eb27d9cf4bd781ae2",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/unplug-CQpzW-vU.js",
+   "size": 442,
+   "sha256": "7a277c18f99766214a3949b286ada156d43f2cbf79da0fa9384f224201c5996f",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/upload-De4ZazCH.js",
+   "size": 232,
+   "sha256": "38d69f47fec885f761f2eff514d6bbfc581b87f75c6771587ecee78fbbedce27",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/assets/wrench-DNNqZ4Ud.js",
+   "size": 305,
+   "sha256": "f3ef6a12deb0203538d672d7493e79e04d39c55263f72ebeff5f38d1ee96e6ae",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/index.html",
+   "size": 488,
+   "sha256": "af3e8bf591dfbbb9b61bab4046d7c8c2ff53160f9b2359c04ae223c202c4e8fb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/licenses/fonts/NOTICE.txt",
+   "size": 259,
+   "sha256": "9354399a70f9e0499f7ded91c2566354c0cf2a0a404625de61511802d790bc66",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/licenses/fonts/jetbrains-mono-OFL.txt",
+   "size": 4524,
+   "sha256": "403581b69dac5cff4079205e01c6b467e56af449ecbd7247693ddb1baafa005b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/licenses/fonts/lxgw-wenkai-screen-OFL.txt",
+   "size": 4301,
+   "sha256": "fe4ddef88d2705569740a4b6c59e1a73315e1a55fb0a0d054bd791977681f8cb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/licenses/fonts/lxgw-wenkai-screen-webfont-LICENSE.txt",
+   "size": 1108,
+   "sha256": "f4264d4d1be71aa1b7578525b7a1eeef4b8f1635e1785ad3af35310954fabfa7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/licenses/fonts/noto-sans-sc-OFL.txt",
+   "size": 4314,
+   "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach.json",
+   "size": 758,
+   "sha256": "a19904677e977b2a784b325e4b4448ffae4d4d77707fa7666d89ed107704f4b9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach/.gitkeep",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach/avatar.png",
+   "size": 2461874,
+   "sha256": "124c90ccb9cdf5c74fb970f601eb29b16ef98432e2cb55681e168661582bf669",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach/background.png",
+   "size": 1650981,
+   "sha256": "b34f85d71faa4c267d16953b97e59aa042d36e0bb4c083d85bb20ac30e6e5f2c",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach/background.svg",
+   "size": 1773,
+   "sha256": "bbcc5716566b67bfd2f484ceb86f5c3d911fd484cc34b37308254250b75e4dc7",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach/home-hero.webp",
+   "size": 42470,
+   "sha256": "f33db4aa1e6d28fb3b6a5395a2dfc9170a77f7a1d30ef9056b47fef2a22412a0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/daniya-peach/home-idle.webp",
+   "size": 45328,
+   "sha256": "68b2a4cee2d4f6e795b498912965d6891e4752d0987bda0bcd068cc5dcc3aca9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/dark.json",
+   "size": 745,
+   "sha256": "78ef143257b50f81883fc94cc9a28bd5918e5086fadbfb46d0bae35fe2fd1033",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/.gitkeep",
+   "size": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/avatar.png",
+   "size": 2326619,
+   "sha256": "461d47a705c73178c4414ab4371c642bc3095d095cf8a1c36b998f561876ca8b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/background.png",
+   "size": 2029142,
+   "sha256": "69bf4db0f05cb938ba3783c97b3071fc2765bec1f1cb12d70e085a42c69f8165",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/background.svg",
+   "size": 1766,
+   "sha256": "8bfe68671113e7deb8bec9334c9da58a1911f97d9648895c657cf39595aa973e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/home-hero.webp",
+   "size": 42470,
+   "sha256": "f33db4aa1e6d28fb3b6a5395a2dfc9170a77f7a1d30ef9056b47fef2a22412a0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/home-idle.webp",
+   "size": 45328,
+   "sha256": "68b2a4cee2d4f6e795b498912965d6891e4752d0987bda0bcd068cc5dcc3aca9",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/sidebar-avatar-v2.webp",
+   "size": 30524,
+   "sha256": "725ac1cfb0c0daf4883158ff1b4d9db93b6e3ca3782fd56dd3f40e786afadb7d",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/night-studio/stage-v2.webp",
+   "size": 89478,
+   "sha256": "765731ebeebe6d42501bfd6dc09fc2db7a70b7d81e653171c83df235b89fa6e8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-banner.jpg",
+   "size": 1757548,
+   "sha256": "9ab3e5da26e52bec7c1db7e1462961449c745c48867412357904cff79b5d0932",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-1.png",
+   "size": 413531,
+   "sha256": "28e0e6ef7210b678baab097dc5c81b58fb2f19bc08253c26fe946ad4a9e1ed9e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-2.png",
+   "size": 304011,
+   "sha256": "f7f6db339db29494d0928a4fa47ed286c0c5f55af35a8a9c93e98711016e3193",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-3.png",
+   "size": 387881,
+   "sha256": "4784470838da80dc1a7716fadef5f639932428491b1693f9ed2d883ddda1b7b0",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-4.png",
+   "size": 370020,
+   "sha256": "045f7a1ae1352943f22c2b9d2423e76053e50fbad702e559e159ae9cc1eb3cf8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-5.png",
+   "size": 426745,
+   "sha256": "aebef3c034a97208d6504f6e49fee9bc8ce15340370f9e0281cc3178a3ca8dc8",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-6.png",
+   "size": 339238,
+   "sha256": "aebb0ac87740335af537ee5098c7a88165ec62125deb155099101a2a4f0c2c37",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-home-hero-7.png",
+   "size": 284697,
+   "sha256": "3b26ca8d341a4f5b05492e93217f6d2586cf56d1253b1004ecec47aefbd57d39",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-hungry.webp",
+   "size": 48074,
+   "sha256": "72e2c4f9ed1e759994c300c56904ad125a592b22fc3a6375f21146ebdb42d02e",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-laugh.webp",
+   "size": 41730,
+   "sha256": "7d63112a835f5c8cf0c391c0326d7f5ac8eea2f52933aba6d71b9a488c28b0d3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-no.webp",
+   "size": 44434,
+   "sha256": "47230ef2d1d7c23d3aa292015de04a0448f8ac55d8409f0a0513442178b788e3",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-phone.webp",
+   "size": 40618,
+   "sha256": "6f8a0ed348b8672d054b38ae77928a035c05a374f1dc079f8307d8b1d960a6eb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-proud.webp",
+   "size": 54030,
+   "sha256": "d568598d1b32bd9b1b0f65e045137a24ee8e117a3bdef03fe700858a2052d02b",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-shocked.webp",
+   "size": 48848,
+   "sha256": "93df6a81b20154b904553eeca83d637aa3300346b599982c58d003865f49bfa1",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-smirk.webp",
+   "size": 44996,
+   "sha256": "76c9d560eab127486861ccb9d2aa381d555cdbe0c83e1d8b7b99aebec313aafa",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/daniya-sticker-troubled.webp",
+   "size": 43976,
+   "sha256": "000ab8538dbeecdd2b6d2464c9830b928ad5c866bad2cf77ea901d4dde477f33",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/web-dist/themes/shared/physics-mannequin.webp",
+   "size": 36396,
+   "sha256": "f508534df84784d1914fb0e16c0b58d9e2b128dea700b7f30f5c2e11b41460fb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/zh-Hans/Microsoft.VisualBasic.Forms.resources.dll",
+   "size": 25352,
+   "sha256": "756728b6ff905faec0391ce6408710322d512ce22ab63fb484a88849928330eb",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/zh-Hans/System.Windows.Forms.Design.resources.dll",
+   "size": 264464,
+   "sha256": "dbb98cf2f20680344b761c46a74a804782c789d7c04290b56b94f96d5cc6a535",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/zh-Hans/System.Windows.Forms.Primitives.resources.dll",
+   "size": 16184,
+   "sha256": "7f6b9d2ed8e93eb940adb21c8571a867172b21e34839c142cff65bec7bb6c08a",
+   "parts": 1
+  },
+  {
+   "path": "JJSAtelier/zh-Hans/System.Windows.Forms.resources.dll",
+   "size": 323896,
+   "sha256": "0f2ee691f76c09dcbcccdaf38b4df8261e44127feb947dbf1e8055a1e52b4871",
+   "parts": 1
+  },
+  {
+   "path": "kces2_try/BepInEx/plugins/JJSAtelier/JJSAtelier.dll",
+   "size": 235520,
+   "sha256": "9a11e2ebfc43bd5b890fb522d3a391016bf5b6c76529c832f3927718a9f16491",
+   "parts": 1
+  }
+ ]
+}
