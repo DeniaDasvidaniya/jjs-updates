@@ -41,5 +41,28 @@
         "code": "4396"
       }
     ]
-  }
+  },
+  "news": [
+    {
+      "id": "com25-0.2.2",
+      "date": "2026-11-25",
+      "title": "JJS 支持 COM3D2.5 了",
+      "summary": "0.2.2 起有 COM3D2.5 版，感谢 YOCO橙 的适配",
+      "body": "0.2.2 开始支持 COM3D2.5 了，网盘里下文件名带 COM3D2.5 的那个就行。\n\n和 COM3D2 版比，DLSS 5、角色包和裙摆物理暂时还不支持，可能也还有 bug，欢迎反馈。\n\nCOM3D2.5 的适配是 **YOCO橙** 做的，特别感谢！",
+      "image": "news/com25-0.2.2-1b0dffd3.webp",
+      "accent": "#d9668f",
+      "pop": true,
+      "editions": [
+        "com3d2",
+        "com3d25"
+      ],
+      "links": [
+        {
+          "label": "百度网盘",
+          "url": "https://pan.baidu.com/s/10TXgjvIQNiQY3jXxi6KN9w",
+          "code": "4396"
+        }
+      ]
+    }
+  ]
 }
